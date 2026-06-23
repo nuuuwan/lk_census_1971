@@ -1,0 +1,512 @@
+[
+  {
+    "table_no": "1.1",
+    "table_name": "The topics included in the population schedule at the censuses in Sri Lanka: 1871-1971",
+    "page_no": 6
+  },
+  {
+    "table_no": "1.2",
+    "table_name": "Information on housing obtained at the censuses in Sri Lanka: 1946-1971",
+    "page_no": 8
+  },
+  {
+    "table_no": "1.3",
+    "table_name": "Number of census blocks in each district by sector - 1971 Census of Population",
+    "page_no": 10
+  },
+  {
+    "table_no": "2.1",
+    "table_name": "Population, numerical increase and percentage increase, Sri Lanka 1871-1971",
+    "page_no": 18
+  },
+  {
+    "table_no": "2.2",
+    "table_name": "Intercensal increase in population, births, deaths, natural increase and migration increase",
+    "page_no": 22
+  },
+  {
+    "table_no": "2.3",
+    "table_name": "Births, deaths, crude birth and death rates, natural increase and net migration 1953-1971",
+    "page_no": 25
+  },
+  {
+    "table_no": "2.4",
+    "table_name": "Average age at marriage derived from census data, Sri Lanka 1946-1971",
+    "page_no": 26
+  },
+  {
+    "table_no": "2.5",
+    "table_name": "Proportion of women currently married between the ages of 15 and 35",
+    "page_no": 26
+  },
+  {
+    "table_no": "2.6",
+    "table_name": "Changes in age specific marital fertility rates in Sri Lanka 1963-1971",
+    "page_no": 26
+  },
+  {
+    "table_no": "2.7",
+    "table_name": "Average annual rates of growth of major ethnic groups during intercensal periods 1946-1971",
+    "page_no": 27
+  },
+  {
+    "table_no": "2.8",
+    "table_name": "Average birth rate, death rate and rate of natural increase for the period 1963-1971 by ethnic groups - Sri Lanka",
+    "page_no": 28
+  },
+  {
+    "table_no": "2.9",
+    "table_name": "Population by districts and intercensal rates of growth 1946-1971",
+    "page_no": 29
+  },
+  {
+    "table_no": "2.10",
+    "table_name": "Rate of population growth of selected countries 1963-72",
+    "page_no": 30
+  },
+  {
+    "table_no": "3.1",
+    "table_name": "Districts arranged according to descending order of population size showing land area and density and their rank in 1971",
+    "page_no": 33
+  },
+  {
+    "table_no": "3.2",
+    "table_name": "Population in the wet zone and the dry zone",
+    "page_no": 36
+  },
+  {
+    "table_no": "3.3",
+    "table_name": "Increase in density from 1871 to 1971 in Sri Lanka",
+    "page_no": 36
+  },
+  {
+    "table_no": "3.4",
+    "table_name": "Population distribution and population density in 4 agro-ecological zones - 1963 to 1971",
+    "page_no": 38
+  },
+  {
+    "table_no": "3.5",
+    "table_name": "Distribution of urban and rural population in Sri Lanka for census years 1901 to 1971",
+    "page_no": 40
+  },
+  {
+    "table_no": "3.6",
+    "table_name": "Urban population as at the censuses of 1963 and 1971",
+    "page_no": 40
+  },
+  {
+    "table_no": "3.7",
+    "table_name": "Distribution of urban population by type of area and district - 1971",
+    "page_no": 41
+  },
+  {
+    "table_no": "3.8",
+    "table_name": "Population distribution by type of urban area and size of population - 1971",
+    "page_no": 42
+  },
+  {
+    "table_no": "3.9",
+    "table_name": "Total population by type of urban area - 1963 and 1971",
+    "page_no": 43
+  },
+  {
+    "table_no": "4.1",
+    "table_name": "Net migration into and from districts during each intercensal period since 1946",
+    "page_no": 47
+  },
+  {
+    "table_no": "4.2",
+    "table_name": "Sri Lanka born population by district of residence cross-classified by district of birth, 1971 census of population",
+    "page_no": 50
+  },
+  {
+    "table_no": "4.3",
+    "table_name": "Summary of migration information from place of birth statistics with relative measure of lifetime in-and-out migration: census of Sri Lanka 1971",
+    "page_no": 52
+  },
+  {
+    "table_no": "4.4",
+    "table_name": "The districts of origin of the three largest streams of lifetime in-migration to each district, 1971 census of population",
+    "page_no": 53
+  },
+  {
+    "table_no": "4.5",
+    "table_name": "The district of destination of the three largest streams of lifetime out-migration from each district",
+    "page_no": 56
+  },
+  {
+    "table_no": "4.6",
+    "table_name": "Number and percentage of internal migrants in Sri Lanka - 1971 census",
+    "page_no": 56
+  },
+  {
+    "table_no": "4.7",
+    "table_name": "Number and percentage of in-migrants from other districts during specified time intervals prior to the census date derived from duration of residence data - 1971 census of population",
+    "page_no": 57
+  },
+  {
+    "table_no": "4.8",
+    "table_name": "Number and percentage of out-migrants to other districts during specified time intervals prior to the census date derived from duration of residence data - 1971 census of population",
+    "page_no": 58
+  },
+  {
+    "table_no": "4.9",
+    "table_name": "Number and percentage of net migrants into districts during specified time intervals prior to the census date derived from duration of residence data - 1971 census of population",
+    "page_no": 59
+  },
+  {
+    "table_no": "4.10",
+    "table_name": "Comparison of lifetime in-migrants (inter-district) with in-migrants, derived from data on duration of residence - 1971 census of population",
+    "page_no": 61
+  },
+  {
+    "table_no": "4.11",
+    "table_name": "Percentage of migrants in the resident population by duration of residence",
+    "page_no": 62
+  },
+  {
+    "table_no": "4.12",
+    "table_name": "Sex ratios of migrants (males per 1000 females)",
+    "page_no": 63
+  },
+  {
+    "table_no": "5.1",
+    "table_name": "Myer's index of digital preference for digits 0-9: Sri Lanka census of 1946-1971",
+    "page_no": 66
+  },
+  {
+    "table_no": "5.2",
+    "table_name": "Age accuracy index by the U.N. Secretariat method Sri Lanka censuses of 1921, 1946, 1953, 1963 and 1971",
+    "page_no": 71
+  },
+  {
+    "table_no": "5.3",
+    "table_name": "Population by 5 year age groups 1946-1971",
+    "page_no": 71
+  },
+  {
+    "table_no": "5.4",
+    "table_name": "Percentage distribution of population by 5 year age groups - 1921-1971",
+    "page_no": 71
+  },
+  {
+    "table_no": "5.5",
+    "table_name": "Percent distribution of population in broad age groups and dependency",
+    "page_no": 72
+  },
+  {
+    "table_no": "5.6",
+    "table_name": "Population of Sri Lanka classified by sex, sex ratio and masculinity proportion - 1871 to 1971",
+    "page_no": 73
+  },
+  {
+    "table_no": "5.7",
+    "table_name": "Sex ratio: males per 1000 females by five year age groups - 1946-1971",
+    "page_no": 75
+  },
+  {
+    "table_no": "5.8",
+    "table_name": "Sex ratios by districts 1971",
+    "page_no": 75
+  },
+  {
+    "table_no": "5.9",
+    "table_name": "Number of males per 1000 females in selected countries 1971",
+    "page_no": 76
+  },
+  {
+    "table_no": "6.1",
+    "table_name": "Population of Sri Lanka by ethnic groups in census years",
+    "page_no": 79
+  },
+  {
+    "table_no": "6.2",
+    "table_name": "Percentage distribution of ethnic groups in the census years",
+    "page_no": 80
+  },
+  {
+    "table_no": "6.3",
+    "table_name": "Annual average growth rates (percentages) of ethnic groups during intercensal periods",
+    "page_no": 81
+  },
+  {
+    "table_no": "6.4",
+    "table_name": "Percentage distribution of each ethnic group in the various districts - 1971",
+    "page_no": 83
+  },
+  {
+    "table_no": "6.5",
+    "table_name": "Percentage distribution of ethnic groups in each district - 1971",
+    "page_no": 83
+  },
+  {
+    "table_no": "6.6",
+    "table_name": "Population by race and religion and religion as a percentage of race - 1971",
+    "page_no": 83
+  },
+  {
+    "table_no": "6.7",
+    "table_name": "Religion classified by race",
+    "page_no": 91
+  },
+  {
+    "table_no": "6.8",
+    "table_name": "Number and percentage of total population of each religion - 1971",
+    "page_no": 91
+  },
+  {
+    "table_no": "6.9",
+    "table_name": "Population of Sri Lanka by religion",
+    "page_no": 91
+  },
+  {
+    "table_no": "6.10",
+    "table_name": "Percentage changes in religion and race",
+    "page_no": 92
+  },
+  {
+    "table_no": "6.11",
+    "table_name": "Percentage distribution of religious groups by districts - 1971 census",
+    "page_no": 93
+  },
+  {
+    "table_no": "6.12",
+    "table_name": "Percentage distribution of district population by religion",
+    "page_no": 93
+  },
+  {
+    "table_no": "6.13",
+    "table_name": "Population by citizenship - 1963 and 1971",
+    "page_no": 96
+  },
+  {
+    "table_no": "7.1",
+    "table_name": "Mean age at marriage 1946, 1953, 1963 and 1971",
+    "page_no": 99
+  },
+  {
+    "table_no": "7.2",
+    "table_name": "Proportion of women currently married and never married by age groups 1946, 1953, 1963 and 1971 censuses",
+    "page_no": 101
+  },
+  {
+    "table_no": "7.3",
+    "table_name": "Proportion of men currently married and never married by age groups 1946, 1953, 1963 and 1971 censuses",
+    "page_no": 101
+  },
+  {
+    "table_no": "7.4",
+    "table_name": "Proportion of females widowed and divorced by age groups 1946, 1953, 1963 and 1971 censuses",
+    "page_no": 103
+  },
+  {
+    "table_no": "7.5",
+    "table_name": "Proportion of currently married and never married females in the four agro-ecological zones - 1963 and 1971",
+    "page_no": 104
+  },
+  {
+    "table_no": "7.6",
+    "table_name": "Age-specific fertility rates, general fertility rates (15-44) and total fertility rates for 1953 and 1963 and percent changes 1953-1963",
+    "page_no": 105
+  },
+  {
+    "table_no": "7.7",
+    "table_name": "Age specific marital fertility rates and percent changes 1953-1963",
+    "page_no": 106
+  },
+  {
+    "table_no": "7.8",
+    "table_name": "Age specific fertility rates, general fertility rates (15-44) and total fertility rates for 1963 and 1971 and percent changes 1963-1971",
+    "page_no": 106
+  },
+  {
+    "table_no": "7.9",
+    "table_name": "Age specific marital fertility rates 1963-1971 and percent changes",
+    "page_no": 107
+  },
+  {
+    "table_no": "7.10",
+    "table_name": "Live births borne by ever married women by age at the 1971 Census",
+    "page_no": 107
+  },
+  {
+    "table_no": "7.11",
+    "table_name": "Urban-rural fertility differentials for Sri Lanka: child woman ratio (children 0-4 per 1000 females aged 15-49)",
+    "page_no": 107
+  },
+  {
+    "table_no": "7.12",
+    "table_name": "Fertility rates by zones - 1963 and 1971",
+    "page_no": 108
+  },
+  {
+    "table_no": "7.13",
+    "table_name": "Number of live births borne by ever married women according to age and educational attainment and fertility indices considering the live-births borne by women with no schooling as equivalent to 100",
+    "page_no": 108
+  },
+  {
+    "table_no": "7.14",
+    "table_name": "Child-woman ratio by ethnic group - Sri Lanka 1963 and 1971",
+    "page_no": 109
+  },
+  {
+    "table_no": "7.15",
+    "table_name": "Crude birth rates by ethnic groups - Sri Lanka 1946-1971",
+    "page_no": 109
+  },
+  {
+    "table_no": "7.16",
+    "table_name": "Child-woman ratios by religion - 1971",
+    "page_no": 119
+  },
+  {
+    "table_no": "8.1",
+    "table_name": "Literacy rates of the cohort aged 20-49 in 1946 traced through the censuses of 1953, 1963 and 1971",
+    "page_no": 112
+  },
+  {
+    "table_no": "8.2",
+    "table_name": "Literacy rates of the population aged 10 years and over (number of literates per 1000 persons)",
+    "page_no": 113
+  },
+  {
+    "table_no": "8.3",
+    "table_name": "Literacy rates by sex and age - 1971 Census",
+    "page_no": 114
+  },
+  {
+    "table_no": "8.4",
+    "table_name": "Literacy of the population aged 10 and over for urban and rural sectors of Sri Lanka 1963 and 1971",
+    "page_no": 115
+  },
+  {
+    "table_no": "8.5",
+    "table_name": "Literacy rates of the population aged 10 years and over by districts - 1963 and 1971",
+    "page_no": 116
+  },
+  {
+    "table_no": "8.6",
+    "table_name": "Comparison of 1971 Census figures on school attendance with Education Ministry figures of school enrolment",
+    "page_no": 116
+  },
+  {
+    "table_no": "8.7",
+    "table_name": "Percentage of children attending school by sex and single years of age for urban and rural sector 1971",
+    "page_no": 117
+  },
+  {
+    "table_no": "8.8",
+    "table_name": "Percentage of children 6-14 attending school by sex for districts 1971",
+    "page_no": 118
+  },
+  {
+    "table_no": "8.9",
+    "table_name": "Population 10 years and over by level of educational attainment 1971 Census",
+    "page_no": 119
+  },
+  {
+    "table_no": "8.10",
+    "table_name": "Percentage distribution of persons who have completed primary and higher levels, by age group",
+    "page_no": 120
+  },
+  {
+    "table_no": "8.11",
+    "table_name": "Number reported as literate compared with the number estimated as literate from the reported educational attainment 1971 Census",
+    "page_no": 121
+  },
+  {
+    "table_no": "9.1",
+    "table_name": "Population and labour force",
+    "page_no": 124
+  },
+  {
+    "table_no": "9.2",
+    "table_name": "Population and labour force by age group and sectors, 1971",
+    "page_no": 126
+  },
+  {
+    "table_no": "9.3",
+    "table_name": "Distribution of population and labour force by districts - 1971",
+    "page_no": 127
+  },
+  {
+    "table_no": "9.4",
+    "table_name": "Age and sex composition of the population and the labour force 1946-1971",
+    "page_no": 132
+  },
+  {
+    "table_no": "9.5",
+    "table_name": "Percentage distribution by activity of children aged 10-14 years: 1963 and 1971",
+    "page_no": 133
+  },
+  {
+    "table_no": "9.6",
+    "table_name": "Percentage distribution by activity of young persons aged 15-19 years 1963 and 1971",
+    "page_no": 133
+  },
+  {
+    "table_no": "9.7",
+    "table_name": "Percentage distribution by activity of adult persons aged 20-59, 1971",
+    "page_no": 135
+  },
+  {
+    "table_no": "9.8",
+    "table_name": "Employment status of women 1953-1971",
+    "page_no": 136
+  },
+  {
+    "table_no": "9.9",
+    "table_name": "Employment status of women in agricultural occupations, 1953-1971",
+    "page_no": 136
+  },
+  {
+    "table_no": "9.10",
+    "table_name": "Percentage distribution by activity status of old persons aged 60 years and over, 1971",
+    "page_no": 137
+  },
+  {
+    "table_no": "9.11",
+    "table_name": "Distribution of employment by sectors, 1953-1971",
+    "page_no": 138
+  },
+  {
+    "table_no": "9.12",
+    "table_name": "Employment and acreage cultivated under tea, rubber and paddy (rice), 1953-1971",
+    "page_no": 140
+  },
+  {
+    "table_no": "9.13",
+    "table_name": "Distribution of those employed in the agriculture sector by status - 1971",
+    "page_no": 140
+  },
+  {
+    "table_no": "9.14",
+    "table_name": "Distribution of persons employed in manufacturing industries 1953-1971",
+    "page_no": 141
+  },
+  {
+    "table_no": "9.15",
+    "table_name": "Distribution of those employed in the industry sector by status, 1953 and 1971",
+    "page_no": 142
+  },
+  {
+    "table_no": "9.16",
+    "table_name": "Employment in the selected activities in the service sector, 1953-1971",
+    "page_no": 143
+  },
+  {
+    "table_no": "9.17",
+    "table_name": "Distribution of those employed in the service sector by status, 1953-1971",
+    "page_no": 145
+  },
+  {
+    "table_no": "9.18",
+    "table_name": "Distribution of employed persons by occupation and educational attainment, Sri Lanka: 1971 census of population",
+    "page_no": 149
+  },
+  {
+    "table_no": "9.19",
+    "table_name": "Distribution of employed population by status, 1953-1971",
+    "page_no": 151
+  }
+]
