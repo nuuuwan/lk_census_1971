@@ -7,7 +7,7 @@
 - 📜 Original PDF - [data/tables/table-1/table-1-01/original.pdf (58.3 kB)](../../../../data/tables/table-1/table-1-01/original.pdf)
 - 📜 Original Image - [data/tables/table-1/table-1-01/original.image-01.png (133.3 kB)](../../../../data/tables/table-1/table-1-01/original.image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-1/table-1-01/data.json (17.5 kB)](../../../../data/tables/table-1/table-1-01/data.json)
-- 📄 README - [data/tables/table-1/table-1-01/README.md (23.8 kB)](../../../../data/tables/table-1/table-1-01/README.md)
+- 📄 README - [data/tables/table-1/table-1-01/README.md (23.9 kB)](../../../../data/tables/table-1/table-1-01/README.md)
 
 ## Extracted [JSON Data](../../../../data/tables/table-1/table-1-01/data.json)
 
