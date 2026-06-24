@@ -36,12 +36,10 @@ class ReadMe:
         for group_id, group_tables in tables_by_group.items():
             lines.extend([f"### {group_id[6:]}.x", ""])
             for table in group_tables:
-                lines.append(
-                    f"- {
+                lines.append(f"- {
                         table.table_no}: [{
                         table.table_name}]({
-                        table.dir_data})"
-                )
+                        table.dir_data})")
             lines.append("")
         return lines
 
@@ -62,7 +60,8 @@ class ReadMe:
                 "",
                 " The data was extracted from the"
                 + " *[General Report](original_data/Census1971_Report.pdf)*,"
-                + " published by the [Department of Census and Statistics, Sri Lanka]"
+                + " published by the"
+                + " [Department of Census and Statistics, Sri Lanka]"
                 + "(https://www.statistics.gov.lk/), "
                 + f"and covers **{n_tables}** tables, extracted using"
                 + f" [{Table.AI_MODEL}]({Table.AI_MODEL_URL})"
