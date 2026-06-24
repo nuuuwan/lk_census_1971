@@ -2,4 +2,4 @@
 # flake8: noqa: F408
 
 from census.table import (Table, TableBase, TableBuilderMixin,
-                          TableLoaderMixin, TableMetadataMixin)
+                          TableLoaderMixin, TableMetadataMixin, TablePDFMixin)

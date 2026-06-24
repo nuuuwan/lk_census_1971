@@ -1,6 +1,6 @@
 class TableBuilderMixin:
     def build(self):
-        pass
+        self.build_pdf()
 
     @classmethod
     def build_all(cls):
