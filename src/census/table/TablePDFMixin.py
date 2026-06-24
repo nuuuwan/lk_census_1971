@@ -73,3 +73,5 @@ class TablePDFMixin:
             [self.actual_page_no - 1], self.pdf_file
         )
         log.info(f"Wrote {self.pdf_file}.")
+
+        self.pdf_file.extract_images()
