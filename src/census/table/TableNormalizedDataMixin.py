@@ -11,7 +11,7 @@ class TableNormalizedDataMixin:
     def normalized_data_file(self):
         return JSONFile(os.path.join(self.dir_data, "normalized_data.json"))
 
-    def build_normalized_data(self, force=True):
+    def build_normalized_data(self, force=False):
         if self.normalized_data_file.exists and not force:
             return
 

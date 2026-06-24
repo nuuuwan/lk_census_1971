@@ -38,6 +38,22 @@ class TableReadMeMixin:
             lines += ["*⚠️ No data extracted yet.*"]
         return lines
 
+    def lines_for_normalized_json(self) -> list[str]:
+        lines = [
+            "## Extracted [Normalized JSON Data]"
+            + f"(../../../../{self.normalized_data_file.path})",
+            "",
+        ]
+
+        normalized_data_list = self.get_normalized_data_list()
+        if normalized_data_list:
+            lines += ["```json"]
+            lines += [json.dumps(normalized_data_list, indent=4)]
+            lines += ["```", ""]
+        else:
+            lines += ["*⚠️ No data extracted yet.*"]
+        return lines
+
     def lines_for_tsv(self) -> list[str]:
         lines = [
             f"## Extracted [TSV Data](../../../../{self.tsv_file.path})",
@@ -69,6 +85,7 @@ class TableReadMeMixin:
             ("📜 Original Table PDF", self.pdf_file),
             ("📜 Original Table Image", self.first_image_file),
             ("📄 Extracted JSON Data", self.data_file),
+            ("📄 Extracted Normalized JSON Data", self.normalized_data_file),
             ("📄 Extracted TSV Data", self.tsv_file),
         ]:
             if file.exists:
@@ -87,6 +104,7 @@ class TableReadMeMixin:
             + self.lines_for_files()
             + self.lines_for_image()
             + self.lines_for_json()
+            + self.lines_for_normalized_json()
             + self.lines_for_tsv()
             + ReadMe.lines_for_footer()
         )

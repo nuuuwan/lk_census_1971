@@ -20,7 +20,7 @@ class TableTSVMixin:
         tsv_data |= normalized_data["values"]
         return tsv_data
 
-    def build_tsv(self, force=True):
+    def build_tsv(self, force=False):
         if self.tsv_file.exists and not force:
             return
 
