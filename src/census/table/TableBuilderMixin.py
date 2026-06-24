@@ -12,6 +12,7 @@ class TableBuilderMixin:
     def build_all(cls):
         cls.clean_original_report()
         cls.extract_list_of_tables()
+        log.debug("-" * 40)
 
         tables = cls.list()
         for table in tables[:1]:
