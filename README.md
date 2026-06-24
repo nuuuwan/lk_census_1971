@@ -143,6 +143,13 @@ Structured data is availble in multiple JSON and TSV formats. PDF and Images of 
 
 <img src="data/lk_census1971.index_page.images/image-01.png" style="max-height:640px;">
 
+## Census Datasets available on [github.com/@nuuuwan](https://github.com/nuuuwan)
+
+- [nuuuwan/lk_census_1971](https://github.com/nuuuwan/lk_census_1971)
+- [nuuuwan/lk_census_2001](https://github.com/nuuuwan/lk_census_2001)
+- [nuuuwan/lk_census_2012](https://github.com/nuuuwan/lk_census_2012)
+- [nuuuwan/lk_census_2024](https://github.com/nuuuwan/lk_census_2024)
+
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
