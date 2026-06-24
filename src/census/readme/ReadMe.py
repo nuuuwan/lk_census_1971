@@ -55,6 +55,20 @@ class ReadMe:
         return lines
 
     @classmethod
+    def lines_for_other_censuses(cls):
+        lines = [
+            "## Census Datasets available on"
+            + " [github.com/@nuuuwan](https://github.com/nuuuwan)",
+            "",
+        ]
+        for year in [1971, 2001, 2012, 2024]:
+            user_repo = f"nuuuwan/lk_census_{year}"
+            url = f"https://github.com/{user_repo}"
+            lines.append(f"- [{user_repo}]({url})")
+        lines.append("")
+        return lines
+
+    @classmethod
     def build(cls):
         tables = Table.list()
         n_tables = len(tables)
@@ -89,6 +103,7 @@ class ReadMe:
                 "",
             ]
             + cls.lines_for_tables()
+            + cls.lines_for_other_censuses()
             + cls.lines_for_footer()
         )
 
