@@ -72,9 +72,11 @@ class TableDataAIMixin:
         data = json.loads(raw)
 
         if not data.get("found"):
-            log.warning(f"Table '{
+            log.warning(
+                f"Table '{
                     self.table_no}' not found on page {
-                    self.doc_page_no}.")
+                    self.doc_page_no}."
+            )
             text = f"{self.table_no} completed with Errors."
         else:
             text = f"{self.table_no} Completed."
