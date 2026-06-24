@@ -14,6 +14,7 @@ log = Log("TableDataAIMixin")
 
 class TableDataAIMixin:
     AI_MODEL = "claude-opus-4-6"
+    AI_MODEL_URL = "https://www.anthropic.com/claude/opus"
     AI_MAX_TOKENS = 8192
 
     PROMPT_FILE = File(os.path.join("src", "census", "table", "prompt.txt"))
@@ -71,11 +72,9 @@ class TableDataAIMixin:
         data = json.loads(raw)
 
         if not data.get("found"):
-            log.warning(
-                f"Table '{
+            log.warning(f"Table '{
                     self.table_no}' not found on page {
-                    self.doc_page_no}."
-            )
+                    self.doc_page_no}.")
         dt = time.time() - t_start
         log.debug(f"Data extraction completed in {dt:.2f} seconds.")
         return data

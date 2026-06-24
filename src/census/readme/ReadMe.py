@@ -40,13 +40,24 @@ class ReadMe:
         for group_id, group_tables in tables_by_group.items():
             lines.extend([f"### Group {group_id[6:]}", ""])
             for table in group_tables:
-                lines.append(
-                    f"- {
+                lines.append(f"- {
                         table.table_no}: [{
                         table.table_name}]({
-                        table.dir_data})"
-                )
+                        table.dir_data})")
             lines.append("")
+        return lines
+
+    @classmethod
+    def lines_for_methodology(cls):
+        lines = [
+            "## Data Extraction Methodology",
+            "",
+            "Data was extracted from the original PDF using"
+            + f" [{Table.AI_MODEL}]({Table.AI_MODEL_URL})"
+            + f"({Table.AI_MAX_TOKENS} tokens,"
+            + f" [Prompt]({Table.PROMPT_FILE.path})).",
+            "",
+        ]
         return lines
 
     @classmethod
@@ -67,6 +78,7 @@ class ReadMe:
                 + "(original_data/Census1971_Report.pdf)*",
                 "",
             ]
+            + cls.lines_for_methodology()
             + cls.lines_for_tables()
             + cls.lines_for_footer()
         )
