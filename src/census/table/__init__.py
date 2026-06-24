@@ -10,4 +10,5 @@ from census.table.TableImageMixin import TableImageMixin
 from census.table.TableLoaderMixin import TableLoaderMixin
 from census.table.TableMetadataMixin import TableMetadataMixin
 from census.table.TablePDFMixin import TablePDFMixin
+from census.table.TablePreDocsMixin import TablePreDocsMixin
 from census.table.TableReadMeMixin import TableReadMeMixin

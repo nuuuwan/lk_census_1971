@@ -12,8 +12,7 @@ class TableBuilderMixin:
 
     @classmethod
     def build_all(cls):
-        cls.clean_original_report()
-        cls.extract_list_of_tables()
+        cls.build_pre_docs()
         log.debug("...")
 
         tables = cls.list()
