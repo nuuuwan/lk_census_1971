@@ -4,10 +4,363 @@
 
 - 📜 Original Table PDF - [data/tables/table-9/table-9-04/original.pdf (74.7 kB)](../../../../data/tables/table-9/table-9-04/original.pdf)
 - 📜 Original Table Image - [data/tables/table-9/table-9-04/original.image-01.png (159.3 kB)](../../../../data/tables/table-9/table-9-04/original.image-01.png)
+- 📄 Extracted JSON Data - [data/tables/table-9/table-9-04/data.json (10.4 kB)](../../../../data/tables/table-9/table-9-04/data.json)
 
 ## Extracted [JSON Data](../../../../data/tables/table-9/table-9-04/data.json)
 
-*⚠️ No data extracted yet.*
+```json
+{
+    "found": true,
+    "table_no": "9.4",
+    "table_name": "Age and sex composition of the population and the labour force 1946-1971",
+    "primary_keys": [
+        "AGE GROUP",
+        "SEX"
+    ],
+    "field_keys": [
+        "POPULATION % - 1946",
+        "POPULATION % - 1953",
+        "POPULATION % - 1963",
+        "POPULATION % - 1971",
+        "LABOUR FORCE % - 1946",
+        "LABOUR FORCE % - 1953",
+        "LABOUR FORCE % - 1963",
+        "LABOUR FORCE % - 1971",
+        "ACTIVITY RATE - 1946",
+        "ACTIVITY RATE - 1953",
+        "ACTIVITY RATE - 1963",
+        "ACTIVITY RATE - 1971"
+    ],
+    "rows": [
+        {
+            "AGE GROUP": "UNDER 10 YEARS",
+            "SEX": "T",
+            "values": {
+                "POPULATION % - 1946": 25.1,
+                "POPULATION % - 1953": 28.3,
+                "POPULATION % - 1963": 28.9,
+                "POPULATION % - 1971": 26.3,
+                "LABOUR FORCE % - 1946": false,
+                "LABOUR FORCE % - 1953": false,
+                "LABOUR FORCE % - 1963": false,
+                "LABOUR FORCE % - 1971": false,
+                "ACTIVITY RATE - 1946": false,
+                "ACTIVITY RATE - 1953": false,
+                "ACTIVITY RATE - 1963": false,
+                "ACTIVITY RATE - 1971": false
+            }
+        },
+        {
+            "AGE GROUP": "UNDER 10 YEARS",
+            "SEX": "M",
+            "values": {
+                "POPULATION % - 1946": 24.0,
+                "POPULATION % - 1953": 27.2,
+                "POPULATION % - 1963": 28.1,
+                "POPULATION % - 1971": 25.9,
+                "LABOUR FORCE % - 1946": false,
+                "LABOUR FORCE % - 1953": false,
+                "LABOUR FORCE % - 1963": false,
+                "LABOUR FORCE % - 1971": false,
+                "ACTIVITY RATE - 1946": false,
+                "ACTIVITY RATE - 1953": false,
+                "ACTIVITY RATE - 1963": false,
+                "ACTIVITY RATE - 1971": false
+            }
+        },
+        {
+            "AGE GROUP": "UNDER 10 YEARS",
+            "SEX": "F",
+            "values": {
+                "POPULATION % - 1946": 26.4,
+                "POPULATION % - 1953": 29.7,
+                "POPULATION % - 1963": 29.7,
+                "POPULATION % - 1971": 26.7,
+                "LABOUR FORCE % - 1946": false,
+                "LABOUR FORCE % - 1953": false,
+                "LABOUR FORCE % - 1963": false,
+                "LABOUR FORCE % - 1971": false,
+                "ACTIVITY RATE - 1946": false,
+                "ACTIVITY RATE - 1953": false,
+                "ACTIVITY RATE - 1963": false,
+                "ACTIVITY RATE - 1971": false
+            }
+        },
+        {
+            "AGE GROUP": "10-14 YEARS",
+            "SEX": "T",
+            "values": {
+                "POPULATION % - 1946": 12.1,
+                "POPULATION % - 1953": 11.4,
+                "POPULATION % - 1963": 12.6,
+                "POPULATION % - 1971": 12.7,
+                "LABOUR FORCE % - 1946": 4.0,
+                "LABOUR FORCE % - 1953": 3.1,
+                "LABOUR FORCE % - 1963": 2.4,
+                "LABOUR FORCE % - 1971": 1.8,
+                "ACTIVITY RATE - 1946": 13.0,
+                "ACTIVITY RATE - 1953": 10.2,
+                "ACTIVITY RATE - 1963": 6.2,
+                "ACTIVITY RATE - 1971": 5.0
+            }
+        },
+        {
+            "AGE GROUP": "10-14 YEARS",
+            "SEX": "M",
+            "values": {
+                "POPULATION % - 1946": 11.7,
+                "POPULATION % - 1953": 11.1,
+                "POPULATION % - 1963": 12.4,
+                "POPULATION % - 1971": 12.6,
+                "LABOUR FORCE % - 1946": 2.9,
+                "LABOUR FORCE % - 1953": 2.2,
+                "LABOUR FORCE % - 1963": 2.0,
+                "LABOUR FORCE % - 1971": 1.5,
+                "ACTIVITY RATE - 1946": 14.1,
+                "ACTIVITY RATE - 1953": 10.5,
+                "ACTIVITY RATE - 1963": 8.1,
+                "ACTIVITY RATE - 1971": 6.0
+            }
+        },
+        {
+            "AGE GROUP": "10-14 YEARS",
+            "SEX": "F",
+            "values": {
+                "POPULATION % - 1946": 12.5,
+                "POPULATION % - 1953": 11.6,
+                "POPULATION % - 1963": 12.8,
+                "POPULATION % - 1971": 12.8,
+                "LABOUR FORCE % - 1946": 8.1,
+                "LABOUR FORCE % - 1953": 6.1,
+                "LABOUR FORCE % - 1963": 3.9,
+                "LABOUR FORCE % - 1971": 2.7,
+                "ACTIVITY RATE - 1946": 11.8,
+                "ACTIVITY RATE - 1953": 9.9,
+                "ACTIVITY RATE - 1963": 4.3,
+                "ACTIVITY RATE - 1971": 4.0
+            }
+        },
+        {
+            "AGE GROUP": "15-19 YEARS",
+            "SEX": "T",
+            "values": {
+                "POPULATION % - 1946": 10.2,
+                "POPULATION % - 1953": 8.7,
+                "POPULATION % - 1963": 9.7,
+                "POPULATION % - 1971": 10.7,
+                "LABOUR FORCE % - 1946": 11.2,
+                "LABOUR FORCE % - 1953": 8.8,
+                "LABOUR FORCE % - 1963": 10.2,
+                "LABOUR FORCE % - 1971": 11.4,
+                "ACTIVITY RATE - 1946": 43.0,
+                "ACTIVITY RATE - 1953": 37.4,
+                "ACTIVITY RATE - 1963": 34.1,
+                "ACTIVITY RATE - 1971": 37.6
+            }
+        },
+        {
+            "AGE GROUP": "15-19 YEARS",
+            "SEX": "M",
+            "values": {
+                "POPULATION % - 1946": 10.3,
+                "POPULATION % - 1953": 8.5,
+                "POPULATION % - 1963": 9.4,
+                "POPULATION % - 1971": 10.5,
+                "LABOUR FORCE % - 1946": 10.6,
+                "LABOUR FORCE % - 1953": 7.5,
+                "LABOUR FORCE % - 1963": 8.8,
+                "LABOUR FORCE % - 1971": 10.0,
+                "ACTIVITY RATE - 1946": 59.2,
+                "ACTIVITY RATE - 1953": 46.5,
+                "ACTIVITY RATE - 1963": 46.2,
+                "ACTIVITY RATE - 1971": 48.3
+            }
+        },
+        {
+            "AGE GROUP": "15-19 YEARS",
+            "SEX": "F",
+            "values": {
+                "POPULATION % - 1946": 10.1,
+                "POPULATION % - 1953": 8.9,
+                "POPULATION % - 1963": 9.9,
+                "POPULATION % - 1971": 10.9,
+                "LABOUR FORCE % - 1946": 13.5,
+                "LABOUR FORCE % - 1953": 13.0,
+                "LABOUR FORCE % - 1963": 15.4,
+                "LABOUR FORCE % - 1971": 15.2,
+                "ACTIVITY RATE - 1946": 24.2,
+                "ACTIVITY RATE - 1953": 27.7,
+                "ACTIVITY RATE - 1963": 21.6,
+                "ACTIVITY RATE - 1971": 26.6
+            }
+        },
+        {
+            "AGE GROUP": "20-59 YEARS",
+            "SEX": "T",
+            "values": {
+                "POPULATION % - 1946": 47.1,
+                "POPULATION % - 1953": 46.2,
+                "POPULATION % - 1963": 42.3,
+                "POPULATION % - 1971": 44.0,
+                "LABOUR FORCE % - 1946": 77.2,
+                "LABOUR FORCE % - 1953": 80.6,
+                "LABOUR FORCE % - 1963": 80.5,
+                "LABOUR FORCE % - 1971": 81.2,
+                "ACTIVITY RATE - 1946": 63.2,
+                "ACTIVITY RATE - 1953": 64.4,
+                "ACTIVITY RATE - 1963": 61.4,
+                "ACTIVITY RATE - 1971": 65.3
+            }
+        },
+        {
+            "AGE GROUP": "20-59 YEARS",
+            "SEX": "M",
+            "values": {
+                "POPULATION % - 1946": 48.4,
+                "POPULATION % - 1953": 47.7,
+                "POPULATION % - 1963": 43.1,
+                "POPULATION % - 1971": 44.2,
+                "LABOUR FORCE % - 1946": 78.7,
+                "LABOUR FORCE % - 1953": 82.7,
+                "LABOUR FORCE % - 1963": 81.2,
+                "LABOUR FORCE % - 1971": 81.7,
+                "ACTIVITY RATE - 1946": 94.1,
+                "ACTIVITY RATE - 1953": 92.2,
+                "ACTIVITY RATE - 1963": 92.8,
+                "ACTIVITY RATE - 1971": 93.7
+            }
+        },
+        {
+            "AGE GROUP": "20-59 YEARS",
+            "SEX": "F",
+            "values": {
+                "POPULATION % - 1946": 45.8,
+                "POPULATION % - 1953": 44.6,
+                "POPULATION % - 1963": 41.5,
+                "POPULATION % - 1971": 43.7,
+                "LABOUR FORCE % - 1946": 71.8,
+                "LABOUR FORCE % - 1953": 73.8,
+                "LABOUR FORCE % - 1963": 77.6,
+                "LABOUR FORCE % - 1971": 79.8,
+                "ACTIVITY RATE - 1946": 28.6,
+                "ACTIVITY RATE - 1953": 31.3,
+                "ACTIVITY RATE - 1963": 26.0,
+                "ACTIVITY RATE - 1971": 34.9
+            }
+        },
+        {
+            "AGE GROUP": "60 YEARS & OVER",
+            "SEX": "T",
+            "values": {
+                "POPULATION % - 1946": 5.4,
+                "POPULATION % - 1953": 5.4,
+                "POPULATION % - 1963": 5.9,
+                "POPULATION % - 1971": 6.3,
+                "LABOUR FORCE % - 1946": 7.6,
+                "LABOUR FORCE % - 1953": 7.5,
+                "LABOUR FORCE % - 1963": 6.9,
+                "LABOUR FORCE % - 1971": 5.6,
+                "ACTIVITY RATE - 1946": 55.2,
+                "ACTIVITY RATE - 1953": 51.6,
+                "ACTIVITY RATE - 1963": 38.2,
+                "ACTIVITY RATE - 1971": 31.1
+            }
+        },
+        {
+            "AGE GROUP": "60 YEARS & OVER",
+            "SEX": "M",
+            "values": {
+                "POPULATION % - 1946": 5.5,
+                "POPULATION % - 1953": 5.5,
+                "POPULATION % - 1963": 6.3,
+                "POPULATION % - 1971": 6.8,
+                "LABOUR FORCE % - 1946": 7.9,
+                "LABOUR FORCE % - 1953": 7.7,
+                "LABOUR FORCE % - 1963": 7.9,
+                "LABOUR FORCE % - 1971": 6.8,
+                "ACTIVITY RATE - 1946": 82.2,
+                "ACTIVITY RATE - 1953": 73.6,
+                "ACTIVITY RATE - 1963": 62.0,
+                "ACTIVITY RATE - 1971": 50.6
+            }
+        },
+        {
+            "AGE GROUP": "60 YEARS & OVER",
+            "SEX": "F",
+            "values": {
+                "POPULATION % - 1946": 5.2,
+                "POPULATION % - 1953": 5.3,
+                "POPULATION % - 1963": 5.4,
+                "POPULATION % - 1971": 5.9,
+                "LABOUR FORCE % - 1946": 6.6,
+                "LABOUR FORCE % - 1953": 7.1,
+                "LABOUR FORCE % - 1963": 3.1,
+                "LABOUR FORCE % - 1971": 2.3,
+                "ACTIVITY RATE - 1946": 23.0,
+                "ACTIVITY RATE - 1953": 25.6,
+                "ACTIVITY RATE - 1963": 8.0,
+                "ACTIVITY RATE - 1971": 7.3
+            }
+        },
+        {
+            "AGE GROUP": "ALL AGES",
+            "SEX": "T",
+            "values": {
+                "POPULATION % - 1946": 100,
+                "POPULATION % - 1953": 100,
+                "POPULATION % - 1963": 100,
+                "POPULATION % - 1971": 100,
+                "LABOUR FORCE % - 1946": 100,
+                "LABOUR FORCE % - 1953": 100,
+                "LABOUR FORCE % - 1963": 100,
+                "LABOUR FORCE % - 1971": 100,
+                "ACTIVITY RATE - 1946": 39.2,
+                "ACTIVITY RATE - 1953": 37.0,
+                "ACTIVITY RATE - 1963": 32.3,
+                "ACTIVITY RATE - 1971": 35.4
+            }
+        },
+        {
+            "AGE GROUP": "ALL AGES",
+            "SEX": "M",
+            "values": {
+                "POPULATION % - 1946": 100,
+                "POPULATION % - 1953": 100,
+                "POPULATION % - 1963": 100,
+                "POPULATION % - 1971": 100,
+                "LABOUR FORCE % - 1946": 100,
+                "LABOUR FORCE % - 1953": 100,
+                "LABOUR FORCE % - 1963": 100,
+                "LABOUR FORCE % - 1971": 100,
+                "ACTIVITY RATE - 1946": 57.8,
+                "ACTIVITY RATE - 1953": 53.1,
+                "ACTIVITY RATE - 1963": 49.3,
+                "ACTIVITY RATE - 1971": 50.7
+            }
+        },
+        {
+            "AGE GROUP": "ALL AGES",
+            "SEX": "F",
+            "values": {
+                "POPULATION % - 1946": 100,
+                "POPULATION % - 1953": 100,
+                "POPULATION % - 1963": 100,
+                "POPULATION % - 1971": 100,
+                "LABOUR FORCE % - 1946": 100,
+                "LABOUR FORCE % - 1953": 100,
+                "LABOUR FORCE % - 1963": 100,
+                "LABOUR FORCE % - 1971": 100,
+                "ACTIVITY RATE - 1946": 18.2,
+                "ACTIVITY RATE - 1953": 18.9,
+                "ACTIVITY RATE - 1963": 13.9,
+                "ACTIVITY RATE - 1971": 19.1
+            }
+        }
+    ],
+    "notes": []
+}
+```
+
 ## Original Table [Image](../../../../data/tables/table-9/table-9-04/original.image-01.png)
 
 ![](../../../../data/tables/table-9/table-9-04/original.image-01.png)
