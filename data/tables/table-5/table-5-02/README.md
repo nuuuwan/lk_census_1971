@@ -4,22 +4,10 @@
 
 - 📜 Original Table PDF - [data/tables/table-5/table-5-02/original.pdf (80.0 kB)](../../../../data/tables/table-5/table-5-02/original.pdf)
 - 📜 Original Table Image - [data/tables/table-5/table-5-02/original.image-01.png (170.8 kB)](../../../../data/tables/table-5/table-5-02/original.image-01.png)
-- 📄 Extracted JSON Data - [data/tables/table-5/table-5-02/data.json (235 B)](../../../../data/tables/table-5/table-5-02/data.json)
 
 ## Extracted [JSON Data](../../../../data/tables/table-5/table-5-02/data.json)
 
-```json
-{
-    "found": false,
-    "table_no": "5.2",
-    "table_name": "Age accuracy index by the U.N. Secretariat method Sri Lanka censuses of 1921, 1946, 1953, 1963 and 1971",
-    "primary_keys": [],
-    "field_keys": [],
-    "rows": [],
-    "notes": []
-}
-```
-
+*⚠️ No data extracted yet.*
 ## Original Table [Image](../../../../data/tables/table-5/table-5-02/original.image-01.png)
 
 ![](../../../../data/tables/table-5/table-5-02/original.image-01.png)

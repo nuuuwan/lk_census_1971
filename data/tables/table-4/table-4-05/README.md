@@ -4,22 +4,10 @@
 
 - 📜 Original Table PDF - [data/tables/table-4/table-4-05/original.pdf (62.8 kB)](../../../../data/tables/table-4/table-4-05/original.pdf)
 - 📜 Original Table Image - [data/tables/table-4/table-4-05/original.image-01.png (141.0 kB)](../../../../data/tables/table-4/table-4-05/original.image-01.png)
-- 📄 Extracted JSON Data - [data/tables/table-4/table-4-05/data.json (233 B)](../../../../data/tables/table-4/table-4-05/data.json)
 
 ## Extracted [JSON Data](../../../../data/tables/table-4/table-4-05/data.json)
 
-```json
-{
-    "found": false,
-    "table_no": "4.5",
-    "table_name": "The district of destination of the three largest streams of lifetime out-migration from each district",
-    "primary_keys": [],
-    "field_keys": [],
-    "rows": [],
-    "notes": []
-}
-```
-
+*⚠️ No data extracted yet.*
 ## Original Table [Image](../../../../data/tables/table-4/table-4-05/original.image-01.png)
 
 ![](../../../../data/tables/table-4/table-4-05/original.image-01.png)
