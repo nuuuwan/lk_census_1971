@@ -28,6 +28,7 @@ class ReadMe:
 
     @classmethod
     def lines_for_tables(cls):
+        index_page_first_image_file = Table.get_index_page_first_image_file()
         lines = [
             "## Tables",
             "",
@@ -43,12 +44,22 @@ class ReadMe:
                         table.dir_data})"
                 )
             lines.append("")
+
+        lines.extend(
+            [
+                f'<img src="{index_page_first_image_file.path}"'
+                + ' style="max-height:640px;">',
+                "",
+            ]
+        )
         return lines
 
     @classmethod
     def build(cls):
         tables = Table.list()
         n_tables = len(tables)
+
+        title_page_first_image_file = Table.get_title_page_first_image_file()
 
         lines = (
             [
@@ -69,6 +80,9 @@ class ReadMe:
                 + f" [{Table.AI_MODEL}]({Table.AI_MODEL_URL})"
                 + f" ({Table.AI_MAX_TOKENS} tokens,"
                 + f" [prompt]({Table.PROMPT_FILE.path})).",
+                "",
+                f'<img src="{title_page_first_image_file.path}"'
+                + ' style="max-height:640px;">',
                 "",
             ]
             + cls.lines_for_tables()

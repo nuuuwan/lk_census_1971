@@ -1,6 +1,6 @@
 import os
 
-from utils_future import Log, PDFFile
+from utils_future import File, Log, PDFFile
 
 log = Log("TablePreDocsMixin")
 
@@ -89,3 +89,19 @@ class TablePreDocsMixin:
         cls.extract_title_page()
         cls.extract_list_of_tables()
         cls.extract_index_page()
+
+    @classmethod
+    def get_title_page_first_image_file(cls):
+        return File(
+            os.path.join(
+                cls.TITLE_PAGE_PDF_FILE.path[:-4] + ".images", "image-01.png"
+            )
+        )
+
+    @classmethod
+    def get_index_page_first_image_file(cls):
+        return File(
+            os.path.join(
+                cls.INDEX_PAGE_PDF_FILE.path[:-4] + ".images", "image-01.png"
+            )
+        )
