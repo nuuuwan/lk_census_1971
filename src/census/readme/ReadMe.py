@@ -36,10 +36,12 @@ class ReadMe:
         for group_id, group_tables in tables_by_group.items():
             lines.extend([f"### {group_id[6:]}.x", ""])
             for table in group_tables:
-                lines.append(f"- {
+                lines.append(
+                    f"- {
                         table.table_no}: [{
                         table.table_name}]({
-                        table.dir_data})")
+                        table.dir_data})"
+                )
             lines.append("")
         return lines
 
