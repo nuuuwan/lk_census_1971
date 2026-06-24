@@ -15,7 +15,9 @@ class TableImageMixin:
         image_files = []
         for file_name in os.listdir(self.dir_original_images):
             if file_name.endswith(".png"):
-                image_file = File(os.path.join(self.dir_data, file_name))
+                image_file = File(
+                    os.path.join(self.dir_original_images, file_name)
+                )
                 image_files.append(image_file)
         image_files.sort(key=lambda f: f.path)
         return image_files
