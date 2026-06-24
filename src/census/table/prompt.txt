@@ -10,11 +10,18 @@ Table structure:
 - Each table has one or more PRIMARY KEY columns (the row identifier(s), e.g. zone, district, year). Usually there is exactly one; occasionally two or more.
 - The remaining columns are FIELD columns (the measured values).
 
+Data types — emit each cell as its correct JSON type, not as a string:
+- Integers as JSON integers (e.g. 1234, not "1234"). Strip thousands separators (e.g. "1,234" -> 1234).
+- Floats/decimals as JSON numbers (e.g. 12.5, not "12.5").
+- Booleans: a cell marked "X" (or a tick/check) means true; a cell marked "-" means false. Emit JSON true/false.
+- A genuinely empty/blank cell is null. Note: this is distinct from "-", which means false, not empty.
+- Leave values that are genuinely textual (names, labels, codes) as strings.
+- Do not coerce a primary key that is naturally text into a number; apply numeric typing per the actual content of each column.
+
 Rules:
 - Identify which column(s) are primary keys and which are fields.
 - Output one entry per DATA row (exclude header rows and total/subtotal rows unless they are genuine data).
-- Keep all cell values verbatim (do not round, reformat, or "fix" numbers).
-- Represent empty/blank cells as null.
+- Keep all cell values verbatim aside from the type conversions above (do not round or otherwise alter numbers).
 - Use the exact column header text as keys (for multi-level headers, join levels with " - ").
 - If the target table is NOT present, set "found" to false and "rows" to [].
 
