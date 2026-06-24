@@ -42,7 +42,7 @@ class TableDataAIMixin:
 
     def extract_data_with_ai(self):
         log.debug(
-            f"Extracting data from {self}"
+            f"🤖 Extracting data from {self}"
             + f" using {self.AI_MODEL} ({self.AI_MAX_TOKENS} tokens)."
         )
         t_start = time.time()
