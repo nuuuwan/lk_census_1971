@@ -72,15 +72,13 @@ class TableDataAIMixin:
         data = json.loads(raw)
 
         if not data.get("found"):
-            raise ValueError(
-                f"Table '{
-                    self.table_no}' not found on page {
-                    self.doc_page_no}."
+            text = (
+                f"Table '{self.table_no}'"
+                + f" not found on page {self.doc_page_no}."
             )
+            os.system(f"say '{text}'")
+            raise ValueError(text)
 
-        text = f"{self.table_no} Completed."
         dt = time.time() - t_start
         log.debug(f"Data extraction completed in {dt:.2f} seconds.")
-
-        os.system(f"say '{text}'")
         return data
