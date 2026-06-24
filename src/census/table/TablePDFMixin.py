@@ -7,10 +7,15 @@ log = Log("TablePDFMixin")
 
 
 class TablePDFMixin:
-    PAGE_NO_OFFSET = 12
+    PAGE_NO_OFFSET = 13
     ORIGINAL_PDF_FILE = PDFFile(
         os.path.join("original_data", "Census1971_Report.pdf")
     )
+    LIST_OF_TABLES_PDF_FILE = PDFFile(
+        os.path.join("data", "list_of_tables.pdf")
+    )
+    LIST_OF_TABLES_FROM_PAGE = 8
+    LIST_OF_TABLES_TO_PAGE = 11
 
     @cached_property
     def dir_data(self) -> str:
@@ -30,10 +35,21 @@ class TablePDFMixin:
 
     def build_pdf(self, force=False):
         if self.pdf_file.exists and not force:
-            log.debug(f"{self.pdf_file.path} exists.")
+            log.debug(f"{self.pdf_file} exists.")
             return
 
         self.ORIGINAL_PDF_FILE.extract_page(
-            self.actual_page_no, self.pdf_file.path
+            self.actual_page_no - 1,
+            self.actual_page_no - 1,
+            self.pdf_file.path,
         )
-        log.info(f"Wrote {self.pdf_file.path}.")
+        log.info(f"Wrote {self.pdf_file}.")
+
+    @classmethod
+    def extract_list_of_tables(cls):
+        cls.ORIGINAL_PDF_FILE.extract_page(
+            cls.LIST_OF_TABLES_FROM_PAGE - 1,
+            cls.LIST_OF_TABLES_TO_PAGE - 1,
+            cls.LIST_OF_TABLES_PDF_FILE.path,
+        )
+        log.info(f"Wrote {cls.LIST_OF_TABLES_PDF_FILE}.")
