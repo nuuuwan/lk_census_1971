@@ -237,7 +237,7 @@
 
 ## Original Table [Image](../../../../data/tables/table-1/table-1-03/original.images/image-01.png)
 
-![](../../../../data/tables/table-1/table-1-03/original.images/image-01.png)
+<img src='../../../../data/tables/table-1/table-1-03/original.images/image-01.png' alt='Table 1.3 Image' width='640px' />
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
