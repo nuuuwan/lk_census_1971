@@ -18,3 +18,9 @@ class TableBase:
     @cached_property
     def table_group_id(self) -> str:
         return self.table_id[:7]
+
+    def __str__(self) -> str:
+        return f"Table({self.table_no})"
+
+    def __repr__(self) -> str:
+        return self.__str__()

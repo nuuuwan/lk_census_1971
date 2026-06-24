@@ -1,3 +1,8 @@
+from utils_future import Log
+
+log = Log("TableBuilderMixin")
+
+
 class TableBuilderMixin:
     def build(self):
         self.build_pdf()
@@ -11,3 +16,5 @@ class TableBuilderMixin:
         tables = cls.list()
         for table in tables[:1]:
             table.build()
+            log.debug("Building {table} complete.")
+            log.debug("-" * 40)

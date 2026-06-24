@@ -2,6 +2,7 @@ import base64
 import json
 import mimetypes
 import os
+import time
 from functools import cached_property
 
 import anthropic
@@ -40,6 +41,8 @@ class TableDataAIMixin:
         return blocks
 
     def extract_data_with_ai(self):
+        log.debug(f"Extracting data from table {self.table_no} using AI...")
+        t_start = time.time()
         extraction_prompt = self.PROMPT_FILE.read()
         content = self._build_image_blocks()
         content.append(
@@ -70,5 +73,6 @@ class TableDataAIMixin:
                     self.table_no}' not found on page {
                     self.doc_page_no}."
             )
-
+        dt = time.time() - t_start
+        log.debug(f"AI Data extraction for {self} completed in {dt:.2f}s.")
         return data

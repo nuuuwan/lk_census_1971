@@ -4,7 +4,7 @@ Target table:
 - Number: {table_no}
 - Title: {table_name}
 
-The page(s) may contain MULTIPLE tables. Extract ONLY the table whose number/title matches the target above. Ignore all other tables, body text, footnotes, and page furniture.
+The page(s) may contain MULTIPLE tables. Extract ONLY the table whose number/title matches the target above. Ignore all other tables, body text, and page furniture.
 
 Table structure:
 - Each table has one or more PRIMARY KEY columns (the row identifier(s), e.g. zone, district, year). Usually there is exactly one; occasionally two or more.
@@ -18,12 +18,18 @@ Data types — emit each cell as its correct JSON type, not as a string:
 - Leave values that are genuinely textual (names, labels, codes) as strings.
 - Do not coerce a primary key that is naturally text into a number; apply numeric typing per the actual content of each column.
 
+Notes:
+- Tables usually have one or more notes, footnotes, or source lines BELOW the table body (e.g. "Source: ...", "Note: ...", asterisk/dagger explanations, unit definitions).
+- Extract each such note as a separate string in the "notes" list, in the order they appear, verbatim.
+- Include only notes attached to THIS table; ignore notes belonging to other tables or to page body text.
+- If the table has no notes, return an empty list [].
+
 Rules:
 - Identify which column(s) are primary keys and which are fields.
 - Output one entry per DATA row (exclude header rows and total/subtotal rows unless they are genuine data).
 - Keep all cell values verbatim aside from the type conversions above (do not round or otherwise alter numbers).
 - Use the exact column header text as keys (for multi-level headers, join levels with " - ").
-- If the target table is NOT present, set "found" to false and "rows" to [].
+- If the target table is NOT present, set "found" to false, "rows" to [], and "notes" to [].
 
 Return ONLY valid JSON, no markdown, no backticks, no commentary, in this schema:
 {{
@@ -41,7 +47,7 @@ Return ONLY valid JSON, no markdown, no backticks, no commentary, in this schema
       }}
     }}
   ],
-  "notes": null
+  "notes": ["<note text>", ...]
 }}
 
 For a row, place each primary key column as a top-level key mapping to its value, and place every field column inside the nested "values" dict. When there are multiple primary keys, include each as its own top-level key.
