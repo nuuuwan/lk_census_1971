@@ -14,7 +14,9 @@ class TablePDFMixin:
 
     @cached_property
     def dir_data(self) -> str:
-        dir_data = os.path.join("data", "tables", self.table_id)
+        dir_data = os.path.join(
+            "data", "tables", self.table_group_id, self.table_id
+        )
         os.makedirs(dir_data, exist_ok=True)
         return dir_data
 
