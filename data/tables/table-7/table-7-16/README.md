@@ -12,6 +12,16 @@
 
 <img src='../../../../data/tables/table-7/table-7-16/original.images/image-01.png' alt='Table 7.16 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-16/data.tsv)
+
+| Religion | Children 0 - 4 per 1000 women 15 - 49 |
+| --- | --- |
+| Buddhists | 605.42 |
+| Hindus | 573.52 |
+| Muslims | 759.13 |
+| Roman Catholics | 537.62 |
+| Other Christians | 398.31 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-16/data.json)
 
 ```json
@@ -97,16 +107,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-7/table-7-16/data.tsv)
-
-| Religion | Children 0 - 4 per 1000 women 15 - 49 |
-| --- | --- |
-| Buddhists | 605.42 |
-| Hindus | 573.52 |
-| Muslims | 759.13 |
-| Roman Catholics | 537.62 |
-| Other Christians | 398.31 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

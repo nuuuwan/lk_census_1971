@@ -12,6 +12,18 @@
 
 <img src='../../../../data/tables/table-7/table-7-13/original.images/image-01.png' alt='Table 7.13 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-13/data.tsv)
+
+| Age Group | No Schooling | Grade(1-4) | Grade (5-9) | Passed G.C.E. (O.L.) | Passed G.C.E.(A.L.) or higher |
+| --- | --- | --- | --- | --- | --- |
+| 15-19 | 0.633 | 0.624 | 0.534 | 0.38 |  |
+| 20-24 | 1.681 | 1.634 | 1.365 | 0.942 | 0.519 |
+| 25-29 | 3.1 | 3.077 | 2.48 | 1.58 | 0.94 |
+| 30-34 | 4.463 | 4.426 | 3.665 | 2.415 | 1.859 |
+| 35-39 | 5.706 | 5.45 | 4.593 | 3.221 | 2.561 |
+| 40-44 | 6.035 | 5.687 | 5.08 | 3.594 | 3.099 |
+| 45-49 | 5.973 | 5.758 | 5.084 | 4.094 | 3.24 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-13/data.json)
 
 ```json
@@ -183,18 +195,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-7/table-7-13/data.tsv)
-
-| Age Group | No Schooling | Grade(1-4) | Grade (5-9) | Passed G.C.E. (O.L.) | Passed G.C.E.(A.L.) or higher |
-| --- | --- | --- | --- | --- | --- |
-| 15-19 | 0.633 | 0.624 | 0.534 | 0.38 |  |
-| 20-24 | 1.681 | 1.634 | 1.365 | 0.942 | 0.519 |
-| 25-29 | 3.1 | 3.077 | 2.48 | 1.58 | 0.94 |
-| 30-34 | 4.463 | 4.426 | 3.665 | 2.415 | 1.859 |
-| 35-39 | 5.706 | 5.45 | 4.593 | 3.221 | 2.561 |
-| 40-44 | 6.035 | 5.687 | 5.08 | 3.594 | 3.099 |
-| 45-49 | 5.973 | 5.758 | 5.084 | 4.094 | 3.24 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

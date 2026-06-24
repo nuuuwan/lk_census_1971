@@ -12,6 +12,14 @@
 
 <img src='../../../../data/tables/table-7/table-7-11/original.images/image-01.png' alt='Table 7.11 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-11/data.tsv)
+
+| Year | Urban | Rural | Rural x 100 / Urban |
+| --- | --- | --- | --- |
+| 1953 | 549 | 672 | 123 |
+| 1963 | 594 | 712 | 120 |
+| 1971 | 492 | 569 | 116 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-11/data.json)
 
 ```json
@@ -90,14 +98,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-7/table-7-11/data.tsv)
-
-| Year | Urban | Rural | Rural x 100 / Urban |
-| --- | --- | --- | --- |
-| 1953 | 549 | 672 | 123 |
-| 1963 | 594 | 712 | 120 |
-| 1971 | 492 | 569 | 116 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

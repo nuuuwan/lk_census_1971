@@ -12,6 +12,18 @@
 
 <img src='../../../../data/tables/table-7/table-7-10/original.images/image-01.png' alt='Table 7.10 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-10/data.tsv)
+
+| Age Group | Live births born per ever married woman |
+| --- | --- |
+| 15 - 19 | 0.584 |
+| 20 - 24 | 1.492 |
+| 25 - 29 | 2.72 |
+| 30 - 34 | 3.945 |
+| 35 - 39 | 5.14 |
+| 40 - 44 | 5.222 |
+| 45 - 49 | 5.605 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-10/data.json)
 
 ```json
@@ -121,18 +133,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-7/table-7-10/data.tsv)
-
-| Age Group | Live births born per ever married woman |
-| --- | --- |
-| 15 - 19 | 0.584 |
-| 20 - 24 | 1.492 |
-| 25 - 29 | 2.72 |
-| 30 - 34 | 3.945 |
-| 35 - 39 | 5.14 |
-| 40 - 44 | 5.222 |
-| 45 - 49 | 5.605 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

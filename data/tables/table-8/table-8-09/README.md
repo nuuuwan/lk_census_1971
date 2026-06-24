@@ -12,6 +12,18 @@
 
 <img src='../../../../data/tables/table-8/table-8-09/original.images/image-01.png' alt='Table 8.9 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-8/table-8-09/data.tsv)
+
+| Level of Education | Number - Total | Number - Male | Number - Female | Percentage - Total | Percentage - Male | Percentage - Female |
+| --- | --- | --- | --- | --- | --- | --- |
+| Total | 9354303 | 4839067 | 4515236 | 100.0 | 100.0 | 100.0 |
+| No schooling | 2103339 | 772850 | 1330489 | 22.5 | 16.0 | 29.5 |
+| Attended but not completed primary | 2327082 | 1301690 | 1025392 | 24.9 | 26.9 | 22.7 |
+| Completed primary only | 4368440 | 2455809 | 1912631 | 46.7 | 50.7 | 42.4 |
+| Passed G.C.E. 'O' | 415520 | 223128 | 192392 | 4.4 | 4.6 | 4.3 |
+| Passed G.C.E. 'A' | 98483 | 56509 | 41974 | 1.1 | 1.2 | 0.9 |
+| Degree or Higher | 41439 | 29081 | 12358 | 0.4 | 0.6 | 0.3 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-8/table-8-09/data.json)
 
 ```json
@@ -196,18 +208,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-8/table-8-09/data.tsv)
-
-| Level of Education | Number - Total | Number - Male | Number - Female | Percentage - Total | Percentage - Male | Percentage - Female |
-| --- | --- | --- | --- | --- | --- | --- |
-| Total | 9354303 | 4839067 | 4515236 | 100.0 | 100.0 | 100.0 |
-| No schooling | 2103339 | 772850 | 1330489 | 22.5 | 16.0 | 29.5 |
-| Attended but not completed primary | 2327082 | 1301690 | 1025392 | 24.9 | 26.9 | 22.7 |
-| Completed primary only | 4368440 | 2455809 | 1912631 | 46.7 | 50.7 | 42.4 |
-| Passed G.C.E. 'O' | 415520 | 223128 | 192392 | 4.4 | 4.6 | 4.3 |
-| Passed G.C.E. 'A' | 98483 | 56509 | 41974 | 1.1 | 1.2 | 0.9 |
-| Degree or Higher | 41439 | 29081 | 12358 | 0.4 | 0.6 | 0.3 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

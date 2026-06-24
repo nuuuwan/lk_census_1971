@@ -12,6 +12,14 @@
 
 <img src='../../../../data/tables/table-8/table-8-06/original.images/image-01.png' alt='Table 8.6 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-8/table-8-06/data.tsv)
+
+| Age | 1971 Number attending school | Education Ministry figures. No. enrolled in registers (March 1971) |
+| --- | --- | --- |
+| Total 5-24 years | 2719143 | 2802336 |
+| 5-14 years | 2141671 | 2406201 |
+| 15-24 years | 578072 | 396135 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-8/table-8-06/data.json)
 
 ```json
@@ -80,14 +88,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-8/table-8-06/data.tsv)
-
-| Age | 1971 Number attending school | Education Ministry figures. No. enrolled in registers (March 1971) |
-| --- | --- | --- |
-| Total 5-24 years | 2719143 | 2802336 |
-| 5-14 years | 2141671 | 2406201 |
-| 15-24 years | 578072 | 396135 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

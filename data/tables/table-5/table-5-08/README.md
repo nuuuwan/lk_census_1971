@@ -12,6 +12,17 @@
 
 <img src='../../../../data/tables/table-5/table-5-08/original.images/image-01.png' alt='Table 5.8 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-5/table-5-08/data.tsv)
+
+| District | Sex Ratio |
+| --- | --- |
+| Sri Lanka | 1061 |
+| Colombo | 1101 |
+| Kalutara | 1015 |
+| Kandy | 1039 |
+| Matale | 1063 |
+| Nuwara Eliya | 1041 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-5/table-5-08/data.json)
 
 ```json
@@ -109,17 +120,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-5/table-5-08/data.tsv)
-
-| District | Sex Ratio |
-| --- | --- |
-| Sri Lanka | 1061 |
-| Colombo | 1101 |
-| Kalutara | 1015 |
-| Kandy | 1039 |
-| Matale | 1063 |
-| Nuwara Eliya | 1041 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

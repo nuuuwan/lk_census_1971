@@ -12,6 +12,33 @@
 
 <img src='../../../../data/tables/table-4/table-4-03/original.images/image-01.png' alt='Table 4.3 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-4/table-4-03/data.tsv)
+
+| District | Number born in the district | Lifetime out-migration - Number Col(2)-Col(5) | Lifetime out-migration - Percent (of column 2) | Born in and living in the district at time of Census (Non-migrants) | Number of Sri Lanka born persons living in the district | Life time in-migration - Number (Col(6)-Col(5)) | Life time in-migration - Percent (of column 6) | Net gain or loss through lifetime migration Col(7)-Col(3) | Lifetime migration rate |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Colombo | 2481.8 | 279.4 | 11.2 | 2202.5 | 2642.4 | 440.0 | 16.6 | 160.6 | 6.02 |
+| Kalutara | 756.8 | 137.5 | 18.2 | 629.3 | 728.3 | 99.0 | 13.6 | -38.6 | -7.34 |
+| Kandy | 1272.4 | 264.0 | 20.7 | 1008.4 | 1156.7 | 148.3 | 12.8 | -115.7 | -9.74 |
+| Matale | 311.8 | 65.9 | 21.1 | 245.9 | 312.8 | 66.9 | 21.4 | 1.0 | 0.3 |
+| Nuwara Eliya | 463.1 | 105.3 | 22.7 | 357.7 | 431.7 | 74.0 | 17.1 | -31.3 | -6.92 |
+| Galle | 830.5 | 162.6 | 19.5 | 667.9 | 735.5 | 67.6 | 9.2 | -95.0 | -12.88 |
+| Matara | 703.6 | 176.2 | 25.0 | 527.3 | 583.9 | 56.6 | 9.7 | -119.7 | -20.34 |
+| Hambantota | 327.1 | 38.9 | 11.9 | 288.3 | 340.8 | 52.6 | 15.4 | 13.7 | 4.02 |
+| Jaffna | 760.9 | 88.4 | 11.6 | 672.6 | 698.3 | 25.7 | 3.7 | -62.7 | -8.9 |
+| Mannar | 81.4 | 22.7 | 27.9 | 58.7 | 74.2 | 15.5 | 21.0 | -27.2 | -9.21 |
+| Vavuniya | 64.7 | 4.9 | 7.5 | 59.8 | 92.8 | 33.0 | 35.5 | 28.1 | 29.41 |
+| Batticaloa | 265.1 | 23.4 | 8.8 | 241.7 | 257.2 | 15.5 | 6.0 | -7.9 | -3.07 |
+| Amparai | 219.2 | 5.9 | 2.7 | 213.3 | 271.1 | 57.7 | 21.3 | 51.8 | 19.01 |
+| Trincomalee | 147.9 | 13.6 | 9.2 | 134.2 | 190.2 | 56.0 | 29.4 | 42.3 | 22.05 |
+| Kurunegala | 1002.2 | 118.2 | 11.8 | 884.0 | 1025.4 | 141.5 | 13.8 | 23.2 | 2.26 |
+| Puttalam | 351.9 | 47.7 | 13.5 | 304.2 | 378.3 | 74.1 | 19.6 | 26.4 | 6.96 |
+| Anuradhapura | 309.5 | 24.3 | 7.9 | 285.2 | 388.5 | 103.3 | 26.6 | 79.0 | 20.3 |
+| Polonnaruwa | 93.9 | 8.3 | 8.8 | 85.6 | 163.6 | 78.0 | 47.7 | 69.7 | 42.54 |
+| Badulla | 622.6 | 89.8 | 14.4 | 532.8 | 592.7 | 59.9 | 10.1 | -30.0 | -4.86 |
+| Moneragala | 149.7 | 10.8 | 7.2 | 138.9 | 190.6 | 51.7 | 27.1 | 40.9 | 21.35 |
+| Ratnapura | 641.8 | 83.8 | 13.1 | 558.0 | 649.8 | 91.8 | 14.1 | 8.0 | 1.1 |
+| Kegalle | 692.3 | 140.1 | 20.2 | 552.2 | 645.5 | 93.3 | 14.5 | -46.9 | -7.19 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-4/table-4-03/data.json)
 
 ```json
@@ -661,33 +688,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-4/table-4-03/data.tsv)
-
-| District | Number born in the district | Lifetime out-migration - Number Col(2)-Col(5) | Lifetime out-migration - Percent (of column 2) | Born in and living in the district at time of Census (Non-migrants) | Number of Sri Lanka born persons living in the district | Life time in-migration - Number (Col(6)-Col(5)) | Life time in-migration - Percent (of column 6) | Net gain or loss through lifetime migration Col(7)-Col(3) | Lifetime migration rate |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Colombo | 2481.8 | 279.4 | 11.2 | 2202.5 | 2642.4 | 440.0 | 16.6 | 160.6 | 6.02 |
-| Kalutara | 756.8 | 137.5 | 18.2 | 629.3 | 728.3 | 99.0 | 13.6 | -38.6 | -7.34 |
-| Kandy | 1272.4 | 264.0 | 20.7 | 1008.4 | 1156.7 | 148.3 | 12.8 | -115.7 | -9.74 |
-| Matale | 311.8 | 65.9 | 21.1 | 245.9 | 312.8 | 66.9 | 21.4 | 1.0 | 0.3 |
-| Nuwara Eliya | 463.1 | 105.3 | 22.7 | 357.7 | 431.7 | 74.0 | 17.1 | -31.3 | -6.92 |
-| Galle | 830.5 | 162.6 | 19.5 | 667.9 | 735.5 | 67.6 | 9.2 | -95.0 | -12.88 |
-| Matara | 703.6 | 176.2 | 25.0 | 527.3 | 583.9 | 56.6 | 9.7 | -119.7 | -20.34 |
-| Hambantota | 327.1 | 38.9 | 11.9 | 288.3 | 340.8 | 52.6 | 15.4 | 13.7 | 4.02 |
-| Jaffna | 760.9 | 88.4 | 11.6 | 672.6 | 698.3 | 25.7 | 3.7 | -62.7 | -8.9 |
-| Mannar | 81.4 | 22.7 | 27.9 | 58.7 | 74.2 | 15.5 | 21.0 | -27.2 | -9.21 |
-| Vavuniya | 64.7 | 4.9 | 7.5 | 59.8 | 92.8 | 33.0 | 35.5 | 28.1 | 29.41 |
-| Batticaloa | 265.1 | 23.4 | 8.8 | 241.7 | 257.2 | 15.5 | 6.0 | -7.9 | -3.07 |
-| Amparai | 219.2 | 5.9 | 2.7 | 213.3 | 271.1 | 57.7 | 21.3 | 51.8 | 19.01 |
-| Trincomalee | 147.9 | 13.6 | 9.2 | 134.2 | 190.2 | 56.0 | 29.4 | 42.3 | 22.05 |
-| Kurunegala | 1002.2 | 118.2 | 11.8 | 884.0 | 1025.4 | 141.5 | 13.8 | 23.2 | 2.26 |
-| Puttalam | 351.9 | 47.7 | 13.5 | 304.2 | 378.3 | 74.1 | 19.6 | 26.4 | 6.96 |
-| Anuradhapura | 309.5 | 24.3 | 7.9 | 285.2 | 388.5 | 103.3 | 26.6 | 79.0 | 20.3 |
-| Polonnaruwa | 93.9 | 8.3 | 8.8 | 85.6 | 163.6 | 78.0 | 47.7 | 69.7 | 42.54 |
-| Badulla | 622.6 | 89.8 | 14.4 | 532.8 | 592.7 | 59.9 | 10.1 | -30.0 | -4.86 |
-| Moneragala | 149.7 | 10.8 | 7.2 | 138.9 | 190.6 | 51.7 | 27.1 | 40.9 | 21.35 |
-| Ratnapura | 641.8 | 83.8 | 13.1 | 558.0 | 649.8 | 91.8 | 14.1 | 8.0 | 1.1 |
-| Kegalle | 692.3 | 140.1 | 20.2 | 552.2 | 645.5 | 93.3 | 14.5 | -46.9 | -7.19 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

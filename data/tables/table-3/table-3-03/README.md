@@ -12,6 +12,22 @@
 
 <img src='../../../../data/tables/table-3/table-3-03/original.images/image-01.png' alt='Table 3.3 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-3/table-3-03/data.tsv)
+
+| Census Year | Density(persons per square mile) | Intercensal increase in persons per sq. mile | Average annual increase in density |
+| --- | --- | --- | --- |
+| 1871 | 95 |  |  |
+| 1881 | 109 | 14 | 1.4 |
+| 1891 | 119 | 10 | 1.0 |
+| 1901 | 141 | 22 | 2.2 |
+| 1911 | 162 | 21 | 2.1 |
+| 1921 | 178 | 16 | 1.6 |
+| 1931 | 210 | 32 | 3.2 |
+| 1946 | 263 | 53 | 3.5 |
+| 1953 | 320 | 57 | 8.1 |
+| 1963 | 423 | 103 | 10.3 |
+| 1971 | 508 | 125 | 15.2 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-3/table-3-03/data.json)
 
 ```json
@@ -215,22 +231,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-3/table-3-03/data.tsv)
-
-| Census Year | Density(persons per square mile) | Intercensal increase in persons per sq. mile | Average annual increase in density |
-| --- | --- | --- | --- |
-| 1871 | 95 |  |  |
-| 1881 | 109 | 14 | 1.4 |
-| 1891 | 119 | 10 | 1.0 |
-| 1901 | 141 | 22 | 2.2 |
-| 1911 | 162 | 21 | 2.1 |
-| 1921 | 178 | 16 | 1.6 |
-| 1931 | 210 | 32 | 3.2 |
-| 1946 | 263 | 53 | 3.5 |
-| 1953 | 320 | 57 | 8.1 |
-| 1963 | 423 | 103 | 10.3 |
-| 1971 | 508 | 125 | 15.2 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

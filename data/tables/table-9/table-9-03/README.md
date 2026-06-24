@@ -12,6 +12,23 @@
 
 <img src='../../../../data/tables/table-9/table-9-03/original.images/image-01.png' alt='Table 9.3 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-9/table-9-03/data.tsv)
+
+| Category | Sex | Colombo | Kalutara | Kandy | Matale | N'Eliya | Galle | Matara | Hambantota | Jaffna | Mannar | Vavuniya | Batticaloa |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Population | T | 2053904 | 554525 | 877140 | 225756 | 330090 | 551934 | 434525 | 241879 | 524156 | 54216 | 66611 | 175126 |
+| Population | M | 1086671 | 278619 | 447063 | 117147 | 168781 | 270169 | 212355 | 125007 | 255743 | 29900 | 38407 | 91556 |
+| Population | F | 967233 | 275906 | 430077 | 108609 | 161309 | 281765 | 222170 | 116872 | 264413 | 24316 | 28204 | 83570 |
+| Economically active population | T | 973837 | 264905 | 450243 | 112836 | 205181 | 261583 | 195890 | 104374 | 188415 | 24023 | 31771 | 71758 |
+| Economically active population | M | 751855 | 189086 | 299636 | 80408 | 119558 | 178116 | 136311 | 83580 | 167753 | 22724 | 28918 | 66234 |
+| Economically active population | F | 221982 | 75819 | 150607 | 32428 | 85623 | 83467 | 59579 | 20794 | 20662 | 1299 | 2853 | 5524 |
+| Economically active population as % of total economical active population | T | 21.6 | 5.8 | 9.9 | 2.5 | 4.5 | 5.8 | 4.3 | 2.2 | 4.1 | 0.5 | 0.7 | 1.6 |
+| Economically active population as % of total economical active population | M | 22.7 | 5.7 | 9.0 | 2.4 | 3.6 | 5.4 | 4.0 | 2.5 | 5.0 | 0.7 | 0.9 | 2.0 |
+| Economically active population as % of total economical active population | F | 18.9 | 6.4 | 12.8 | 2.8 | 7.3 | 7.0 | 5.0 | 1.8 | 1.7 | 0.1 | 0.2 | 0.5 |
+| Activity rate (For those over 10 years of age) | T | 47.9 | 47.8 | 51.3 | 50.0 | 62.2 | 47.4 | 45.1 | 43.2 | 35.9 | 44.3 | 47.7 | 41.0 |
+| Activity rate (For those over 10 years of age) | M | 69.2 | 67.9 | 67.0 | 68.6 | 70.8 | 65.9 | 64.2 | 66.9 | 64.6 | 76.0 | 75.3 | 72.3 |
+| Activity rate (For those over 10 years of age) | F | 23.0 | 27.5 | 35.0 | 29.9 | 53.1 | 29.6 | 26.8 | 17.8 | 7.8 | 5.3 | 10.1 | 6.6 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-9/table-9-03/data.json)
 
 ```json
@@ -483,23 +500,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-9/table-9-03/data.tsv)
-
-| Category | Sex | Colombo | Kalutara | Kandy | Matale | N'Eliya | Galle | Matara | Hambantota | Jaffna | Mannar | Vavuniya | Batticaloa |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Population | T | 2053904 | 554525 | 877140 | 225756 | 330090 | 551934 | 434525 | 241879 | 524156 | 54216 | 66611 | 175126 |
-| Population | M | 1086671 | 278619 | 447063 | 117147 | 168781 | 270169 | 212355 | 125007 | 255743 | 29900 | 38407 | 91556 |
-| Population | F | 967233 | 275906 | 430077 | 108609 | 161309 | 281765 | 222170 | 116872 | 264413 | 24316 | 28204 | 83570 |
-| Economically active population | T | 973837 | 264905 | 450243 | 112836 | 205181 | 261583 | 195890 | 104374 | 188415 | 24023 | 31771 | 71758 |
-| Economically active population | M | 751855 | 189086 | 299636 | 80408 | 119558 | 178116 | 136311 | 83580 | 167753 | 22724 | 28918 | 66234 |
-| Economically active population | F | 221982 | 75819 | 150607 | 32428 | 85623 | 83467 | 59579 | 20794 | 20662 | 1299 | 2853 | 5524 |
-| Economically active population as % of total economical active population | T | 21.6 | 5.8 | 9.9 | 2.5 | 4.5 | 5.8 | 4.3 | 2.2 | 4.1 | 0.5 | 0.7 | 1.6 |
-| Economically active population as % of total economical active population | M | 22.7 | 5.7 | 9.0 | 2.4 | 3.6 | 5.4 | 4.0 | 2.5 | 5.0 | 0.7 | 0.9 | 2.0 |
-| Economically active population as % of total economical active population | F | 18.9 | 6.4 | 12.8 | 2.8 | 7.3 | 7.0 | 5.0 | 1.8 | 1.7 | 0.1 | 0.2 | 0.5 |
-| Activity rate (For those over 10 years of age) | T | 47.9 | 47.8 | 51.3 | 50.0 | 62.2 | 47.4 | 45.1 | 43.2 | 35.9 | 44.3 | 47.7 | 41.0 |
-| Activity rate (For those over 10 years of age) | M | 69.2 | 67.9 | 67.0 | 68.6 | 70.8 | 65.9 | 64.2 | 66.9 | 64.6 | 76.0 | 75.3 | 72.3 |
-| Activity rate (For those over 10 years of age) | F | 23.0 | 27.5 | 35.0 | 29.9 | 53.1 | 29.6 | 26.8 | 17.8 | 7.8 | 5.3 | 10.1 | 6.6 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

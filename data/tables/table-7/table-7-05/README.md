@@ -12,6 +12,23 @@
 
 <img src='../../../../data/tables/table-7/table-7-05/original.images/image-01.png' alt='Table 7.5 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-05/data.tsv)
+
+| Zone | Proportion and Year | 15 - 19 | 20 - 24 | 25 - 29 | 30 - 34 | 35 - 39 | 40 - 44 | 45 - 49 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Zone 1 | Currently married 1963 | 7.7 | 43.2 | 72.6 | 84.9 | 88.2 | 85.1 | 82.2 |
+| Zone 1 | Currently married 1971 | 6.8 | 36.6 | 65.2 | 81.9 | 87.0 | 85.4 | 83.5 |
+| Zone 1 | Currently married % Change | -11.7 | -15.3 | -10.2 | -3.5 | -1.4 | 0.3 | 1.6 |
+| Zone 1 | Never married 1963 | 92.2 | 56.3 | 26.6 | 12.8 | 7.5 | 6.3 | 5.3 |
+| Zone 1 | Never married 1971 | 93.1 | 62.3 | 33.5 | 15.6 | 8.7 | 6.5 | 5.9 |
+| Zone 1 | Never married % Change | 1.0 | 11.5 | 25.9 | 21.9 | 16.0 | 3.2 | 1.7 |
+| Zone 2 | Currently married 1963 | 29.0 | 76.7 | 90.6 | 92.2 | 91.7 | 85.7 | 80.7 |
+| Zone 2 | Currently married 1971 | 17.7 | 62.0 | 84.7 | 91.1 | 90.9 | 87.7 | 83.8 |
+| Zone 2 | Currently married % Change | -39.0 | -19.2 | -26.2 | -1.2 | -0.9 | 2.3 | 3.8 |
+| Zone 2 | Never married 1963 | 70.4 | 21.8 | 7.4 | 4.6 | 2.9 | 2.9 | 2.9 |
+| Zone 2 | Never married 1971 | 81.8 | 36.4 | 12.6 | 5.2 | 3.3 | 3.2 | 2.8 |
+| Zone 2 | Never married % Change | 16.2 | 70.0 | 70.3 | 13.0 | 13.8 | 10.3 | -3.4 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-05/data.json)
 
 ```json
@@ -359,23 +376,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-7/table-7-05/data.tsv)
-
-| Zone | Proportion and Year | 15 - 19 | 20 - 24 | 25 - 29 | 30 - 34 | 35 - 39 | 40 - 44 | 45 - 49 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Zone 1 | Currently married 1963 | 7.7 | 43.2 | 72.6 | 84.9 | 88.2 | 85.1 | 82.2 |
-| Zone 1 | Currently married 1971 | 6.8 | 36.6 | 65.2 | 81.9 | 87.0 | 85.4 | 83.5 |
-| Zone 1 | Currently married % Change | -11.7 | -15.3 | -10.2 | -3.5 | -1.4 | 0.3 | 1.6 |
-| Zone 1 | Never married 1963 | 92.2 | 56.3 | 26.6 | 12.8 | 7.5 | 6.3 | 5.3 |
-| Zone 1 | Never married 1971 | 93.1 | 62.3 | 33.5 | 15.6 | 8.7 | 6.5 | 5.9 |
-| Zone 1 | Never married % Change | 1.0 | 11.5 | 25.9 | 21.9 | 16.0 | 3.2 | 1.7 |
-| Zone 2 | Currently married 1963 | 29.0 | 76.7 | 90.6 | 92.2 | 91.7 | 85.7 | 80.7 |
-| Zone 2 | Currently married 1971 | 17.7 | 62.0 | 84.7 | 91.1 | 90.9 | 87.7 | 83.8 |
-| Zone 2 | Currently married % Change | -39.0 | -19.2 | -26.2 | -1.2 | -0.9 | 2.3 | 3.8 |
-| Zone 2 | Never married 1963 | 70.4 | 21.8 | 7.4 | 4.6 | 2.9 | 2.9 | 2.9 |
-| Zone 2 | Never married 1971 | 81.8 | 36.4 | 12.6 | 5.2 | 3.3 | 3.2 | 2.8 |
-| Zone 2 | Never married % Change | 16.2 | 70.0 | 70.3 | 13.0 | 13.8 | 10.3 | -3.4 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

@@ -12,6 +12,15 @@
 
 <img src='../../../../data/tables/table-7/table-7-01/original.images/image-01.png' alt='Table 7.1 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-01/data.tsv)
+
+| Census Year | Average age at marriage (in years) - Males | Average age at marriage (in years) - Femals | Difference |
+| --- | --- | --- | --- |
+| 1946 | 27.0 | 20.7 | 6.3 |
+| 1953 | 27.2 | 20.9 | 6.3 |
+| 1963 | 27.9 | 22.1 | 5.8 |
+| 1971 | 28.0 | 23.5 | 4.5 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-01/data.json)
 
 ```json
@@ -107,15 +116,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-7/table-7-01/data.tsv)
-
-| Census Year | Average age at marriage (in years) - Males | Average age at marriage (in years) - Femals | Difference |
-| --- | --- | --- | --- |
-| 1946 | 27.0 | 20.7 | 6.3 |
-| 1953 | 27.2 | 20.9 | 6.3 |
-| 1963 | 27.9 | 22.1 | 5.8 |
-| 1971 | 28.0 | 23.5 | 4.5 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

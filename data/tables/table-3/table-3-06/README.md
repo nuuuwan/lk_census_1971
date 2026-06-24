@@ -12,6 +12,14 @@
 
 <img src='../../../../data/tables/table-3/table-3-06/original.images/image-01.png' alt='Table 3.6 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-3/table-3-06/data.tsv)
+
+| Category | 1963 - Population | 1963 - Percentage of total | 1971 - Population | 1971 - Percentage of total |
+| --- | --- | --- | --- | --- |
+| (a) Total (urban and rural) | 10582064 | 100.0 | 12689897 | 100.0 |
+| (b) All urban areas | 2016285 | 19.0 | 2848116 | 22.4 |
+| (c) All areas which were classified as urban in both 1963 and 1971 | 2016285 | 19.0 | 2444919 | 19.3 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-3/table-3-06/data.json)
 
 ```json
@@ -97,14 +105,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-3/table-3-06/data.tsv)
-
-| Category | 1963 - Population | 1963 - Percentage of total | 1971 - Population | 1971 - Percentage of total |
-| --- | --- | --- | --- | --- |
-| (a) Total (urban and rural) | 10582064 | 100.0 | 12689897 | 100.0 |
-| (b) All urban areas | 2016285 | 19.0 | 2848116 | 22.4 |
-| (c) All areas which were classified as urban in both 1963 and 1971 | 2016285 | 19.0 | 2444919 | 19.3 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

@@ -12,6 +12,14 @@
 
 <img src='../../../../data/tables/table-9/table-9-07/original.images/image-01.png' alt='Table 9.7 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-9/table-9-07/data.tsv)
+
+|  | Employed | Unemployed | Students | Engaged in home duties | Others | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| T | 54.9 | 10.5 | 1.4 | 29.5 | 3.8 | 100 |
+| M | 82.7 | 11.1 | 1.5 | 1.1 | 3.6 | 100 |
+| F | 25.0 | 9.8 | 1.3 | 59.8 | 3.9 | 100 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-9/table-9-07/data.json)
 
 ```json
@@ -108,14 +116,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-9/table-9-07/data.tsv)
-
-|  | Employed | Unemployed | Students | Engaged in home duties | Others | Total |
-| --- | --- | --- | --- | --- | --- | --- |
-| T | 54.9 | 10.5 | 1.4 | 29.5 | 3.8 | 100 |
-| M | 82.7 | 11.1 | 1.5 | 1.1 | 3.6 | 100 |
-| F | 25.0 | 9.8 | 1.3 | 59.8 | 3.9 | 100 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

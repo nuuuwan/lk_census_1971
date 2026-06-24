@@ -12,6 +12,18 @@
 
 <img src='../../../../data/tables/table-2/table-2-06/original.images/image-01.png' alt='Table 2.6 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-2/table-2-06/data.tsv)
+
+| Age Group | Age specific marital fertility rates - 1963 | Age specific marital fertility rates - 1971 | Percentage change |
+| --- | --- | --- | --- |
+| 15 - 19 | 354 | 418 | 18.1 |
+| 20 - 24 | 396 | 388 | -2.0 |
+| 25 - 29 | 344 | 313 | -9.0 |
+| 30 - 34 | 270 | 237 | -12.2 |
+| 35 - 39 | 175 | 157 | -10.3 |
+| 40 - 44 | 53 | 49 | -7.5 |
+| 45 - 49 | 8 | 8 |  |
+
 ## Extracted [JSON Data](../../../../data/tables/table-2/table-2-06/data.json)
 
 ```json
@@ -154,18 +166,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-2/table-2-06/data.tsv)
-
-| Age Group | Age specific marital fertility rates - 1963 | Age specific marital fertility rates - 1971 | Percentage change |
-| --- | --- | --- | --- |
-| 15 - 19 | 354 | 418 | 18.1 |
-| 20 - 24 | 396 | 388 | -2.0 |
-| 25 - 29 | 344 | 313 | -9.0 |
-| 30 - 34 | 270 | 237 | -12.2 |
-| 35 - 39 | 175 | 157 | -10.3 |
-| 40 - 44 | 53 | 49 | -7.5 |
-| 45 - 49 | 8 | 8 |  |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

@@ -12,6 +12,16 @@
 
 <img src='../../../../data/tables/table-7/table-7-12/original.images/image-01.png' alt='Table 7.12 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-12/data.tsv)
+
+| Zone | Crude Birth Rates - 1963 | Crude Birth Rates - 1971 | Crude Birth Rates - Percent Change | General Fertility Rates - 1963 | General Fertility Rates - 1971 | General Fertility Rates - Percent Change | Total Fertility Rates - 1963 | Total Fertility Rates - 1971 | Total Fertility Rates - Percent Change |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Zone I | 31.7 | 27.9 | -11.99 | 150.4 | 125.8 | -16.35 | 4.61 | 3.81 | -17.35 |
+| Zone II | 40.0 | 33.8 | -15.5 | 218.3 | 167.4 | -23.27 | 6.24 | 4.97 | -20.35 |
+| Zone III | 36.9 | 33.4 | -9.49 | 188.4 | 164.3 | -12.79 | 5.52 | 4.95 | -10.33 |
+| Zone IV | 34.7 | 30.1 | -13.26 | 168.3 | 135.7 | -19.37 | 4.98 | 4.07 | -18.27 |
+| Sri Lanka | 34.4 | 30.2 | -12.21 | 166.8 | 138.7 | -15.91 | 5.04 | 4.16 | -17.46 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-12/data.json)
 
 ```json
@@ -187,16 +197,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-7/table-7-12/data.tsv)
-
-| Zone | Crude Birth Rates - 1963 | Crude Birth Rates - 1971 | Crude Birth Rates - Percent Change | General Fertility Rates - 1963 | General Fertility Rates - 1971 | General Fertility Rates - Percent Change | Total Fertility Rates - 1963 | Total Fertility Rates - 1971 | Total Fertility Rates - Percent Change |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Zone I | 31.7 | 27.9 | -11.99 | 150.4 | 125.8 | -16.35 | 4.61 | 3.81 | -17.35 |
-| Zone II | 40.0 | 33.8 | -15.5 | 218.3 | 167.4 | -23.27 | 6.24 | 4.97 | -20.35 |
-| Zone III | 36.9 | 33.4 | -9.49 | 188.4 | 164.3 | -12.79 | 5.52 | 4.95 | -10.33 |
-| Zone IV | 34.7 | 30.1 | -13.26 | 168.3 | 135.7 | -19.37 | 4.98 | 4.07 | -18.27 |
-| Sri Lanka | 34.4 | 30.2 | -12.21 | 166.8 | 138.7 | -15.91 | 5.04 | 4.16 | -17.46 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

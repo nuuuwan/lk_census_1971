@@ -12,6 +12,16 @@
 
 <img src='../../../../data/tables/table-5/table-5-02/original.images/image-01.png' alt='Table 5.2 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-5/table-5-02/data.tsv)
+
+| Census | Sex Ratio Score | Age Ratio Score - Male | Age Ratio Score - Female | Age Accuracy Index (Joint Scores) |
+| --- | --- | --- | --- | --- |
+| 1921 T | 22.0 | 14.1 | 17.4 | 97.5 |
+| 1946 T | 9.6 | 12.2 | 11.3 | 52.3 |
+| 1953 T | 4.4 | 8.8 | 11.0 | 33.0 |
+| 1963 T | 4.2 | 7.3 | 8.4 | 28.3 |
+| 1971 T | 4.1 | 5.4 | 7.9 | 25.6 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-5/table-5-02/data.json)
 
 ```json
@@ -130,16 +140,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-5/table-5-02/data.tsv)
-
-| Census | Sex Ratio Score | Age Ratio Score - Male | Age Ratio Score - Female | Age Accuracy Index (Joint Scores) |
-| --- | --- | --- | --- | --- |
-| 1921 T | 22.0 | 14.1 | 17.4 | 97.5 |
-| 1946 T | 9.6 | 12.2 | 11.3 | 52.3 |
-| 1953 T | 4.4 | 8.8 | 11.0 | 33.0 |
-| 1963 T | 4.2 | 7.3 | 8.4 | 28.3 |
-| 1971 T | 4.1 | 5.4 | 7.9 | 25.6 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

@@ -12,6 +12,18 @@
 
 <img src='../../../../data/tables/table-6/table-6-10/original.images/image-01.png' alt='Table 6.10 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-6/table-6-10/data.tsv)
+
+| Religion & Race | 1881-1911 | 1911-1946 | 1946-1971 |
+| --- | --- | --- | --- |
+| Buddhists | 45.7 | 73.56 | 98.77 |
+| Sinhalese | 47.0 | 70.1 | 97.6 |
+| Hindus | 58.07 | 40.71 | 69.56 |
+| Tamils | 54.1 | 59.1 | 71.1 |
+| Muslims | 49.48 | 53.91 | 106.6 |
+| Moors | 44.5 | 53.5 | 109.0 |
+| Christians | 52.08 | 47.41 | 66.5 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-6/table-6-10/data.json)
 
 ```json
@@ -154,18 +166,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-6/table-6-10/data.tsv)
-
-| Religion & Race | 1881-1911 | 1911-1946 | 1946-1971 |
-| --- | --- | --- | --- |
-| Buddhists | 45.7 | 73.56 | 98.77 |
-| Sinhalese | 47.0 | 70.1 | 97.6 |
-| Hindus | 58.07 | 40.71 | 69.56 |
-| Tamils | 54.1 | 59.1 | 71.1 |
-| Muslims | 49.48 | 53.91 | 106.6 |
-| Moors | 44.5 | 53.5 | 109.0 |
-| Christians | 52.08 | 47.41 | 66.5 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

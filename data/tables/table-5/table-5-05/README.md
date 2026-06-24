@@ -12,6 +12,15 @@
 
 <img src='../../../../data/tables/table-5/table-5-05/original.images/image-01.png' alt='Table 5.5 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-5/table-5-05/data.tsv)
+
+| Census Year | All ages | Age Group - 0 - 14 | Age Group - 15 - 64 | 65 & Over | Dependency ratio |
+| --- | --- | --- | --- | --- | --- |
+| 1946 | 100.0 | 37.2 | 59.3 | 3.4 | 68.6 |
+| 1953 | 100.0 | 39.7 | 56.8 | 3.5 | 76.1 |
+| 1963 | 100.0 | 41.8 | 54.6 | 3.6 | 83.0 |
+| 1971 | 100.0 | 39.0 | 56.8 | 4.2 | 76.1 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-5/table-5-05/data.json)
 
 ```json
@@ -123,15 +132,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-5/table-5-05/data.tsv)
-
-| Census Year | All ages | Age Group - 0 - 14 | Age Group - 15 - 64 | 65 & Over | Dependency ratio |
-| --- | --- | --- | --- | --- | --- |
-| 1946 | 100.0 | 37.2 | 59.3 | 3.4 | 68.6 |
-| 1953 | 100.0 | 39.7 | 56.8 | 3.5 | 76.1 |
-| 1963 | 100.0 | 41.8 | 54.6 | 3.6 | 83.0 |
-| 1971 | 100.0 | 39.0 | 56.8 | 4.2 | 76.1 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

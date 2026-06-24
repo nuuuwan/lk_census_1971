@@ -12,6 +12,15 @@
 
 <img src='../../../../data/tables/table-6/table-6-06/original.images/image-01.png' alt='Table 6.6 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-6/table-6-06/data.tsv)
+
+| Ethnic group | Number (in thousands) | Religion | Number (in thousands) - Religion | Religion as percentage of Ethnic Group |
+| --- | --- | --- | --- | --- |
+| Sinhalese | 9131.2 | Buddhist | 8536.9 | 93.5 |
+| Tamils | 2598.6 | Hindu | 2238.9 | 86.1 |
+| Moors and Malays | 899.1 | Muslim | 901.8 | 100.3 |
+| Burghers and Eurasians | 45.3 | Christian | 1004.3 |  |
+
 ## Extracted [JSON Data](../../../../data/tables/table-6/table-6-06/data.json)
 
 ```json
@@ -112,15 +121,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-6/table-6-06/data.tsv)
-
-| Ethnic group | Number (in thousands) | Religion | Number (in thousands) - Religion | Religion as percentage of Ethnic Group |
-| --- | --- | --- | --- | --- |
-| Sinhalese | 9131.2 | Buddhist | 8536.9 | 93.5 |
-| Tamils | 2598.6 | Hindu | 2238.9 | 86.1 |
-| Moors and Malays | 899.1 | Muslim | 901.8 | 100.3 |
-| Burghers and Eurasians | 45.3 | Christian | 1004.3 |  |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

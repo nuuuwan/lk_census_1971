@@ -12,6 +12,14 @@
 
 <img src='../../../../data/tables/table-9/table-9-10/original.images/image-01.png' alt='Table 9.10 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-9/table-9-10/data.tsv)
+
+|  | Employed | Unemployed | Engaged in | Income Reci-pient and Pensioners | Too old or Unable to Work | Others Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| Total | 28.75 | 2.34 | 15.5 | 8.26 | 43.95 | 1.17 |
+| Male | 48.12 | 2.48 | 1.85 | 11.07 | 35.1 | 1.35 |
+| Female | 5.16 | 2.18 | 32.11 | 4.84 | 54.73 | 0.96 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-9/table-9-10/data.json)
 
 ```json
@@ -108,14 +116,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-9/table-9-10/data.tsv)
-
-|  | Employed | Unemployed | Engaged in | Income Reci-pient and Pensioners | Too old or Unable to Work | Others Total |
-| --- | --- | --- | --- | --- | --- | --- |
-| Total | 28.75 | 2.34 | 15.5 | 8.26 | 43.95 | 1.17 |
-| Male | 48.12 | 2.48 | 1.85 | 11.07 | 35.1 | 1.35 |
-| Female | 5.16 | 2.18 | 32.11 | 4.84 | 54.73 | 0.96 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

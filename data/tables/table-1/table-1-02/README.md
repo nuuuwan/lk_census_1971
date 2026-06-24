@@ -12,6 +12,33 @@
 
 <img src='../../../../data/tables/table-1/table-1-02/original.images/image-01.png' alt='Table 1.2 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-1/table-1-02/data.tsv)
+
+| Topic | 1946 | 1953 | 1963 | 1971 |
+| --- | --- | --- | --- | --- |
+| Whether housing unit or other living quarters | False | False | False | True |
+| Whether used for residence only or for business too | False | False | True | True |
+| Whether occupied or vacant | False | False | True | True |
+| Type of structure (house,flat etc.) | False | False | False | True |
+| Material of walls | True | True | True | True |
+| Material of roof | True | True | True | True |
+| Material of floor | False | False | True | True |
+| Year of construction | False | False | False | True |
+| Water supply | False | False | True | True |
+| Bathing facilities | False | False | False | True |
+| Toilet facilities | False | False | True | True |
+| Type of lighting | False | False | True | True |
+| Number of rooms | True | True | True | True |
+| Floor space | False | False | True | True |
+| Availability of kitchen | False | False | True | True |
+| Fuel used for cooking | False | False | False | True |
+| Tenure (whether rented or owned) | True | True | True | True |
+| If owned and mortgaged, race of mortgagee | True | False | False | False |
+| Rent | False | True | True | True |
+| Number of families in household/households occupying unit | False | True | True | True |
+| Number of persons in households occupying unit | True | True | True | True |
+| Length of residence in present dwelling | False | True | False | False |
+
 ## Extracted [JSON Data](../../../../data/tables/table-1/table-1-02/data.json)
 
 ```json
@@ -441,33 +468,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-1/table-1-02/data.tsv)
-
-| Topic | 1946 | 1953 | 1963 | 1971 |
-| --- | --- | --- | --- | --- |
-| Whether housing unit or other living quarters | False | False | False | True |
-| Whether used for residence only or for business too | False | False | True | True |
-| Whether occupied or vacant | False | False | True | True |
-| Type of structure (house,flat etc.) | False | False | False | True |
-| Material of walls | True | True | True | True |
-| Material of roof | True | True | True | True |
-| Material of floor | False | False | True | True |
-| Year of construction | False | False | False | True |
-| Water supply | False | False | True | True |
-| Bathing facilities | False | False | False | True |
-| Toilet facilities | False | False | True | True |
-| Type of lighting | False | False | True | True |
-| Number of rooms | True | True | True | True |
-| Floor space | False | False | True | True |
-| Availability of kitchen | False | False | True | True |
-| Fuel used for cooking | False | False | False | True |
-| Tenure (whether rented or owned) | True | True | True | True |
-| If owned and mortgaged, race of mortgagee | True | False | False | False |
-| Rent | False | True | True | True |
-| Number of families in household/households occupying unit | False | True | True | True |
-| Number of persons in households occupying unit | True | True | True | True |
-| Length of residence in present dwelling | False | True | False | False |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

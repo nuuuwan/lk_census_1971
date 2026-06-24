@@ -12,6 +12,20 @@
 
 <img src='../../../../data/tables/table-9/table-9-13/original.images/image-01.png' alt='Table 9.13 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-9/table-9-13/data.tsv)
+
+| CATEGORY | CATEGORY_SUB | TOTAL - Number | EMPLOYERS - Number | EMPLOYERS - % | PAID WORKERS - Number | PAID WORKERS - % | WORKERS ON OWN ACCOUNT - Number | WORKERS ON OWN ACCOUNT - % | UNPAID FAMILY WORKERS - Number | UNPAID FAMILY WORKERS - % |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| All agriculture,Hunting, Forestry and Fishing | T | 1828977 | 24666 | 1.3 | 933229 | 51.0 | 707958 | 38.7 | 163124 | 8.9 |
+| All agriculture,Hunting, Forestry and Fishing | M | 1327746 | 23388 | 1.8 | 571558 | 43.0 | 647716 | 48.8 | 85084 | 6.4 |
+| All agriculture,Hunting, Forestry and Fishing | F | 501231 | 1278 | 0.2 | 361671 | 72.1 | 60242 | 12.0 | 78040 | 15.6 |
+| Tea,Rubber & Coconut (organised sector) | T | 740325 | 3845 | 0.5 | 717480 | 96.9 | 15741 | 2.1 | 3259 | 0.4 |
+| Tea,Rubber & Coconut (organised sector) | M | 388804 | 3295 | 0.8 | 372154 | 95.7 | 11841 | 3.0 | 1514 | 0.4 |
+| Tea,Rubber & Coconut (organised sector) | F | 351521 | 550 | 0.1 | 345326 | 98.2 | 3900 | 1.1 | 1745 | 0.5 |
+| Other agriculture, Hunting,Forestry and Fishing(traditional sector) | T | 1088652 | 20821 | 1.9 | 215749 | 19.8 | 692217 | 63.6 | 159865 | 14.7 |
+| Other agriculture, Hunting,Forestry and Fishing(traditional sector) | M | 938942 | 20093 | 2.1 | 199404 | 21.2 | 635875 | 67.7 | 83570 | 8.9 |
+| Other agriculture, Hunting,Forestry and Fishing(traditional sector) | F | 149710 | 728 | 0.5 | 16345 | 10.9 | 56342 | 37.6 | 76295 | 50.9 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-9/table-9-13/data.json)
 
 ```json
@@ -316,20 +330,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-9/table-9-13/data.tsv)
-
-| CATEGORY | CATEGORY_SUB | TOTAL - Number | EMPLOYERS - Number | EMPLOYERS - % | PAID WORKERS - Number | PAID WORKERS - % | WORKERS ON OWN ACCOUNT - Number | WORKERS ON OWN ACCOUNT - % | UNPAID FAMILY WORKERS - Number | UNPAID FAMILY WORKERS - % |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| All agriculture,Hunting, Forestry and Fishing | T | 1828977 | 24666 | 1.3 | 933229 | 51.0 | 707958 | 38.7 | 163124 | 8.9 |
-| All agriculture,Hunting, Forestry and Fishing | M | 1327746 | 23388 | 1.8 | 571558 | 43.0 | 647716 | 48.8 | 85084 | 6.4 |
-| All agriculture,Hunting, Forestry and Fishing | F | 501231 | 1278 | 0.2 | 361671 | 72.1 | 60242 | 12.0 | 78040 | 15.6 |
-| Tea,Rubber & Coconut (organised sector) | T | 740325 | 3845 | 0.5 | 717480 | 96.9 | 15741 | 2.1 | 3259 | 0.4 |
-| Tea,Rubber & Coconut (organised sector) | M | 388804 | 3295 | 0.8 | 372154 | 95.7 | 11841 | 3.0 | 1514 | 0.4 |
-| Tea,Rubber & Coconut (organised sector) | F | 351521 | 550 | 0.1 | 345326 | 98.2 | 3900 | 1.1 | 1745 | 0.5 |
-| Other agriculture, Hunting,Forestry and Fishing(traditional sector) | T | 1088652 | 20821 | 1.9 | 215749 | 19.8 | 692217 | 63.6 | 159865 | 14.7 |
-| Other agriculture, Hunting,Forestry and Fishing(traditional sector) | M | 938942 | 20093 | 2.1 | 199404 | 21.2 | 635875 | 67.7 | 83570 | 8.9 |
-| Other agriculture, Hunting,Forestry and Fishing(traditional sector) | F | 149710 | 728 | 0.5 | 16345 | 10.9 | 56342 | 37.6 | 76295 | 50.9 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

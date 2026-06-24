@@ -12,6 +12,17 @@
 
 <img src='../../../../data/tables/table-2/table-2-08/original.images/image-01.png' alt='Table 2.8 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-2/table-2-08/data.tsv)
+
+| Ethnic Group | Birth rate per 1000 persons | Death rate per 1000 persons | Rate of natural increase per cent |
+| --- | --- | --- | --- |
+| All Ethnic Groups | 35.8 | 8.2 | 2.76 |
+| Sinhalese | 31.7 | 7.4 | 2.43 |
+| Ceylon Tamils | 34.4 | 9.1 | 2.53 |
+| Ceylon Moors | 40.7 | 9.4 | 3.13 |
+| Indian Tamils | 26.7 | 11.2 | 1.55 |
+| Burghers | 20.3 | 7.9 | 1.24 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-2/table-2-08/data.json)
 
 ```json
@@ -135,17 +146,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-2/table-2-08/data.tsv)
-
-| Ethnic Group | Birth rate per 1000 persons | Death rate per 1000 persons | Rate of natural increase per cent |
-| --- | --- | --- | --- |
-| All Ethnic Groups | 35.8 | 8.2 | 2.76 |
-| Sinhalese | 31.7 | 7.4 | 2.43 |
-| Ceylon Tamils | 34.4 | 9.1 | 2.53 |
-| Ceylon Moors | 40.7 | 9.4 | 3.13 |
-| Indian Tamils | 26.7 | 11.2 | 1.55 |
-| Burghers | 20.3 | 7.9 | 1.24 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

@@ -12,6 +12,18 @@
 
 <img src='../../../../data/tables/table-3/table-3-08/original.images/image-01.png' alt='Table 3.8 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-3/table-3-08/data.tsv)
+
+| Population Size | M.CC - No. | M.CC - Population | U.CC - No. | U.CC - Population | T.CC - No. | T.CC - Population | TOTAL - No. | TOTAL - Population |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Less than 5000 |  |  | 4 | 13161 | 34 | 102554 | 38 | 115715 |
+| 5000 & less than 10,000 |  |  | 8 | 65468 | 22 | 150389 | 30 | 215857 |
+| 10,000 & less than 20,000 | 1 | 17288 | 13 | 206055 | 20 | 276218 | 34 | 499561 |
+| 20,000 & less than 50,000 | 5 | 157232 | 10 | 296464 | 10 | 328178 | 25 | 781874 |
+| 50,000 & less than100,000 | 3 | 221364 | 2 | 189947 |  |  | 5 | 411311 |
+| 100,000 & over | 3 | 823798 |  |  |  |  | 3 | 823798 |
+| Total | 12 | 1219682 | 37 | 771095 | 86 | 857339 | 135 | 2848116 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-3/table-3-08/data.json)
 
 ```json
@@ -226,18 +238,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-3/table-3-08/data.tsv)
-
-| Population Size | M.CC - No. | M.CC - Population | U.CC - No. | U.CC - Population | T.CC - No. | T.CC - Population | TOTAL - No. | TOTAL - Population |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Less than 5000 |  |  | 4 | 13161 | 34 | 102554 | 38 | 115715 |
-| 5000 & less than 10,000 |  |  | 8 | 65468 | 22 | 150389 | 30 | 215857 |
-| 10,000 & less than 20,000 | 1 | 17288 | 13 | 206055 | 20 | 276218 | 34 | 499561 |
-| 20,000 & less than 50,000 | 5 | 157232 | 10 | 296464 | 10 | 328178 | 25 | 781874 |
-| 50,000 & less than100,000 | 3 | 221364 | 2 | 189947 |  |  | 5 | 411311 |
-| 100,000 & over | 3 | 823798 |  |  |  |  | 3 | 823798 |
-| Total | 12 | 1219682 | 37 | 771095 | 86 | 857339 | 135 | 2848116 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

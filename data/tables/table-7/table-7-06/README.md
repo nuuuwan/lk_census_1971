@@ -12,6 +12,20 @@
 
 <img src='../../../../data/tables/table-7/table-7-06/original.images/image-01.png' alt='Table 7.6 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-06/data.tsv)
+
+| Age Group | Age-specific fertility rates - 1953 | Age-specific fertility rates - 1963 | Percent change 1953 - 1963 |
+| --- | --- | --- | --- |
+| 15-19 | 63.8 | 52.2 | -24.1 |
+| 20-24 | 259.3 | 227.8 | -12.1 |
+| 25-29 | 295.1 | 278.4 | -5.7 |
+| 30-34 | 246.0 | 239.5 | -2.6 |
+| 35-39 | 150.1 | 157.0 | 4.6 |
+| 40-44 | 38.1 | 45.8 | 20.2 |
+| 45-49 | 6.8 | 6.6 | -2.9 |
+| General Fertility Rate (15 - 44) | 189.5 | 166.8 | -12.0 |
+| Total Fertility Rate | 5.32 | 5.04 | -5.3 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-06/data.json)
 
 ```json
@@ -183,20 +197,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-7/table-7-06/data.tsv)
-
-| Age Group | Age-specific fertility rates - 1953 | Age-specific fertility rates - 1963 | Percent change 1953 - 1963 |
-| --- | --- | --- | --- |
-| 15-19 | 63.8 | 52.2 | -24.1 |
-| 20-24 | 259.3 | 227.8 | -12.1 |
-| 25-29 | 295.1 | 278.4 | -5.7 |
-| 30-34 | 246.0 | 239.5 | -2.6 |
-| 35-39 | 150.1 | 157.0 | 4.6 |
-| 40-44 | 38.1 | 45.8 | 20.2 |
-| 45-49 | 6.8 | 6.6 | -2.9 |
-| General Fertility Rate (15 - 44) | 189.5 | 166.8 | -12.0 |
-| Total Fertility Rate | 5.32 | 5.04 | -5.3 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

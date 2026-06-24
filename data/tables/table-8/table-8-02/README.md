@@ -12,6 +12,15 @@
 
 <img src='../../../../data/tables/table-8/table-8-02/original.images/image-01.png' alt='Table 8.2 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-8/table-8-02/data.tsv)
+
+| Year | Total | Male | Female | Difference between male and female rates |
+| --- | --- | --- | --- | --- |
+| 1946 | 628 | 765 | 468 | 297 |
+| 1953 | 690 | 807 | 555 | 252 |
+| 1963 | 771 | 858 | 675 | 183 |
+| 1971 | 785 | 856 | 709 | 147 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-8/table-8-02/data.json)
 
 ```json
@@ -112,15 +121,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-8/table-8-02/data.tsv)
-
-| Year | Total | Male | Female | Difference between male and female rates |
-| --- | --- | --- | --- | --- |
-| 1946 | 628 | 765 | 468 | 297 |
-| 1953 | 690 | 807 | 555 | 252 |
-| 1963 | 771 | 858 | 675 | 183 |
-| 1971 | 785 | 856 | 709 | 147 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

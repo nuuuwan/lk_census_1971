@@ -12,6 +12,34 @@
 
 <img src='../../../../data/tables/table-1/table-1-03/original.images/image-01.png' alt='Table 1.3 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-1/table-1-03/data.tsv)
+
+| District | Total | Urban | Rural | Estate |
+| --- | --- | --- | --- | --- |
+| S R I  L A N K A (Total) | 55065 | 7629 | 42315 | 5121 |
+| Colombo | 8381 | 3676 | 4589 | 116 |
+| Kalutara | 2853 | 405 | 2201 | 247 |
+| Kandy | 4570 | 367 | 3020 | 1183 |
+| Matale | 1489 | 96 | 1178 | 215 |
+| Nuwara-Eliya | 1881 | 74 | 980 | 827 |
+| Galle | 3468 | 502 | 2790 | 176 |
+| Matara | 2459 | 173 | 2080 | 206 |
+| Hambantota | 1646 | 113 | 1526 | 7 |
+| Jaffna | 2437 | 730 | 1703 | 4 |
+| Mannar | 531 | 29 | 500 | 2 |
+| Vavuniya | 695 | 62 | 633 |  |
+| Batticaloa | 1159 | 187 | 968 | 4 |
+| Amparai | 1161 | 99 | 1060 | 2 |
+| Trincomalee | 727 | 200 | 517 | 10 |
+| Kurunegala | 6059 | 116 | 5733 | 210 |
+| Puttalam | 2021 | 170 | 1745 | 106 |
+| Anuradhapura | 2177 | 107 | 2058 | 12 |
+| Polonnaruwa | 734 | 49 | 683 | 2 |
+| Badulla | 2792 | 145 | 1867 | 780 |
+| Moneragala | 1160 | 16 | 1092 | 52 |
+| Ratnapura | 3586 | 156 | 2895 | 535 |
+| Kegalle | 3079 | 157 | 2497 | 425 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-1/table-1-03/data.json)
 
 ```json
@@ -454,34 +482,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-1/table-1-03/data.tsv)
-
-| District | Total | Urban | Rural | Estate |
-| --- | --- | --- | --- | --- |
-| S R I  L A N K A (Total) | 55065 | 7629 | 42315 | 5121 |
-| Colombo | 8381 | 3676 | 4589 | 116 |
-| Kalutara | 2853 | 405 | 2201 | 247 |
-| Kandy | 4570 | 367 | 3020 | 1183 |
-| Matale | 1489 | 96 | 1178 | 215 |
-| Nuwara-Eliya | 1881 | 74 | 980 | 827 |
-| Galle | 3468 | 502 | 2790 | 176 |
-| Matara | 2459 | 173 | 2080 | 206 |
-| Hambantota | 1646 | 113 | 1526 | 7 |
-| Jaffna | 2437 | 730 | 1703 | 4 |
-| Mannar | 531 | 29 | 500 | 2 |
-| Vavuniya | 695 | 62 | 633 |  |
-| Batticaloa | 1159 | 187 | 968 | 4 |
-| Amparai | 1161 | 99 | 1060 | 2 |
-| Trincomalee | 727 | 200 | 517 | 10 |
-| Kurunegala | 6059 | 116 | 5733 | 210 |
-| Puttalam | 2021 | 170 | 1745 | 106 |
-| Anuradhapura | 2177 | 107 | 2058 | 12 |
-| Polonnaruwa | 734 | 49 | 683 | 2 |
-| Badulla | 2792 | 145 | 1867 | 780 |
-| Moneragala | 1160 | 16 | 1092 | 52 |
-| Ratnapura | 3586 | 156 | 2895 | 535 |
-| Kegalle | 3079 | 157 | 2497 | 425 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

@@ -12,6 +12,20 @@
 
 <img src='../../../../data/tables/table-9/table-9-19/original.images/image-01.png' alt='Table 9.19 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-9/table-9-19/data.tsv)
+
+| Year | Category | Employees - Number | Employees - % | Own Account Workers - Number | Own Account Workers - % | Paid Workers - Number | Paid Workers - % | Unpaid Family Workers - Number | Unpaid Family Workers - % | Miscellaneous - Number | Miscellaneous - % | Total Employed - Number | Total Employed - % | Total Unemployed - Number | Total Unemployed - % |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1953 | T | 93843 | 3.14 | 898156 | 30.01 | 1832295 | 61.21 | 169055 | 5.65 |  |  | 2993349 | 100 |  |  |
+| 1953 | M | 84643 | 3.73 | 761414 | 33.56 | 1347550 | 59.4 | 75133 | 3.31 |  |  | 2268740 | 100 |  |  |
+| 1953 | F | 9200 | 1.27 | 136742 | 18.87 | 484745 | 66.9 | 93922 | 12.96 |  |  | 724609 | 100 |  |  |
+| 1963 | T | 77941 | 2.44 | 853975 | 26.73 | 2080057 | 65.1 | 162104 | 5.07 | 21048 | 0.66 | 3195125 | 100 | 263869 | 7.63 |
+| 1963 | M | 74184 | 2.92 | 797553 | 31.39 | 1535932 | 60.46 | 119362 | 4.7 | 13376 | 0.53 | 2540407 | 100 | 199691 | 7.86 |
+| 1963 | F | 3757 | 0.57 | 56422 | 8.62 | 544125 | 83.11 | 42742 | 6.53 | 7672 | 1.17 | 654718 | 100 | 64178 | 8.93 |
+| 1971 | T | 113846 | 3.12 | 913750 | 25.04 | 2429957 | 66.59 | 191322 | 5.24 |  |  | 3648875 | 100 | 839264 | 18.7 |
+| 1971 | M | 107539 | 3.78 | 823122 | 28.99 | 1806949 | 63.66 | 100794 | 3.55 |  |  | 2838404 | 100 | 474065 | 14.3 |
+| 1971 | F | 6307 | 0.77 | 90628 | 11.18 | 623008 | 76.86 | 90528 | 11.16 |  |  | 810471 | 100 | 365199 | 31.1 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-9/table-9-19/data.json)
 
 ```json
@@ -411,20 +425,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-9/table-9-19/data.tsv)
-
-| Year | Category | Employees - Number | Employees - % | Own Account Workers - Number | Own Account Workers - % | Paid Workers - Number | Paid Workers - % | Unpaid Family Workers - Number | Unpaid Family Workers - % | Miscellaneous - Number | Miscellaneous - % | Total Employed - Number | Total Employed - % | Total Unemployed - Number | Total Unemployed - % |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1953 | T | 93843 | 3.14 | 898156 | 30.01 | 1832295 | 61.21 | 169055 | 5.65 |  |  | 2993349 | 100 |  |  |
-| 1953 | M | 84643 | 3.73 | 761414 | 33.56 | 1347550 | 59.4 | 75133 | 3.31 |  |  | 2268740 | 100 |  |  |
-| 1953 | F | 9200 | 1.27 | 136742 | 18.87 | 484745 | 66.9 | 93922 | 12.96 |  |  | 724609 | 100 |  |  |
-| 1963 | T | 77941 | 2.44 | 853975 | 26.73 | 2080057 | 65.1 | 162104 | 5.07 | 21048 | 0.66 | 3195125 | 100 | 263869 | 7.63 |
-| 1963 | M | 74184 | 2.92 | 797553 | 31.39 | 1535932 | 60.46 | 119362 | 4.7 | 13376 | 0.53 | 2540407 | 100 | 199691 | 7.86 |
-| 1963 | F | 3757 | 0.57 | 56422 | 8.62 | 544125 | 83.11 | 42742 | 6.53 | 7672 | 1.17 | 654718 | 100 | 64178 | 8.93 |
-| 1971 | T | 113846 | 3.12 | 913750 | 25.04 | 2429957 | 66.59 | 191322 | 5.24 |  |  | 3648875 | 100 | 839264 | 18.7 |
-| 1971 | M | 107539 | 3.78 | 823122 | 28.99 | 1806949 | 63.66 | 100794 | 3.55 |  |  | 2838404 | 100 | 474065 | 14.3 |
-| 1971 | F | 6307 | 0.77 | 90628 | 11.18 | 623008 | 76.86 | 90528 | 11.16 |  |  | 810471 | 100 | 365199 | 31.1 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

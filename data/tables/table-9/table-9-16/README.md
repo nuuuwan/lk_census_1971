@@ -12,6 +12,32 @@
 
 <img src='../../../../data/tables/table-9/table-9-16/original.images/image-01.png' alt='Table 9.16 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-9/table-9-16/data.tsv)
+
+| Activity | Gender | 1953 - Number | 1953 - % | 1963 - Number | 1963 - % | 1971 - Number | 1971 - % |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Total Service Sector | T | 848408 | 100 | 943173 | 100 | 1040369 | 100 |
+| Total Service Sector | M | 695493 | 100 | 792766 | 100 | 880214 | 100 |
+| Total Service Sector | F | 150407 | 100 | 150407 | 100 | 160155 | 100 |
+| Wholesale and Retail Trade | T | 232633 | 27.4 | 279658 | 29.7 | 278666 | 26.8 |
+| Wholesale and Retail Trade | M | 207253 | 29.8 | 260304 | 32.8 | 258893 | 29.4 |
+| Wholesale and Retail Trade | F | 25380 | 16.6 | 19354 | 12.9 | 19773 | 12.3 |
+| Restaurants | T | 38110 | 4.5 | 60180 | 6.4 | 65102 | 6.3 |
+| Restaurants | M | 34534 | 5.0 | 56454 | 7.1 | 61546 | 7.0 |
+| Restaurants | F | 3576 | 2.3 | 3726 | 2.5 | 3556 | 2.2 |
+| Land Transport | T | 84129 | 9.9 | 85145 | 9.0 | 124565 | 12.0 |
+| Land Transport | M | 80145 | 11.5 | 84566 | 10.7 | 123450 | 14.0 |
+| Land Transport | F | 3984 | 2.6 | 579 | 0.4 | 1115 | 0.7 |
+| Public Administration and Defence | T | 116202 | 13.7 | 121477 | 12.9 | 162745 | 15.6 |
+| Public Administration and Defence | M | 107271 | 15.4 | 114063 | 14.4 | 150641 | 17.1 |
+| Public Administration and Defence | F | 8931 | 5.8 | 7414 | 4.9 | 12104 | 7.6 |
+| Educational and Health Services | T | 85356 | 10.1 | 136340 | 14.5 | 175945 | 16.9 |
+| Educational and Health Services | M | 52347 | 7.5 | 77535 | 9.8 | 98778 | 11.2 |
+| Educational and Health Services | F | 33009 | 21.6 | 58805 | 39.1 | 77167 | 48.1 |
+| Domestic Services | T | 111451 | 13.1 | 95654 | 10.1 | 63731 | 6.1 |
+| Domestic Services | M | 55677 | 8.1 | 47394 | 6.0 | 28307 | 3.2 |
+| Domestic Services | F | 54774 | 35.8 | 48260 | 32.1 | 35424 | 22.1 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-9/table-9-16/data.json)
 
 ```json
@@ -547,32 +573,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-9/table-9-16/data.tsv)
-
-| Activity | Gender | 1953 - Number | 1953 - % | 1963 - Number | 1963 - % | 1971 - Number | 1971 - % |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Total Service Sector | T | 848408 | 100 | 943173 | 100 | 1040369 | 100 |
-| Total Service Sector | M | 695493 | 100 | 792766 | 100 | 880214 | 100 |
-| Total Service Sector | F | 150407 | 100 | 150407 | 100 | 160155 | 100 |
-| Wholesale and Retail Trade | T | 232633 | 27.4 | 279658 | 29.7 | 278666 | 26.8 |
-| Wholesale and Retail Trade | M | 207253 | 29.8 | 260304 | 32.8 | 258893 | 29.4 |
-| Wholesale and Retail Trade | F | 25380 | 16.6 | 19354 | 12.9 | 19773 | 12.3 |
-| Restaurants | T | 38110 | 4.5 | 60180 | 6.4 | 65102 | 6.3 |
-| Restaurants | M | 34534 | 5.0 | 56454 | 7.1 | 61546 | 7.0 |
-| Restaurants | F | 3576 | 2.3 | 3726 | 2.5 | 3556 | 2.2 |
-| Land Transport | T | 84129 | 9.9 | 85145 | 9.0 | 124565 | 12.0 |
-| Land Transport | M | 80145 | 11.5 | 84566 | 10.7 | 123450 | 14.0 |
-| Land Transport | F | 3984 | 2.6 | 579 | 0.4 | 1115 | 0.7 |
-| Public Administration and Defence | T | 116202 | 13.7 | 121477 | 12.9 | 162745 | 15.6 |
-| Public Administration and Defence | M | 107271 | 15.4 | 114063 | 14.4 | 150641 | 17.1 |
-| Public Administration and Defence | F | 8931 | 5.8 | 7414 | 4.9 | 12104 | 7.6 |
-| Educational and Health Services | T | 85356 | 10.1 | 136340 | 14.5 | 175945 | 16.9 |
-| Educational and Health Services | M | 52347 | 7.5 | 77535 | 9.8 | 98778 | 11.2 |
-| Educational and Health Services | F | 33009 | 21.6 | 58805 | 39.1 | 77167 | 48.1 |
-| Domestic Services | T | 111451 | 13.1 | 95654 | 10.1 | 63731 | 6.1 |
-| Domestic Services | M | 55677 | 8.1 | 47394 | 6.0 | 28307 | 3.2 |
-| Domestic Services | F | 54774 | 35.8 | 48260 | 32.1 | 35424 | 22.1 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

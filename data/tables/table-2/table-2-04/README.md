@@ -12,6 +12,13 @@
 
 <img src='../../../../data/tables/table-2/table-2-04/original.images/image-01.png' alt='Table 2.4 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-2/table-2-04/data.tsv)
+
+|  | 1946 | 1953 | 1963 | 1971 |
+| --- | --- | --- | --- | --- |
+| Males | 27.0 | 27.2 | 27.9 | 28.0 |
+| Females | 20.7 | 20.9 | 22.1 | 23.5 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-2/table-2-04/data.json)
 
 ```json
@@ -76,13 +83,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-2/table-2-04/data.tsv)
-
-|  | 1946 | 1953 | 1963 | 1971 |
-| --- | --- | --- | --- | --- |
-| Males | 27.0 | 27.2 | 27.9 | 28.0 |
-| Females | 20.7 | 20.9 | 22.1 | 23.5 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

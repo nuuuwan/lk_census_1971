@@ -12,6 +12,30 @@
 
 <img src='../../../../data/tables/table-2/table-2-10/original.images/image-01.png' alt='Table 2.10 Image' width='640px' />
 
+## Extracted [TSV Data](../../../../data/tables/table-2/table-2-10/data.tsv)
+
+| Country | Average Annual Rate of Growth (1963-72) |
+| --- | --- |
+| United Kingdom | 0.4 |
+| Norway | 0.8 |
+| Japan | 1.1 |
+| U.S.A. | 1.1 |
+| New Zealand | 1.5 |
+| Canada | 1.6 |
+| Australia | 1.9 |
+| Singapore | 2.0 |
+| Hongkong | 2.0 |
+| Sri Lanka (1963-71) | 2.2 |
+| India | 2.2 |
+| West Malaysia | 2.4 |
+| Indonesia | 2.1 |
+| Pakistan | 2.4 |
+| Thailand | 3.1 |
+| Mexico | 3.5 |
+| Philippines | 3.0 |
+| Iran | 3.0 |
+| Iraq | 3.3 |
+
 ## Extracted [JSON Data](../../../../data/tables/table-2/table-2-10/data.json)
 
 ```json
@@ -267,30 +291,6 @@
     }
 ]
 ```
-
-## Extracted [TSV Data](../../../../data/tables/table-2/table-2-10/data.tsv)
-
-| Country | Average Annual Rate of Growth (1963-72) |
-| --- | --- |
-| United Kingdom | 0.4 |
-| Norway | 0.8 |
-| Japan | 1.1 |
-| U.S.A. | 1.1 |
-| New Zealand | 1.5 |
-| Canada | 1.6 |
-| Australia | 1.9 |
-| Singapore | 2.0 |
-| Hongkong | 2.0 |
-| Sri Lanka (1963-71) | 2.2 |
-| India | 2.2 |
-| West Malaysia | 2.4 |
-| Indonesia | 2.1 |
-| Pakistan | 2.4 |
-| Thailand | 3.1 |
-| Mexico | 3.5 |
-| Philippines | 3.0 |
-| Iran | 3.0 |
-| Iraq | 3.3 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
