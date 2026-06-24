@@ -81,6 +81,9 @@ class ReadMe:
                 + f" ({Table.AI_MAX_TOKENS} tokens,"
                 + f" [prompt]({Table.PROMPT_FILE.path})).",
                 "",
+                "Structured data is availble in multiple JSON and TSV formats."
+                + " PDF and Images of the original tables are also included.",
+                "",
                 f'<img src="{title_page_first_image_file.path}"'
                 + ' style="max-height:640px;">',
                 "",
