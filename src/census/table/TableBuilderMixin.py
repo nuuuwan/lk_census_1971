@@ -7,6 +7,7 @@ class TableBuilderMixin:
     def build(self):
         self.build_pdf()
         # self.build_data()
+        self.build_readme()
 
     @classmethod
     def build_all(cls):
