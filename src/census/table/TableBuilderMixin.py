@@ -9,5 +9,5 @@ class TableBuilderMixin:
         cls.extract_list_of_tables()
 
         tables = cls.list()
-        for table in tables[:1]:
+        for table in tables:
             table.build()
