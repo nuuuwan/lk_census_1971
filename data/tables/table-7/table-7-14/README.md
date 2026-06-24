@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-7/table-7-14/original.pdf (106.0 kB)](../../../../data/tables/table-7/table-7-14/original.pdf)
 - 📜 Original Table Image - [data/tables/table-7/table-7-14/original.images/image-01.png (218.7 kB)](../../../../data/tables/table-7/table-7-14/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-7/table-7-14/data.json (1.4 kB)](../../../../data/tables/table-7/table-7-14/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-7/table-7-14/normalized_data.json (1.0 kB)](../../../../data/tables/table-7/table-7-14/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-7/table-7-14/data.tsv (268 B)](../../../../data/tables/table-7/table-7-14/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-7/table-7-14/original.images/image-01.png)
@@ -76,6 +77,58 @@
     ],
     "notes": []
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-7/table-7-14/normalized_data.json)
+
+```json
+[
+    {
+        "Ethnic Group": "Sinhalese",
+        "values": {
+            "Rank": 3,
+            "Child-Woman Ratio - 1963": 741.17,
+            "Child-Woman Ratio - 1971": 598.09,
+            "Percentage Change": -19.3
+        }
+    },
+    {
+        "Ethnic Group": "Sri Lanka Tamil",
+        "values": {
+            "Rank": 2,
+            "Child-Woman Ratio - 1963": 773.76,
+            "Child-Woman Ratio - 1971": 609.23,
+            "Percentage Change": -21.23
+        }
+    },
+    {
+        "Ethnic Group": "Indian Tamil",
+        "values": {
+            "Rank": 4,
+            "Child-Woman Ratio - 1963": 617.11,
+            "Child-Woman Ratio - 1971": 536.54,
+            "Percentage Change": -12.73
+        }
+    },
+    {
+        "Ethnic Group": "Sri Lanka Moor",
+        "values": {
+            "Rank": 1,
+            "Child-Woman Ratio - 1963": 940.72,
+            "Child-Woman Ratio - 1971": 767.03,
+            "Percentage Change": -18.46
+        }
+    },
+    {
+        "Ethnic Group": "Burgher",
+        "values": {
+            "Rank": 5,
+            "Child-Woman Ratio - 1963": 550.05,
+            "Child-Woman Ratio - 1971": 427.91,
+            "Percentage Change": -22.21
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-7/table-7-14/data.tsv)

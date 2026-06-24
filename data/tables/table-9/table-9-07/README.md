@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-9/table-9-07/original.pdf (92.6 kB)](../../../../data/tables/table-9/table-9-07/original.pdf)
 - 📜 Original Table Image - [data/tables/table-9/table-9-07/original.images/image-01.png (220.7 kB)](../../../../data/tables/table-9/table-9-07/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-9/table-9-07/data.json (970 B)](../../../../data/tables/table-9/table-9-07/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-9/table-9-07/normalized_data.json (585 B)](../../../../data/tables/table-9/table-9-07/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-9/table-9-07/data.tsv (155 B)](../../../../data/tables/table-9/table-9-07/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-9/table-9-07/original.images/image-01.png)
@@ -66,6 +67,46 @@
     ],
     "notes": []
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-9/table-9-07/normalized_data.json)
+
+```json
+[
+    {
+        "": "T",
+        "values": {
+            "Employed": 54.9,
+            "Unemployed": 10.5,
+            "Students": 1.4,
+            "Engaged in home duties": 29.5,
+            "Others": 3.8,
+            "Total": 100
+        }
+    },
+    {
+        "": "M",
+        "values": {
+            "Employed": 82.7,
+            "Unemployed": 11.1,
+            "Students": 1.5,
+            "Engaged in home duties": 1.1,
+            "Others": 3.6,
+            "Total": 100
+        }
+    },
+    {
+        "": "F",
+        "values": {
+            "Employed": 25.0,
+            "Unemployed": 9.8,
+            "Students": 1.3,
+            "Engaged in home duties": 59.8,
+            "Others": 3.9,
+            "Total": 100
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-9/table-9-07/data.tsv)

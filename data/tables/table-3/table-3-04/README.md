@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-3/table-3-04/original.pdf (65.5 kB)](../../../../data/tables/table-3/table-3-04/original.pdf)
 - 📜 Original Table Image - [data/tables/table-3/table-3-04/original.images/image-01.png (160.8 kB)](../../../../data/tables/table-3/table-3-04/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-3/table-3-04/data.json (2.6 kB)](../../../../data/tables/table-3/table-3-04/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-3/table-3-04/normalized_data.json (1.9 kB)](../../../../data/tables/table-3/table-3-04/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-3/table-3-04/data.tsv (472 B)](../../../../data/tables/table-3/table-3-04/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-3/table-3-04/original.images/image-01.png)
@@ -106,6 +107,83 @@
     ],
     "notes": []
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-3/table-3-04/normalized_data.json)
+
+```json
+[
+    {
+        "Zone": "I",
+        "values": {
+            "Land Area - Sq.Mis.": 2540,
+            "Land Area - %": 10.3,
+            "Population in 1000 - 1963": 4022.3,
+            "Population in 1000 - %": 37.7,
+            "Population in 1000 - 1971": 4723.4,
+            "Population in 1000 - % (1971)": 37.0,
+            "Density per Sq.Mile - 1963": 1581,
+            "Density per Sq.Mile - 1971": 1861,
+            "% Incre": 17.0
+        }
+    },
+    {
+        "Zone": "II",
+        "values": {
+            "Land Area - Sq.Mis.": 10125,
+            "Land Area - %": 40.5,
+            "Population in 1000 - 1963": 1314.6,
+            "Population in 1000 - %": 12.5,
+            "Population in 1000 - 1971": 1736.7,
+            "Population in 1000 - % (1971)": 13.7,
+            "Density per Sq.Mile - 1963": 130,
+            "Density per Sq.Mile - 1971": 172,
+            "% Incre": 32.0
+        }
+    },
+    {
+        "Zone": "III",
+        "values": {
+            "Land Area - Sq.Mis.": 5316,
+            "Land Area - %": 21.3,
+            "Population in 1000 - 1963": 1076.1,
+            "Population in 1000 - %": 10.3,
+            "Population in 1000 - 1971": 1319.6,
+            "Population in 1000 - % (1971)": 10.2,
+            "Density per Sq.Mile - 1963": 202,
+            "Density per Sq.Mile - 1971": 248,
+            "% Incre": 22.0
+        }
+    },
+    {
+        "Zone": "IV",
+        "values": {
+            "Land Area - Sq.Mis.": 6981,
+            "Land Area - %": 27.9,
+            "Population in 1000 - 1963": 4196.1,
+            "Population in 1000 - %": 39.5,
+            "Population in 1000 - 1971": 4910.2,
+            "Population in 1000 - % (1971)": 39.1,
+            "Density per Sq.Mile - 1963": 600,
+            "Density per Sq.Mile - 1971": 702,
+            "% Incre": 17.0
+        }
+    },
+    {
+        "Zone": "Sri Lanka",
+        "values": {
+            "Land Area - Sq.Mis.": 24962,
+            "Land Area - %": 100,
+            "Population in 1000 - 1963": 10582.1,
+            "Population in 1000 - %": 100,
+            "Population in 1000 - 1971": 12689.9,
+            "Population in 1000 - % (1971)": 100,
+            "Density per Sq.Mile - 1963": 423,
+            "Density per Sq.Mile - 1971": 508,
+            "% Incre": 20.0
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-3/table-3-04/data.tsv)

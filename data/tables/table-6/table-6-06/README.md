@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-6/table-6-06/original.pdf (92.4 kB)](../../../../data/tables/table-6/table-6-06/original.pdf)
 - 📜 Original Table Image - [data/tables/table-6/table-6-06/original.images/image-01.png (199.2 kB)](../../../../data/tables/table-6/table-6-06/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-6/table-6-06/data.json (1.4 kB)](../../../../data/tables/table-6/table-6-06/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-6/table-6-06/normalized_data.json (956 B)](../../../../data/tables/table-6/table-6-06/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-6/table-6-06/data.tsv (279 B)](../../../../data/tables/table-6/table-6-06/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-6/table-6-06/original.images/image-01.png)
@@ -67,6 +68,49 @@
     ],
     "notes": []
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-6/table-6-06/normalized_data.json)
+
+```json
+[
+    {
+        "Ethnic group": "Sinhalese",
+        "values": {
+            "Number (in thousands)": 9131.2,
+            "Religion": "Buddhist",
+            "Number (in thousands) - Religion": 8536.9,
+            "Religion as percentage of Ethnic Group": 93.5
+        }
+    },
+    {
+        "Ethnic group": "Tamils",
+        "values": {
+            "Number (in thousands)": 2598.6,
+            "Religion": "Hindu",
+            "Number (in thousands) - Religion": 2238.9,
+            "Religion as percentage of Ethnic Group": 86.1
+        }
+    },
+    {
+        "Ethnic group": "Moors and Malays",
+        "values": {
+            "Number (in thousands)": 899.1,
+            "Religion": "Muslim",
+            "Number (in thousands) - Religion": 901.8,
+            "Religion as percentage of Ethnic Group": 100.3
+        }
+    },
+    {
+        "Ethnic group": "Burghers and Eurasians",
+        "values": {
+            "Number (in thousands)": 45.3,
+            "Religion": "Christian",
+            "Number (in thousands) - Religion": 1004.3,
+            "Religion as percentage of Ethnic Group": null
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-6/table-6-06/data.tsv)

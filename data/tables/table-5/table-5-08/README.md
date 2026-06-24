@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-5/table-5-08/original.pdf (81.2 kB)](../../../../data/tables/table-5/table-5-08/original.pdf)
 - 📜 Original Table Image - [data/tables/table-5/table-5-08/original.images/image-01.png (186.5 kB)](../../../../data/tables/table-5/table-5-08/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-5/table-5-08/data.json (767 B)](../../../../data/tables/table-5/table-5-08/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-5/table-5-08/normalized_data.json (499 B)](../../../../data/tables/table-5/table-5-08/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-5/table-5-08/data.tsv (109 B)](../../../../data/tables/table-5/table-5-08/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-5/table-5-08/original.images/image-01.png)
@@ -64,6 +65,49 @@
     ],
     "notes": []
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-5/table-5-08/normalized_data.json)
+
+```json
+[
+    {
+        "District": "Sri Lanka",
+        "values": {
+            "Sex Ratio": 1061
+        }
+    },
+    {
+        "District": "Colombo",
+        "values": {
+            "Sex Ratio": 1101
+        }
+    },
+    {
+        "District": "Kalutara",
+        "values": {
+            "Sex Ratio": 1015
+        }
+    },
+    {
+        "District": "Kandy",
+        "values": {
+            "Sex Ratio": 1039
+        }
+    },
+    {
+        "District": "Matale",
+        "values": {
+            "Sex Ratio": 1063
+        }
+    },
+    {
+        "District": "Nuwara Eliya",
+        "values": {
+            "Sex Ratio": 1041
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-5/table-5-08/data.tsv)

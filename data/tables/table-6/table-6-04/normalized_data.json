@@ -1,0 +1,353 @@
+[
+  {
+    "District": "Sri Lanka",
+    "values": {
+      "Low country Sinhalese": 100.0,
+      "Kandyan Sinhalese": 100.0,
+      "Sri Lankan Tamils": 100.0,
+      "Indian Tamils": 100.0,
+      "Sri Lankan Moors": 100.0,
+      "Indian Moors": 100.0,
+      "Burghers": 100.0,
+      "Malays": 100.0
+    }
+  },
+  {
+    "District": "1. Colombo",
+    "values": {
+      "Low country Sinhalese": 39.3,
+      "Kandyan Sinhalese": 2.4,
+      "Sri Lankan Tamils": 11.9,
+      "Indian Tamils": 5.1,
+      "Sri Lankan Moors": 17.9,
+      "Indian Moors": 22.9,
+      "Burghers": 72.2,
+      "Malays": 63.7
+    }
+  },
+  {
+    "District": "2. Kalutara",
+    "values": {
+      "Low country Sinhalese": 11.6,
+      "Kandyan Sinhalese": 0.2,
+      "Sri Lankan Tamils": 0.5,
+      "Indian Tamils": 3.3,
+      "Sri Lankan Moors": 6.0,
+      "Indian Moors": 1.8,
+      "Burghers": 0.9,
+      "Malays": 1.6
+    }
+  },
+  {
+    "District": "3. Galle",
+    "values": {
+      "Low country Sinhalese": 12.8,
+      "Kandyan Sinhalese": 0.1,
+      "Sri Lankan Tamils": 0.3,
+      "Indian Tamils": 1.3,
+      "Sri Lankan Moors": 2.7,
+      "Indian Moors": 1.1,
+      "Burghers": 1.1,
+      "Malays": 0.5
+    }
+  },
+  {
+    "District": "4. Matara",
+    "values": {
+      "Low country Sinhalese": 10.2,
+      "Kandyan Sinhalese": 0.06,
+      "Sri Lankan Tamils": 0.1,
+      "Indian Tamils": 1.6,
+      "Sri Lankan Moors": 1.8,
+      "Indian Moors": 0.4,
+      "Burghers": 0.4,
+      "Malays": 0.2
+    }
+  },
+  {
+    "District": "Zone (i)",
+    "values": {
+      "Low country Sinhalese": 73.9,
+      "Kandyan Sinhalese": 2.7,
+      "Sri Lankan Tamils": 12.8,
+      "Indian Tamils": 11.3,
+      "Sri Lankan Moors": 28.4,
+      "Indian Moors": 26.2,
+      "Burghers": 80.6,
+      "Malays": 66.0
+    }
+  },
+  {
+    "District": "5. Hambantota",
+    "values": {
+      "Low country Sinhalese": 6.0,
+      "Kandyan Sinhalese": 0.08,
+      "Sri Lankan Tamils": 0.1,
+      "Indian Tamils": 0.3,
+      "Sri Lankan Moors": 0.5,
+      "Indian Moors": 0.0,
+      "Burghers": 0.0,
+      "Malays": 7.6
+    }
+  },
+  {
+    "District": "6. Moneragala",
+    "values": {
+      "Low country Sinhalese": 0.7,
+      "Kandyan Sinhalese": 3.7,
+      "Sri Lankan Tamils": 0.2,
+      "Indian Tamils": 0.9,
+      "Sri Lankan Moors": 0.4,
+      "Indian Moors": 0.4,
+      "Burghers": 0.2,
+      "Malays": 0.2
+    }
+  },
+  {
+    "District": "7. Amparai",
+    "values": {
+      "Low country Sinhalese": 0.6,
+      "Kandyan Sinhalese": 1.4,
+      "Sri Lankan Tamils": 4.2,
+      "Indian Tamils": 0.2,
+      "Sri Lankan Moors": 15.3,
+      "Indian Moors": 2.9,
+      "Burghers": 1.5,
+      "Malays": 0.5
+    }
+  },
+  {
+    "District": "8. Polonnaruwa",
+    "values": {
+      "Low country Sinhalese": 0.9,
+      "Kandyan Sinhalese": 2.6,
+      "Sri Lankan Tamils": 0.3,
+      "Indian Tamils": 0.2,
+      "Sri Lankan Moors": 1.4,
+      "Indian Moors": 0.4,
+      "Burghers": 2.2,
+      "Malays": 0.0
+    }
+  },
+  {
+    "District": "9. Anuradhapura",
+    "values": {
+      "Low country Sinhalese": 1.5,
+      "Kandyan Sinhalese": 7.2,
+      "Sri Lankan Tamils": 0.5,
+      "Indian Tamils": 0.2,
+      "Sri Lankan Moors": 3.1,
+      "Indian Moors": 2.9,
+      "Burghers": 0.4,
+      "Malays": 0.7
+    }
+  },
+  {
+    "District": "10. Puttalam",
+    "values": {
+      "Low country Sinhalese": 5.0,
+      "Kandyan Sinhalese": 0.9,
+      "Sri Lankan Tamils": 1.8,
+      "Indian Tamils": 0.5,
+      "Sri Lankan Moors": 4.5,
+      "Indian Moors": 2.6,
+      "Burghers": 0.9,
+      "Malays": 1.8
+    }
+  },
+  {
+    "District": "Zone (ii)",
+    "values": {
+      "Low country Sinhalese": 14.7,
+      "Kandyan Sinhalese": 15.8,
+      "Sri Lankan Tamils": 7.1,
+      "Indian Tamils": 2.3,
+      "Sri Lankan Moors": 25.2,
+      "Indian Moors": 9.2,
+      "Burghers": 5.2,
+      "Malays": 10.8
+    }
+  },
+  {
+    "District": "11. Jaffna",
+    "values": {
+      "Low country Sinhalese": 0.07,
+      "Kandyan Sinhalese": 0.06,
+      "Sri Lankan Tamils": 46.7,
+      "Indian Tamils": 1.5,
+      "Sri Lankan Moors": 1.2,
+      "Indian Moors": 2.2,
+      "Burghers": 0.7,
+      "Malays": 0.5
+    }
+  },
+  {
+    "District": "12. Mannar",
+    "values": {
+      "Low country Sinhalese": 0.04,
+      "Kandyan Sinhalese": 0.02,
+      "Sri Lankan Tamils": 2.8,
+      "Indian Tamils": 1.1,
+      "Sri Lankan Moors": 2.4,
+      "Indian Moors": 6.9,
+      "Burghers": 0.0,
+      "Malays": 0.0
+    }
+  },
+  {
+    "District": "13. Vavuniya",
+    "values": {
+      "Low country Sinhalese": 0.09,
+      "Kandyan Sinhalese": 0.3,
+      "Sri Lankan Tamils": 4.1,
+      "Indian Tamils": 1.2,
+      "Sri Lankan Moors": 0.8,
+      "Indian Moors": 1.1,
+      "Burghers": 2.2,
+      "Malays": 0.2
+    }
+  },
+  {
+    "District": "14. Trincomalee",
+    "values": {
+      "Low country Sinhalese": 0.5,
+      "Kandyan Sinhalese": 0.7,
+      "Sri Lankan Tamils": 4.6,
+      "Indian Tamils": 0.4,
+      "Sri Lankan Moors": 7.3,
+      "Indian Moors": 1.8,
+      "Burghers": 2.6,
+      "Malays": 1.1
+    }
+  },
+  {
+    "District": "15. Batticaloa",
+    "values": {
+      "Low country Sinhalese": 0.1,
+      "Kandyan Sinhalese": 0.2,
+      "Sri Lankan Tamils": 12.4,
+      "Indian Tamils": 0.4,
+      "Sri Lankan Moors": 7.4,
+      "Indian Moors": 2.2,
+      "Burghers": 4.2,
+      "Malays": 0.2
+    }
+  },
+  {
+    "District": "Zone (iii)",
+    "values": {
+      "Low country Sinhalese": 0.8,
+      "Kandyan Sinhalese": 1.3,
+      "Sri Lankan Tamils": 70.6,
+      "Indian Tamils": 4.6,
+      "Sri Lankan Moors": 19.1,
+      "Indian Moors": 14.2,
+      "Burghers": 9.7,
+      "Malays": 2.0
+    }
+  },
+  {
+    "District": "16. Kandy",
+    "values": {
+      "Low country Sinhalese": 2.4,
+      "Kandyan Sinhalese": 16.4,
+      "Sri Lankan Tamils": 3.6,
+      "Indian Tamils": 24.3,
+      "Sri Lankan Moors": 11.7,
+      "Indian Moors": 16.1,
+      "Burghers": 6.6,
+      "Malays": 7.6
+    }
+  },
+  {
+    "District": "17. Matale",
+    "values": {
+      "Low country Sinhalese": 0.7,
+      "Kandyan Sinhalese": 5.3,
+      "Sri Lankan Tamils": 0.8,
+      "Indian Tamils": 3.9,
+      "Sri Lankan Moors": 2.4,
+      "Indian Moors": 4.4,
+      "Burghers": 0.9,
+      "Malays": 1.4
+    }
+  },
+  {
+    "District": "18. N'Eliya",
+    "values": {
+      "Low country Sinhalese": 0.7,
+      "Kandyan Sinhalese": 4.1,
+      "Sri Lankan Tamils": 1.3,
+      "Indian Tamils": 20.0,
+      "Sri Lankan Moors": 0.9,
+      "Indian Moors": 4.4,
+      "Burghers": 1.5,
+      "Malays": 1.8
+    }
+  },
+  {
+    "District": "19. Badulla",
+    "values": {
+      "Low country Sinhalese": 0.9,
+      "Kandyan Sinhalese": 8.4,
+      "Sri Lankan Tamils": 1.4,
+      "Indian Tamils": 17.8,
+      "Sri Lankan Moors": 2.4,
+      "Indian Moors": 8.0,
+      "Burghers": 1.9,
+      "Malays": 3.9
+    }
+  },
+  {
+    "District": "20. Ratnapura",
+    "values": {
+      "Low country Sinhalese": 2.0,
+      "Kandyan Sinhalese": 12.8,
+      "Sri Lankan Tamils": 0.7,
+      "Indian Tamils": 9.6,
+      "Sri Lankan Moors": 0.9,
+      "Indian Moors": 6.6,
+      "Burghers": 0.9,
+      "Malays": 1.4
+    }
+  },
+  {
+    "District": "21. Kegalle",
+    "values": {
+      "Low country Sinhalese": 0.9,
+      "Kandyan Sinhalese": 13.0,
+      "Sri Lankan Tamils": 0.8,
+      "Indian Tamils": 5.3,
+      "Sri Lankan Moors": 3.5,
+      "Indian Moors": 4.7,
+      "Burghers": 0.7,
+      "Malays": 1.1
+    }
+  },
+  {
+    "District": "22. Kurunegala",
+    "values": {
+      "Low country Sinhalese": 3.2,
+      "Kandyan Sinhalese": 20.3,
+      "Sri Lankan Tamils": 0.7,
+      "Indian Tamils": 1.1,
+      "Sri Lankan Moors": 5.6,
+      "Indian Moors": 5.8,
+      "Burghers": 1.5,
+      "Malays": 3.2
+    }
+  },
+  {
+    "District": "Zone (iv)",
+    "values": {
+      "Low country Sinhalese": 10.6,
+      "Kandyan Sinhalese": 80.2,
+      "Sri Lankan Tamils": 9.3,
+      "Indian Tamils": 82.0,
+      "Sri Lankan Moors": 27.4,
+      "Indian Moors": 50.0,
+      "Burghers": 14.0,
+      "Malays": 20.4
+    }
+  }
+]

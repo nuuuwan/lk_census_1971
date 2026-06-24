@@ -1,0 +1,35 @@
+[
+  {
+    "": "Total",
+    "values": {
+      "Employed": 28.75,
+      "Unemployed": 2.34,
+      "Engaged in": 15.5,
+      "Income Reci-pient and Pensioners": 8.26,
+      "Too old or Unable to Work": 43.95,
+      "Others Total": 1.17
+    }
+  },
+  {
+    "": "Male",
+    "values": {
+      "Employed": 48.12,
+      "Unemployed": 2.48,
+      "Engaged in": 1.85,
+      "Income Reci-pient and Pensioners": 11.07,
+      "Too old or Unable to Work": 35.1,
+      "Others Total": 1.35
+    }
+  },
+  {
+    "": "Female",
+    "values": {
+      "Employed": 5.16,
+      "Unemployed": 2.18,
+      "Engaged in": 32.11,
+      "Income Reci-pient and Pensioners": 4.84,
+      "Too old or Unable to Work": 54.73,
+      "Others Total": 0.96
+    }
+  }
+]

@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-6/table-6-10/original.pdf (96.1 kB)](../../../../data/tables/table-6/table-6-10/original.pdf)
 - 📜 Original Table Image - [data/tables/table-6/table-6-10/original.images/image-01.png (225.0 kB)](../../../../data/tables/table-6/table-6-10/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-6/table-6-10/data.json (1.6 kB)](../../../../data/tables/table-6/table-6-10/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-6/table-6-10/normalized_data.json (989 B)](../../../../data/tables/table-6/table-6-10/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-6/table-6-10/data.tsv (229 B)](../../../../data/tables/table-6/table-6-10/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-6/table-6-10/original.images/image-01.png)
@@ -89,6 +90,69 @@
         "It is evident from the table that the growth of each religious group is parallel to that of the corresponding ethnic group."
     ]
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-6/table-6-10/normalized_data.json)
+
+```json
+[
+    {
+        "Religion & Race": "Buddhists",
+        "values": {
+            "1881-1911": 45.7,
+            "1911-1946": 73.56,
+            "1946-1971": 98.77
+        }
+    },
+    {
+        "Religion & Race": "Sinhalese",
+        "values": {
+            "1881-1911": 47.0,
+            "1911-1946": 70.1,
+            "1946-1971": 97.6
+        }
+    },
+    {
+        "Religion & Race": "Hindus",
+        "values": {
+            "1881-1911": 58.07,
+            "1911-1946": 40.71,
+            "1946-1971": 69.56
+        }
+    },
+    {
+        "Religion & Race": "Tamils",
+        "values": {
+            "1881-1911": 54.1,
+            "1911-1946": 59.1,
+            "1946-1971": 71.1
+        }
+    },
+    {
+        "Religion & Race": "Muslims",
+        "values": {
+            "1881-1911": 49.48,
+            "1911-1946": 53.91,
+            "1946-1971": 106.6
+        }
+    },
+    {
+        "Religion & Race": "Moors",
+        "values": {
+            "1881-1911": 44.5,
+            "1911-1946": 53.5,
+            "1946-1971": 109.0
+        }
+    },
+    {
+        "Religion & Race": "Christians",
+        "values": {
+            "1881-1911": 52.08,
+            "1911-1946": 47.41,
+            "1946-1971": 66.5
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-6/table-6-10/data.tsv)

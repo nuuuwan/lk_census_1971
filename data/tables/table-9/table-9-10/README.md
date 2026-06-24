@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-9/table-9-10/original.pdf (94.8 kB)](../../../../data/tables/table-9/table-9-10/original.pdf)
 - 📜 Original Table Image - [data/tables/table-9/table-9-10/original.images/image-01.png (218.7 kB)](../../../../data/tables/table-9/table-9-10/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-9/table-9-10/data.json (1.2 kB)](../../../../data/tables/table-9/table-9-10/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-9/table-9-10/normalized_data.json (728 B)](../../../../data/tables/table-9/table-9-10/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-9/table-9-10/data.tsv (222 B)](../../../../data/tables/table-9/table-9-10/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-9/table-9-10/original.images/image-01.png)
@@ -66,6 +67,46 @@
     ],
     "notes": []
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-9/table-9-10/normalized_data.json)
+
+```json
+[
+    {
+        "": "Total",
+        "values": {
+            "Employed": 28.75,
+            "Unemployed": 2.34,
+            "Engaged in": 15.5,
+            "Income Reci-pient and Pensioners": 8.26,
+            "Too old or Unable to Work": 43.95,
+            "Others Total": 1.17
+        }
+    },
+    {
+        "": "Male",
+        "values": {
+            "Employed": 48.12,
+            "Unemployed": 2.48,
+            "Engaged in": 1.85,
+            "Income Reci-pient and Pensioners": 11.07,
+            "Too old or Unable to Work": 35.1,
+            "Others Total": 1.35
+        }
+    },
+    {
+        "": "Female",
+        "values": {
+            "Employed": 5.16,
+            "Unemployed": 2.18,
+            "Engaged in": 32.11,
+            "Income Reci-pient and Pensioners": 4.84,
+            "Too old or Unable to Work": 54.73,
+            "Others Total": 0.96
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-9/table-9-10/data.tsv)

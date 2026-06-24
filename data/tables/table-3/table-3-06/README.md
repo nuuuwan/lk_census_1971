@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-3/table-3-06/original.pdf (68.1 kB)](../../../../data/tables/table-3/table-3-06/original.pdf)
 - 📜 Original Table Image - [data/tables/table-3/table-3-06/original.images/image-01.png (169.4 kB)](../../../../data/tables/table-3/table-3-06/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-3/table-3-06/data.json (1.6 kB)](../../../../data/tables/table-3/table-3-06/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-3/table-3-06/normalized_data.json (736 B)](../../../../data/tables/table-3/table-3-06/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-3/table-3-06/data.tsv (300 B)](../../../../data/tables/table-3/table-3-06/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-3/table-3-06/original.images/image-01.png)
@@ -61,6 +62,40 @@
         "At the 1963 and earlier censuses, only Municipal and Urban Council areas were classified as Urban because Town Councils were not in existence at these censuses."
     ]
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-3/table-3-06/normalized_data.json)
+
+```json
+[
+    {
+        "Category": "(a) Total (urban and rural)",
+        "values": {
+            "1963 - Population": 10582064,
+            "1963 - Percentage of total": 100.0,
+            "1971 - Population": 12689897,
+            "1971 - Percentage of total": 100.0
+        }
+    },
+    {
+        "Category": "(b) All urban areas",
+        "values": {
+            "1963 - Population": 2016285,
+            "1963 - Percentage of total": 19.0,
+            "1971 - Population": 2848116,
+            "1971 - Percentage of total": 22.4
+        }
+    },
+    {
+        "Category": "(c) All areas which were classified as urban in both 1963 and 1971",
+        "values": {
+            "1963 - Population": 2016285,
+            "1963 - Percentage of total": 19.0,
+            "1971 - Population": 2444919,
+            "1971 - Percentage of total": 19.3
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-3/table-3-06/data.tsv)

@@ -1,0 +1,38 @@
+[
+  {
+    "Year": 1946,
+    "values": {
+      "Total": 628,
+      "Male": 765,
+      "Female": 468,
+      "Difference between male and female rates": 297
+    }
+  },
+  {
+    "Year": 1953,
+    "values": {
+      "Total": 690,
+      "Male": 807,
+      "Female": 555,
+      "Difference between male and female rates": 252
+    }
+  },
+  {
+    "Year": 1963,
+    "values": {
+      "Total": 771,
+      "Male": 858,
+      "Female": 675,
+      "Difference between male and female rates": 183
+    }
+  },
+  {
+    "Year": 1971,
+    "values": {
+      "Total": 785,
+      "Male": 856,
+      "Female": 709,
+      "Difference between male and female rates": 147
+    }
+  }
+]

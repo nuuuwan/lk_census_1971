@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-9/table-9-08/original.pdf (94.1 kB)](../../../../data/tables/table-9/table-9-08/original.pdf)
 - 📜 Original Table Image - [data/tables/table-9/table-9-08/original.images/image-01.png (215.0 kB)](../../../../data/tables/table-9/table-9-08/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-9/table-9-08/data.json (1.8 kB)](../../../../data/tables/table-9/table-9-08/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-9/table-9-08/normalized_data.json (1.3 kB)](../../../../data/tables/table-9/table-9-08/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-9/table-9-08/data.tsv (358 B)](../../../../data/tables/table-9/table-9-08/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-9/table-9-08/original.images/image-01.png)
@@ -99,6 +100,79 @@
     ],
     "notes": []
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-9/table-9-08/normalized_data.json)
+
+```json
+[
+    {
+        "Status": "Paid Employee.",
+        "values": {
+            "1953 - Number": 484745,
+            "1953 - %": 66.9,
+            "1963 - Number": 544125,
+            "1963 - %": 83.11,
+            "1971 - Number": 599901,
+            "1971 - %": 77.54
+        }
+    },
+    {
+        "Status": "Employer",
+        "values": {
+            "1953 - Number": 9200,
+            "1953 - %": 1.27,
+            "1963 - Number": 3757,
+            "1963 - %": 0.57,
+            "1971 - Number": 5543,
+            "1971 - %": 0.72
+        }
+    },
+    {
+        "Status": "Own Account Worker",
+        "values": {
+            "1953 - Number": 136742,
+            "1953 - %": 18.87,
+            "1963 - Number": 56422,
+            "1963 - %": 8.62,
+            "1971 - Number": 82935,
+            "1971 - %": 10.72
+        }
+    },
+    {
+        "Status": "Unpaid Family Worker",
+        "values": {
+            "1953 - Number": 93922,
+            "1953 - %": 12.96,
+            "1963 - Number": 42742,
+            "1963 - %": 6.53,
+            "1971 - Number": 85242,
+            "1971 - %": 11.02
+        }
+    },
+    {
+        "Status": "Status Unspecified",
+        "values": {
+            "1953 - Number": null,
+            "1953 - %": null,
+            "1963 - Number": 7672,
+            "1963 - %": 1.17,
+            "1971 - Number": null,
+            "1971 - %": null
+        }
+    },
+    {
+        "Status": "Total",
+        "values": {
+            "1953 - Number": 724609,
+            "1953 - %": 100,
+            "1963 - Number": 654718,
+            "1963 - %": 100,
+            "1971 - Number": 773621,
+            "1971 - %": 100
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-9/table-9-08/data.tsv)

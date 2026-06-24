@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-2/table-2-04/original.pdf (71.1 kB)](../../../../data/tables/table-2/table-2-04/original.pdf)
 - 📜 Original Table Image - [data/tables/table-2/table-2-04/original.images/image-01.png (167.0 kB)](../../../../data/tables/table-2/table-2-04/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-2/table-2-04/data.json (554 B)](../../../../data/tables/table-2/table-2-04/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-2/table-2-04/normalized_data.json (258 B)](../../../../data/tables/table-2/table-2-04/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-2/table-2-04/data.tsv (78 B)](../../../../data/tables/table-2/table-2-04/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-2/table-2-04/original.images/image-01.png)
@@ -49,6 +50,31 @@
     ],
     "notes": []
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-2/table-2-04/normalized_data.json)
+
+```json
+[
+    {
+        "": "Males",
+        "values": {
+            "1946": 27.0,
+            "1953": 27.2,
+            "1963": 27.9,
+            "1971": 28.0
+        }
+    },
+    {
+        "": "Females",
+        "values": {
+            "1946": 20.7,
+            "1953": 20.9,
+            "1963": 22.1,
+            "1971": 23.5
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-2/table-2-04/data.tsv)

@@ -1,0 +1,50 @@
+[
+  {
+    "Ethnic Group": "All Ethnic Groups",
+    "values": {
+      "Birth rate per 1000 persons": 35.8,
+      "Death rate per 1000 persons": 8.2,
+      "Rate of natural increase per cent": 2.76
+    }
+  },
+  {
+    "Ethnic Group": "Sinhalese",
+    "values": {
+      "Birth rate per 1000 persons": 31.7,
+      "Death rate per 1000 persons": 7.4,
+      "Rate of natural increase per cent": 2.43
+    }
+  },
+  {
+    "Ethnic Group": "Ceylon Tamils",
+    "values": {
+      "Birth rate per 1000 persons": 34.4,
+      "Death rate per 1000 persons": 9.1,
+      "Rate of natural increase per cent": 2.53
+    }
+  },
+  {
+    "Ethnic Group": "Ceylon Moors",
+    "values": {
+      "Birth rate per 1000 persons": 40.7,
+      "Death rate per 1000 persons": 9.4,
+      "Rate of natural increase per cent": 3.13
+    }
+  },
+  {
+    "Ethnic Group": "Indian Tamils",
+    "values": {
+      "Birth rate per 1000 persons": 26.7,
+      "Death rate per 1000 persons": 11.2,
+      "Rate of natural increase per cent": 1.55
+    }
+  },
+  {
+    "Ethnic Group": "Burghers",
+    "values": {
+      "Birth rate per 1000 persons": 20.3,
+      "Death rate per 1000 persons": 7.9,
+      "Rate of natural increase per cent": 1.24
+    }
+  }
+]

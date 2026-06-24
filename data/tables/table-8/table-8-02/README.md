@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-8/table-8-02/original.pdf (77.6 kB)](../../../../data/tables/table-8/table-8-02/original.pdf)
 - 📜 Original Table Image - [data/tables/table-8/table-8-02/original.images/image-01.png (187.7 kB)](../../../../data/tables/table-8/table-8-02/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-8/table-8-02/data.json (1.1 kB)](../../../../data/tables/table-8/table-8-02/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-8/table-8-02/normalized_data.json (654 B)](../../../../data/tables/table-8/table-8-02/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-8/table-8-02/data.tsv (153 B)](../../../../data/tables/table-8/table-8-02/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-8/table-8-02/original.images/image-01.png)
@@ -67,6 +68,49 @@
     ],
     "notes": []
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-8/table-8-02/normalized_data.json)
+
+```json
+[
+    {
+        "Year": 1946,
+        "values": {
+            "Total": 628,
+            "Male": 765,
+            "Female": 468,
+            "Difference between male and female rates": 297
+        }
+    },
+    {
+        "Year": 1953,
+        "values": {
+            "Total": 690,
+            "Male": 807,
+            "Female": 555,
+            "Difference between male and female rates": 252
+        }
+    },
+    {
+        "Year": 1963,
+        "values": {
+            "Total": 771,
+            "Male": 858,
+            "Female": 675,
+            "Difference between male and female rates": 183
+        }
+    },
+    {
+        "Year": 1971,
+        "values": {
+            "Total": 785,
+            "Male": 856,
+            "Female": 709,
+            "Difference between male and female rates": 147
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-8/table-8-02/data.tsv)

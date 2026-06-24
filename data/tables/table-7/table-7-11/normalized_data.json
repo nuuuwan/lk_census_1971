@@ -1,0 +1,26 @@
+[
+  {
+    "Year": 1953,
+    "values": {
+      "Urban": 549,
+      "Rural": 672,
+      "Rural x 100 / Urban": 123
+    }
+  },
+  {
+    "Year": 1963,
+    "values": {
+      "Urban": 594,
+      "Rural": 712,
+      "Rural x 100 / Urban": 120
+    }
+  },
+  {
+    "Year": 1971,
+    "values": {
+      "Urban": 492,
+      "Rural": 569,
+      "Rural x 100 / Urban": 116
+    }
+  }
+]

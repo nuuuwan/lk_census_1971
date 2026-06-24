@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-2/table-2-07/original.pdf (82.9 kB)](../../../../data/tables/table-2/table-2-07/original.pdf)
 - 📜 Original Table Image - [data/tables/table-2/table-2-07/original.images/image-01.png (178.3 kB)](../../../../data/tables/table-2/table-2-07/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-2/table-2-07/data.json (1.6 kB)](../../../../data/tables/table-2/table-2-07/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-2/table-2-07/normalized_data.json (1.1 kB)](../../../../data/tables/table-2/table-2-07/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-2/table-2-07/data.tsv (243 B)](../../../../data/tables/table-2/table-2-07/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-2/table-2-07/original.images/image-01.png)
@@ -88,6 +89,69 @@
         "Department of Census and Statistics : \"The Population of Sri Lanka\" C.I.C.R.E.D. Series 1974 - Page 14."
     ]
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-2/table-2-07/normalized_data.json)
+
+```json
+[
+    {
+        "AVERAGE ANNUAL RATE OF GROWTH": "All Ethnic Groups",
+        "values": {
+            "1946-53": 2.8,
+            "1953-63": 2.7,
+            "1963-71": 2.2
+        }
+    },
+    {
+        "AVERAGE ANNUAL RATE OF GROWTH": "Sinhalese",
+        "values": {
+            "1946-53": 2.8,
+            "1953-63": 2.9,
+            "1963-71": 2.4
+        }
+    },
+    {
+        "AVERAGE ANNUAL RATE OF GROWTH": "Ceylon Tamils",
+        "values": {
+            "1946-53": 2.7,
+            "1953-63": 2.7,
+            "1963-71": 2.4
+        }
+    },
+    {
+        "AVERAGE ANNUAL RATE OF GROWTH": "Indian Tamils",
+        "values": {
+            "1946-53": 3.2,
+            "1953-63": 2.3,
+            "1963-71": -0.3
+        }
+    },
+    {
+        "AVERAGE ANNUAL RATE OF GROWTH": "Ceylon Moors",
+        "values": {
+            "1946-53": 3.1,
+            "1953-63": 3.0,
+            "1963-71": 3.5
+        }
+    },
+    {
+        "AVERAGE ANNUAL RATE OF GROWTH": "Indian Moors",
+        "values": {
+            "1946-53": 4.2,
+            "1953-63": 1.5,
+            "1963-71": -8.2
+        }
+    },
+    {
+        "AVERAGE ANNUAL RATE OF GROWTH": "Burghers",
+        "values": {
+            "1946-53": 1.4,
+            "1953-63": -0.03,
+            "1963-71": -0.14
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-2/table-2-07/data.tsv)

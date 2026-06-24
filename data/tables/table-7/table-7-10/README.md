@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-7/table-7-10/original.pdf (92.8 kB)](../../../../data/tables/table-7/table-7-10/original.pdf)
 - 📜 Original Table Image - [data/tables/table-7/table-7-10/original.images/image-01.png (201.2 kB)](../../../../data/tables/table-7/table-7-10/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-7/table-7-10/data.json (1.1 kB)](../../../../data/tables/table-7/table-7-10/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-7/table-7-10/normalized_data.json (798 B)](../../../../data/tables/table-7/table-7-10/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-7/table-7-10/data.tsv (154 B)](../../../../data/tables/table-7/table-7-10/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-7/table-7-10/original.images/image-01.png)
@@ -70,6 +71,55 @@
     ],
     "notes": []
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-7/table-7-10/normalized_data.json)
+
+```json
+[
+    {
+        "Age Group": "15 - 19",
+        "values": {
+            "Live births born per ever married woman": 0.584
+        }
+    },
+    {
+        "Age Group": "20 - 24",
+        "values": {
+            "Live births born per ever married woman": 1.492
+        }
+    },
+    {
+        "Age Group": "25 - 29",
+        "values": {
+            "Live births born per ever married woman": 2.72
+        }
+    },
+    {
+        "Age Group": "30 - 34",
+        "values": {
+            "Live births born per ever married woman": 3.945
+        }
+    },
+    {
+        "Age Group": "35 - 39",
+        "values": {
+            "Live births born per ever married woman": 5.14
+        }
+    },
+    {
+        "Age Group": "40 - 44",
+        "values": {
+            "Live births born per ever married woman": 5.222
+        }
+    },
+    {
+        "Age Group": "45 - 49",
+        "values": {
+            "Live births born per ever married woman": 5.605
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-7/table-7-10/data.tsv)

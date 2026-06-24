@@ -1,0 +1,38 @@
+[
+  {
+    "District": "Sri Lanka",
+    "values": {
+      "Sex Ratio": 1061
+    }
+  },
+  {
+    "District": "Colombo",
+    "values": {
+      "Sex Ratio": 1101
+    }
+  },
+  {
+    "District": "Kalutara",
+    "values": {
+      "Sex Ratio": 1015
+    }
+  },
+  {
+    "District": "Kandy",
+    "values": {
+      "Sex Ratio": 1039
+    }
+  },
+  {
+    "District": "Matale",
+    "values": {
+      "Sex Ratio": 1063
+    }
+  },
+  {
+    "District": "Nuwara Eliya",
+    "values": {
+      "Sex Ratio": 1041
+    }
+  }
+]

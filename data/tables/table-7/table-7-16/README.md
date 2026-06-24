@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-7/table-7-16/original.pdf (52.2 kB)](../../../../data/tables/table-7/table-7-16/original.pdf)
 - 📜 Original Table Image - [data/tables/table-7/table-7-16/original.images/image-01.png (139.8 kB)](../../../../data/tables/table-7/table-7-16/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-7/table-7-16/data.json (874 B)](../../../../data/tables/table-7/table-7-16/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-7/table-7-16/normalized_data.json (580 B)](../../../../data/tables/table-7/table-7-16/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-7/table-7-16/data.tsv (146 B)](../../../../data/tables/table-7/table-7-16/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-7/table-7-16/original.images/image-01.png)
@@ -58,6 +59,43 @@
     ],
     "notes": []
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-7/table-7-16/normalized_data.json)
+
+```json
+[
+    {
+        "Religion": "Buddhists",
+        "values": {
+            "Children 0 - 4 per 1000 women 15 - 49": 605.42
+        }
+    },
+    {
+        "Religion": "Hindus",
+        "values": {
+            "Children 0 - 4 per 1000 women 15 - 49": 573.52
+        }
+    },
+    {
+        "Religion": "Muslims",
+        "values": {
+            "Children 0 - 4 per 1000 women 15 - 49": 759.13
+        }
+    },
+    {
+        "Religion": "Roman Catholics",
+        "values": {
+            "Children 0 - 4 per 1000 women 15 - 49": 537.62
+        }
+    },
+    {
+        "Religion": "Other Christians",
+        "values": {
+            "Children 0 - 4 per 1000 women 15 - 49": 398.31
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-7/table-7-16/data.tsv)

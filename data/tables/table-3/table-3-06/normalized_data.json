@@ -1,0 +1,29 @@
+[
+  {
+    "Category": "(a) Total (urban and rural)",
+    "values": {
+      "1963 - Population": 10582064,
+      "1963 - Percentage of total": 100.0,
+      "1971 - Population": 12689897,
+      "1971 - Percentage of total": 100.0
+    }
+  },
+  {
+    "Category": "(b) All urban areas",
+    "values": {
+      "1963 - Population": 2016285,
+      "1963 - Percentage of total": 19.0,
+      "1971 - Population": 2848116,
+      "1971 - Percentage of total": 22.4
+    }
+  },
+  {
+    "Category": "(c) All areas which were classified as urban in both 1963 and 1971",
+    "values": {
+      "1963 - Population": 2016285,
+      "1963 - Percentage of total": 19.0,
+      "1971 - Population": 2444919,
+      "1971 - Percentage of total": 19.3
+    }
+  }
+]

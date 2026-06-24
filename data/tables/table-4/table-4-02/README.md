@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-4/table-4-02/original.pdf (65.5 kB)](../../../../data/tables/table-4/table-4-02/original.pdf)
 - 📜 Original Table Image - [data/tables/table-4/table-4-02/original.images/image-01.png (156.4 kB)](../../../../data/tables/table-4/table-4-02/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-4/table-4-02/data.json (9.0 kB)](../../../../data/tables/table-4/table-4-02/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-4/table-4-02/normalized_data.json (7.8 kB)](../../../../data/tables/table-4/table-4-02/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-4/table-4-02/data.tsv (1.7 kB)](../../../../data/tables/table-4/table-4-02/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-4/table-4-02/original.images/image-01.png)
@@ -406,6 +407,381 @@
     ],
     "notes": []
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-4/table-4-02/normalized_data.json)
+
+```json
+[
+    {
+        "District of Residence (Total)": "Sri Lanka",
+        "values": {
+            "Total SriLankaBorn": 12550343,
+            "Colombo": 2481821,
+            "Kalutara": 756818,
+            "Kandy": 1272385,
+            "Matale": 311805,
+            "N'Eliya": 463078,
+            "Galle": 830516,
+            "Matara": 703586,
+            "H'tota": 327146,
+            "Jaffna": 760941,
+            "Mannar": 81407
+        }
+    },
+    {
+        "District of Residence (Total)": "Colombo",
+        "values": {
+            "Total SriLankaBorn": 2642411,
+            "Colombo": 2202459,
+            "Kalutara": 60573,
+            "Kandy": 52501,
+            "Matale": 7414,
+            "N'Eliya": 15921,
+            "Galle": 69443,
+            "Matara": 54854,
+            "H'tota": 5924,
+            "Jaffna": 33832,
+            "Mannar": 5246
+        }
+    },
+    {
+        "District of Residence (Total)": "Kalutara",
+        "values": {
+            "Total SriLankaBorn": 728263,
+            "Colombo": 44738,
+            "Kalutara": 629303,
+            "Kandy": 5257,
+            "Matale": 598,
+            "N'Eliya": 888,
+            "Galle": 18641,
+            "Matara": 7619,
+            "H'tota": 732,
+            "Jaffna": 547,
+            "Mannar": 528
+        }
+    },
+    {
+        "District of Residence (Total)": "Kandy",
+        "values": {
+            "Total SriLankaBorn": 1156692,
+            "Colombo": 19519,
+            "Kalutara": 4671,
+            "Kandy": 1008373,
+            "Matale": 18384,
+            "N'Eliya": 34536,
+            "Galle": 8490,
+            "Matara": 7352,
+            "H'tota": 691,
+            "Jaffna": 4567,
+            "Mannar": 1814
+        }
+    },
+    {
+        "District of Residence (Total)": "Matale",
+        "values": {
+            "Total SriLankaBorn": 312761,
+            "Colombo": 4994,
+            "Kalutara": 1854,
+            "Kandy": 36827,
+            "Matale": 245891,
+            "N'Eliya": 3502,
+            "Galle": 1951,
+            "Matara": 1324,
+            "H'tota": 93,
+            "Jaffna": 792,
+            "Mannar": 344
+        }
+    },
+    {
+        "District of Residence (Total)": "Nuwara Eliya",
+        "values": {
+            "Total SriLankaBorn": 431716,
+            "Colombo": 4595,
+            "Kalutara": 855,
+            "Kandy": 40751,
+            "Matale": 4620,
+            "N'Eliya": 357733,
+            "Galle": 2073,
+            "Matara": 1702,
+            "H'tota": 386,
+            "Jaffna": 1110,
+            "Mannar": 588
+        }
+    },
+    {
+        "District of Residence (Total)": "Galle",
+        "values": {
+            "Total SriLankaBorn": 735533,
+            "Colombo": 12777,
+            "Kalutara": 16659,
+            "Kandy": 3064,
+            "Matale": 723,
+            "N'Eliya": 1041,
+            "Galle": 667915,
+            "Matara": 20816,
+            "H'tota": 1666,
+            "Jaffna": 488,
+            "Mannar": 832
+        }
+    },
+    {
+        "District of Residence (Total)": "Matara",
+        "values": {
+            "Total SriLankaBorn": 583918,
+            "Colombo": 5993,
+            "Kalutara": 2688,
+            "Kandy": 3376,
+            "Matale": 253,
+            "N'Eliya": 1282,
+            "Galle": 16544,
+            "Matara": 527344,
+            "H'tota": 11829,
+            "Jaffna": 474,
+            "Mannar": 433
+        }
+    },
+    {
+        "District of Residence (Total)": "Hambantota",
+        "values": {
+            "Total SriLankaBorn": 340839,
+            "Colombo": 2279,
+            "Kalutara": 805,
+            "Kandy": 927,
+            "Matale": 77,
+            "N'Eliya": 277,
+            "Galle": 4543,
+            "Matara": 34854,
+            "H'tota": 288274,
+            "Jaffna": 515,
+            "Mannar": 522
+        }
+    },
+    {
+        "District of Residence (Total)": "Jaffna",
+        "values": {
+            "Total SriLankaBorn": 698289,
+            "Colombo": 3921,
+            "Kalutara": 577,
+            "Kandy": 4242,
+            "Matale": 1101,
+            "N'Eliya": 1188,
+            "Galle": 566,
+            "Matara": 898,
+            "H'tota": 131,
+            "Jaffna": 672587,
+            "Mannar": 4075
+        }
+    },
+    {
+        "District of Residence (Total)": "Mannar",
+        "values": {
+            "Total SriLankaBorn": 74321,
+            "Colombo": 2102,
+            "Kalutara": 218,
+            "Kandy": 13214,
+            "Matale": 183,
+            "N'Eliya": 374,
+            "Galle": 200,
+            "Matara": 239,
+            "H'tota": 8,
+            "Jaffna": 6565,
+            "Mannar": 58727
+        }
+    },
+    {
+        "District of Residence (Total)": "Vavuniya",
+        "values": {
+            "Total SriLankaBorn": 92814,
+            "Colombo": 1789,
+            "Kalutara": 1153,
+            "Kandy": 3943,
+            "Matale": 1022,
+            "N'Eliya": 1193,
+            "Galle": 243,
+            "Matara": 159,
+            "H'tota": 83,
+            "Jaffna": 14605,
+            "Mannar": 1225
+        }
+    },
+    {
+        "District of Residence (Total)": "Batticaloa",
+        "values": {
+            "Total SriLankaBorn": 257186,
+            "Colombo": 1554,
+            "Kalutara": 512,
+            "Kandy": 1001,
+            "Matale": 245,
+            "N'Eliya": 394,
+            "Galle": 1261,
+            "Matara": 493,
+            "H'tota": 83,
+            "Jaffna": 3348,
+            "Mannar": 800
+        }
+    },
+    {
+        "District of Residence (Total)": "Amparai",
+        "values": {
+            "Total SriLankaBorn": 271055,
+            "Colombo": 3881,
+            "Kalutara": 1416,
+            "Kandy": 6762,
+            "Matale": 544,
+            "N'Eliya": 3314,
+            "Galle": 3386,
+            "Matara": 7079,
+            "H'tota": 1037,
+            "Jaffna": 1576,
+            "Mannar": 410
+        }
+    },
+    {
+        "District of Residence (Total)": "Trincomalee",
+        "values": {
+            "Total SriLankaBorn": 190208,
+            "Colombo": 7252,
+            "Kalutara": 704,
+            "Kandy": 5712,
+            "Matale": 1506,
+            "N'Eliya": 8345,
+            "Galle": 2245,
+            "Matara": 3490,
+            "H'tota": 459,
+            "Jaffna": 9652,
+            "Mannar": 614
+        }
+    },
+    {
+        "District of Residence (Total)": "Kurunegala",
+        "values": {
+            "Total SriLankaBorn": 1025417,
+            "Colombo": 47440,
+            "Kalutara": 4582,
+            "Kandy": 18831,
+            "Matale": 4942,
+            "N'Eliya": 1690,
+            "Galle": 5180,
+            "Matara": 3035,
+            "H'tota": 288,
+            "Jaffna": 2110,
+            "Mannar": 1611
+        }
+    },
+    {
+        "District of Residence (Total)": "Puttalam",
+        "values": {
+            "Total SriLankaBorn": 378303,
+            "Colombo": 35629,
+            "Kalutara": 2568,
+            "Kandy": 2093,
+            "Matale": 473,
+            "N'Eliya": 351,
+            "Galle": 1571,
+            "Matara": 949,
+            "H'tota": 169,
+            "Jaffna": 1631,
+            "Mannar": 509
+        }
+    },
+    {
+        "District of Residence (Total)": "Anuradhapura",
+        "values": {
+            "Total SriLankaBorn": 388452,
+            "Colombo": 19802,
+            "Kalutara": 2961,
+            "Kandy": 19473,
+            "Matale": 10504,
+            "N'Eliya": 1694,
+            "Galle": 5506,
+            "Matara": 5529,
+            "H'tota": 499,
+            "Jaffna": 1869,
+            "Mannar": 804
+        }
+    },
+    {
+        "District of Residence (Total)": "Polonnaruwa",
+        "values": {
+            "Total SriLankaBorn": 163609,
+            "Colombo": 8541,
+            "Kalutara": 2103,
+            "Kandy": 15994,
+            "Matale": 10429,
+            "N'Eliya": 7406,
+            "Galle": 3075,
+            "Matara": 2150,
+            "H'tota": 238,
+            "Jaffna": 300,
+            "Mannar": 83
+        }
+    },
+    {
+        "District of Residence (Total)": "Badulla",
+        "values": {
+            "Total SriLankaBorn": 592666,
+            "Colombo": 6470,
+            "Kalutara": 1559,
+            "Kandy": 13917,
+            "Matale": 654,
+            "N'Eliya": 16874,
+            "Galle": 4378,
+            "Matara": 2875,
+            "H'tota": 291,
+            "Jaffna": 2198,
+            "Mannar": 662
+        }
+    },
+    {
+        "District of Residence (Total)": "Moneragala",
+        "values": {
+            "Total SriLankaBorn": 190593,
+            "Colombo": 2372,
+            "Kalutara": 1613,
+            "Kandy": 1799,
+            "Matale": 311,
+            "N'Eliya": 679,
+            "Galle": 2648,
+            "Matara": 5016,
+            "H'tota": 5075,
+            "Jaffna": 194,
+            "Mannar": 410
+        }
+    },
+    {
+        "District of Residence (Total)": "Ratnapura",
+        "values": {
+            "Total SriLankaBorn": 649821,
+            "Colombo": 14897,
+            "Kalutara": 15697,
+            "Kandy": 6082,
+            "Matale": 527,
+            "N'Eliya": 1988,
+            "Galle": 7510,
+            "Matara": 14003,
+            "H'tota": 9030,
+            "Jaffna": 1143,
+            "Mannar": 556
+        }
+    },
+    {
+        "District of Residence (Total)": "Kegalle",
+        "values": {
+            "Total SriLankaBorn": 645476,
+            "Colombo": 28817,
+            "Kalutara": 3947,
+            "Kandy": 20136,
+            "Matale": 1404,
+            "N'Eliya": 2408,
+            "Galle": 3147,
+            "Matara": 1806,
+            "H'tota": 160,
+            "Jaffna": 838,
+            "Mannar": 514
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-4/table-4-02/data.tsv)

@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-7/table-7-01/original.pdf (99.1 kB)](../../../../data/tables/table-7/table-7-01/original.pdf)
 - 📜 Original Table Image - [data/tables/table-7/table-7-01/original.images/image-01.png (214.7 kB)](../../../../data/tables/table-7/table-7-01/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-7/table-7-01/data.json (1.5 kB)](../../../../data/tables/table-7/table-7-01/data.json)
+- 📄 Extracted Normalized JSON Data - [data/tables/table-7/table-7-01/normalized_data.json (790 B)](../../../../data/tables/table-7/table-7-01/normalized_data.json)
 - 📄 Extracted TSV Data - [data/tables/table-7/table-7-01/data.tsv (191 B)](../../../../data/tables/table-7/table-7-01/data.tsv)
 
 ## Original Table [Image](../../../../data/tables/table-7/table-7-01/original.images/image-01.png)
@@ -66,6 +67,45 @@
         "3 Changing Nuptiality Patterns in Sri Lanka 1901-1971, Dallas F.S. Fernando, Population Studies 29, 2 July, 1975."
     ]
 }
+```
+
+## Extracted [Normalized JSON Data](../../../../data/tables/table-7/table-7-01/normalized_data.json)
+
+```json
+[
+    {
+        "Census Year": 1946,
+        "values": {
+            "Average age at marriage (in years) - Males": 27.0,
+            "Average age at marriage (in years) - Femals": 20.7,
+            "Difference": 6.3
+        }
+    },
+    {
+        "Census Year": 1953,
+        "values": {
+            "Average age at marriage (in years) - Males": 27.2,
+            "Average age at marriage (in years) - Femals": 20.9,
+            "Difference": 6.3
+        }
+    },
+    {
+        "Census Year": 1963,
+        "values": {
+            "Average age at marriage (in years) - Males": 27.9,
+            "Average age at marriage (in years) - Femals": 22.1,
+            "Difference": 5.8
+        }
+    },
+    {
+        "Census Year": 1971,
+        "values": {
+            "Average age at marriage (in years) - Males": 28.0,
+            "Average age at marriage (in years) - Femals": 23.5,
+            "Difference": 4.5
+        }
+    }
+]
 ```
 
 ## Extracted [TSV Data](../../../../data/tables/table-7/table-7-01/data.tsv)

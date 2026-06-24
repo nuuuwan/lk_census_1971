@@ -1,0 +1,290 @@
+[
+  {
+    "AGE GROUP": "10 - 14",
+    "SECTOR": "T",
+    "values": {
+      "POPULATION - URBAN - Number": 343299,
+      "POPULATION - URBAN - %": 21.3,
+      "POPULATION - RURAL - Number": 1265792,
+      "POPULATION - RURAL - %": 78.7,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 20288,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 25.1,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 60441,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 74.8,
+      "ACTIVITY RATE - URBAN": 5.9,
+      "ACTIVITY RATE - RURAL": 4.8
+    }
+  },
+  {
+    "AGE GROUP": "10 - 14",
+    "SECTOR": "M",
+    "values": {
+      "POPULATION - URBAN - Number": 175848,
+      "POPULATION - URBAN - %": 21.4,
+      "POPULATION - RURAL - Number": 645103,
+      "POPULATION - RURAL - %": 78.6,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 12764,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 25.8,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 36636,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 74.2,
+      "ACTIVITY RATE - URBAN": 7.3,
+      "ACTIVITY RATE - RURAL": 5.7
+    }
+  },
+  {
+    "AGE GROUP": "10 - 14",
+    "SECTOR": "F",
+    "values": {
+      "POPULATION - URBAN - Number": 167451,
+      "POPULATION - URBAN - %": 21.3,
+      "POPULATION - RURAL - Number": 620689,
+      "POPULATION - RURAL - %": 78.7,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 7524,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 24.0,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 23805,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 76.0,
+      "ACTIVITY RATE - URBAN": 4.5,
+      "ACTIVITY RATE - RURAL": 3.8
+    }
+  },
+  {
+    "AGE GROUP": "15 - 19",
+    "SECTOR": "T",
+    "values": {
+      "POPULATION - URBAN - Number": 311171,
+      "POPULATION - URBAN - %": 22.9,
+      "POPULATION - RURAL - Number": 1048792,
+      "POPULATION - RURAL - %": 77.1,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 106004,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 20.7,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 405686,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 79.2,
+      "ACTIVITY RATE - URBAN": 34.1,
+      "ACTIVITY RATE - RURAL": 38.7
+    }
+  },
+  {
+    "AGE GROUP": "15 - 19",
+    "SECTOR": "M",
+    "values": {
+      "POPULATION - URBAN - Number": 165313,
+      "POPULATION - URBAN - %": 24.0,
+      "POPULATION - RURAL - Number": 523402,
+      "POPULATION - RURAL - %": 76.0,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 76196,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 22.9,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 256583,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 77.1,
+      "ACTIVITY RATE - URBAN": 46.1,
+      "ACTIVITY RATE - RURAL": 49.0
+    }
+  },
+  {
+    "AGE GROUP": "15 - 19",
+    "SECTOR": "F",
+    "values": {
+      "POPULATION - URBAN - Number": 145858,
+      "POPULATION - URBAN - %": 27.7,
+      "POPULATION - RURAL - Number": 525390,
+      "POPULATION - RURAL - %": 78.3,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 29808,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 16.7,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 149103,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 83.3,
+      "ACTIVITY RATE - URBAN": 20.4,
+      "ACTIVITY RATE - RURAL": 28.4
+    }
+  },
+  {
+    "AGE GROUP": "20 - 44",
+    "SECTOR": "T",
+    "values": {
+      "POPULATION - URBAN - Number": 1043310,
+      "POPULATION - URBAN - %": 24.5,
+      "POPULATION - RURAL - Number": 3223076,
+      "POPULATION - RURAL - %": 75.5,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 678006,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 23.8,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 2173999,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 76.8,
+      "ACTIVITY RATE - URBAN": 65.0,
+      "ACTIVITY RATE - RURAL": 67.4
+    }
+  },
+  {
+    "AGE GROUP": "20 - 44",
+    "SECTOR": "M",
+    "values": {
+      "POPULATION - URBAN - Number": 573237,
+      "POPULATION - URBAN - %": 26.3,
+      "POPULATION - RURAL - Number": 1604279,
+      "POPULATION - RURAL - %": 73.7,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 535511,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 25.9,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 1528023,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 74.0,
+      "ACTIVITY RATE - URBAN": 93.4,
+      "ACTIVITY RATE - RURAL": 95.2
+    }
+  },
+  {
+    "AGE GROUP": "20 - 44",
+    "SECTOR": "F",
+    "values": {
+      "POPULATION - URBAN - Number": 470073,
+      "POPULATION - URBAN - %": 22.5,
+      "POPULATION - RURAL - Number": 1618707,
+      "POPULATION - RURAL - %": 77.5,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 142584,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 18.0,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 645976,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 82.0,
+      "ACTIVITY RATE - URBAN": 30.3,
+      "ACTIVITY RATE - RURAL": 39.9
+    }
+  },
+  {
+    "AGE GROUP": "45 - 60",
+    "SECTOR": "T",
+    "values": {
+      "POPULATION - URBAN - Number": 302494,
+      "POPULATION - URBAN - %": 23.0,
+      "POPULATION - RURAL - Number": 1009827,
+      "POPULATION - RURAL - %": 72.0,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 170846,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 21.5,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 621882,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 78.5,
+      "ACTIVITY RATE - URBAN": 56.5,
+      "ACTIVITY RATE - RURAL": 61.6
+    }
+  },
+  {
+    "AGE GROUP": "45 - 60",
+    "SECTOR": "M",
+    "values": {
+      "POPULATION - URBAN - Number": 166441,
+      "POPULATION - URBAN - %": 23.5,
+      "POPULATION - RURAL - Number": 542414,
+      "POPULATION - RURAL - %": 76.5,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 145832,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 22.7,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 496740,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 77.3,
+      "ACTIVITY RATE - URBAN": 87.6,
+      "ACTIVITY RATE - RURAL": 91.6
+    }
+  },
+  {
+    "AGE GROUP": "45 - 60",
+    "SECTOR": "F",
+    "values": {
+      "POPULATION - URBAN - Number": 136053,
+      "POPULATION - URBAN - %": 22.6,
+      "POPULATION - RURAL - Number": 467413,
+      "POPULATION - RURAL - %": 77.4,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 25014,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 16.7,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 125142,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 83.3,
+      "ACTIVITY RATE - URBAN": 18.4,
+      "ACTIVITY RATE - RURAL": 26.8
+    }
+  },
+  {
+    "AGE GROUP": "60 & Over",
+    "SECTOR": "T",
+    "values": {
+      "POPULATION - URBAN - Number": 174692,
+      "POPULATION - URBAN - %": 21.6,
+      "POPULATION - RURAL - Number": 631940,
+      "POPULATION - RURAL - %": 78.3,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 44157,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 17.6,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 206741,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 82.4,
+      "ACTIVITY RATE - URBAN": 25.3,
+      "ACTIVITY RATE - RURAL": 32.7
+    }
+  },
+  {
+    "AGE GROUP": "60 & Over",
+    "SECTOR": "M",
+    "values": {
+      "POPULATION - URBAN - Number": 90840,
+      "POPULATION - URBAN - %": 20.5,
+      "POPULATION - RURAL - Number": 352190,
+      "POPULATION - RURAL - %": 79.4,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 37350,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 16.7,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 186834,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 83.3,
+      "ACTIVITY RATE - URBAN": 41.1,
+      "ACTIVITY RATE - RURAL": 53.0
+    }
+  },
+  {
+    "AGE GROUP": "60 & Over",
+    "SECTOR": "F",
+    "values": {
+      "POPULATION - URBAN - Number": 83852,
+      "POPULATION - URBAN - %": 23.1,
+      "POPULATION - RURAL - Number": 279750,
+      "POPULATION - RURAL - %": 76.9,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 6807,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 25.5,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 19907,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 74.5,
+      "ACTIVITY RATE - URBAN": 8.1,
+      "ACTIVITY RATE - RURAL": 7.1
+    }
+  },
+  {
+    "AGE GROUP": "Total Aged 10 Years & Over",
+    "SECTOR": "T",
+    "values": {
+      "POPULATION - URBAN - Number": 2174966,
+      "POPULATION - URBAN - %": 23.3,
+      "POPULATION - RURAL - Number": 7179337,
+      "POPULATION - RURAL - %": 76.7,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 1019390,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 22.7,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 3468749,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 77.3,
+      "ACTIVITY RATE - URBAN": 46.9,
+      "ACTIVITY RATE - RURAL": 48.3
+    }
+  },
+  {
+    "AGE GROUP": "Total Aged 10 Years & Over",
+    "SECTOR": "M",
+    "values": {
+      "POPULATION - URBAN - Number": 1171679,
+      "POPULATION - URBAN - %": 24.2,
+      "POPULATION - RURAL - Number": 3667388,
+      "POPULATION - RURAL - %": 75.8,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 807653,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 24.4,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 2504816,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 75.6,
+      "ACTIVITY RATE - URBAN": 68.9,
+      "ACTIVITY RATE - RURAL": 68.3
+    }
+  },
+  {
+    "AGE GROUP": "Total Aged 10 Years & Over",
+    "SECTOR": "F",
+    "values": {
+      "POPULATION - URBAN - Number": 1003287,
+      "POPULATION - URBAN - %": 22.2,
+      "POPULATION - RURAL - Number": 3511949,
+      "POPULATION - RURAL - %": 77.8,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - Number": 211737,
+      "ECONOMICALLY ACTIVE POPULATION - URBAN - %": 18.0,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - Number": 963933,
+      "ECONOMICALLY ACTIVE POPULATION - RURAL - %": 82.0,
+      "ACTIVITY RATE - URBAN": 21.1,
+      "ACTIVITY RATE - RURAL": 27.4
+    }
+  }
+]
