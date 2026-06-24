@@ -16,5 +16,5 @@ class TableBuilderMixin:
         tables = cls.list()
         for table in tables[:1]:
             table.build()
-            log.debug("Building {table} complete.")
+            log.debug(f"Building {table} complete.")
             log.debug("-" * 40)

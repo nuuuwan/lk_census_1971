@@ -20,8 +20,12 @@ Data types — emit each cell as its correct JSON type, not as a string:
 
 Notes:
 - Tables usually have one or more notes, footnotes, or source lines BELOW the table body (e.g. "Source: ...", "Note: ...", asterisk/dagger explanations, unit definitions).
-- Extract each such note as a separate string in the "notes" list, in the order they appear, verbatim.
+- Extract each such note as a separate string in the "notes" list, in the order they appear.
 - Include only notes attached to THIS table; ignore notes belonging to other tables or to page body text.
+- Reproduce notes verbatim EXCEPT where a note describes a formatting/encoding convention that you have changed during extraction — in that case, rewrite the note to describe the data AS EMITTED in this JSON, not as printed in the source. Examples:
+  - If a note says 'X = Yes, - = No' and you emitted these cells as JSON true/false, rewrite the note to reflect the boolean encoding (e.g. "Boolean columns: true = Yes, false = No").
+  - If a note explains a thousands separator or symbol you stripped, update or drop that part of the note so it matches the emitted values.
+  - Leave the substantive content of the note (its meaning, source attribution, caveats) intact; only adjust the parts that no longer match the transformed data.
 - If the table has no notes, return an empty list [].
 
 Rules:
