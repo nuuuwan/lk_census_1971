@@ -41,7 +41,10 @@ class TableDataAIMixin:
         return blocks
 
     def extract_data_with_ai(self):
-        log.debug(f"Extracting data from table {self.table_no} using AI...")
+        log.debug(
+            f"Extracting data from {self}"
+            + f" using {self.AI_MODEL} ({self.AI_MAX_TOKENS} tokens)."
+        )
         t_start = time.time()
         extraction_prompt = self.PROMPT_FILE.read()
         content = self._build_image_blocks()
@@ -68,11 +71,9 @@ class TableDataAIMixin:
         data = json.loads(raw)
 
         if not data.get("found"):
-            log.warning(
-                f"Table '{
+            log.warning(f"Table '{
                     self.table_no}' not found on page {
-                    self.doc_page_no}."
-            )
+                    self.doc_page_no}.")
         dt = time.time() - t_start
-        log.debug(f"AI Data extraction for {self} completed in {dt:.2f}s.")
+        log.debug(f"Data extraction completed in {dt:.2f} seconds.")
         return data
