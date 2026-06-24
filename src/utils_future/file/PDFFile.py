@@ -22,7 +22,26 @@ class PDFFile(File):
                     pdf, from_page=page_number, to_page=page_number
                 )
             new_pdf.save(output_pdf_file.path)
-            log.debug(
-                f"Extracted pages {page_numbers}"
-                + f" from {self} to {output_pdf_file}."
+            log.info(
+                f"Wrote {output_pdf_file} with extracted pages {page_numbers}"
+                + f" from {self}."
             )
+
+    def extract_images(self):
+        assert self.path.endswith(".pdf"), "File must be a PDF"
+        with fitz.open(self.path) as pdf:
+            for page_number, page in enumerate(pdf):
+                image_list = page.get_images(full=True)
+                for image_index, img in enumerate(image_list):
+                    xref = img[0]
+                    base_image = pdf.extract_image(xref)
+                    image_bytes = base_image["image"]
+                    image_path = (
+                        self.path[:-4]
+                        + f".page{page_number + 1:03d}"
+                        + f".img{image_index + 1:02d}"
+                        + ".png"
+                    )
+                    with open(image_path, "wb") as image_file:
+                        image_file.write(image_bytes)
+                    log.info(f"Wrote {File(image_path)}")
