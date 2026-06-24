@@ -73,12 +73,14 @@ class TableDataAIMixin:
 
         if not data.get("found"):
             text = (
-                f"Table '{self.table_no}'"
+                f"Error. Table '{self.table_no}'"
                 + f" not found on page {self.doc_page_no}."
             )
             os.system(f"say '{text}'")
             raise ValueError(text)
 
         dt = time.time() - t_start
-        log.debug(f"Data extraction completed in {dt:.2f} seconds.")
+        text = f"Table {self.table_no} completed in {dt:.1f}s."
+        os.system(f"say '{text}'")
+        log.debug(text)
         return data
