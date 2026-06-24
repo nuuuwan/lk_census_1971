@@ -1,0 +1,99 @@
+{
+  "found": true,
+  "table_no": "6.7",
+  "table_name": "Religion classified by race",
+  "primary_keys": [
+    "Religion"
+  ],
+  "field_keys": [
+    "Low Country Sinhalese",
+    "Kandyan Sinhalese",
+    "Ceylon Tamils",
+    "Indian Tamils",
+    "Ceylon Moors",
+    "Indian Moors",
+    "Malays",
+    "Burghers"
+  ],
+  "rows": [
+    {
+      "Religion": "Buddhists",
+      "values": {
+        "Low Country Sinhalese": 87.9,
+        "Kandyan Sinhalese": 98.77,
+        "Ceylon Tamils": 2.61,
+        "Indian Tamils": 2.27,
+        "Ceylon Moors": 1.0,
+        "Indian Moors": 0.02,
+        "Malays": 2.35,
+        "Burghers": 2.77
+      }
+    },
+    {
+      "Religion": "Hindus",
+      "values": {
+        "Low Country Sinhalese": 0.1,
+        "Kandyan Sinhalese": false,
+        "Ceylon Tamils": 80.59,
+        "Indian Tamils": 89.33,
+        "Ceylon Moors": false,
+        "Indian Moors": 3.03,
+        "Malays": 3.34,
+        "Burghers": 0.01
+      }
+    },
+    {
+      "Religion": "Muslims",
+      "values": {
+        "Low Country Sinhalese": 0.01,
+        "Kandyan Sinhalese": false,
+        "Ceylon Tamils": false,
+        "Indian Tamils": false,
+        "Ceylon Moors": 98.67,
+        "Indian Moors": 95.23,
+        "Malays": 92.02,
+        "Burghers": 0.01
+      }
+    },
+    {
+      "Religion": "Christians",
+      "values": {
+        "Low Country Sinhalese": 11.9,
+        "Kandyan Sinhalese": 1.03,
+        "Ceylon Tamils": 16.54,
+        "Indian Tamils": 8.09,
+        "Ceylon Moors": 0.33,
+        "Indian Moors": 1.74,
+        "Malays": 2.16,
+        "Burghers": 95.92
+      }
+    },
+    {
+      "Religion": "Others",
+      "values": {
+        "Low Country Sinhalese": 0.09,
+        "Kandyan Sinhalese": 0.23,
+        "Ceylon Tamils": 2.6,
+        "Indian Tamils": 0.31,
+        "Ceylon Moors": null,
+        "Indian Moors": null,
+        "Malays": 0.13,
+        "Burghers": 1.29
+      }
+    },
+    {
+      "Religion": "Total",
+      "values": {
+        "Low Country Sinhalese": 100,
+        "Kandyan Sinhalese": 100,
+        "Ceylon Tamils": 100,
+        "Indian Tamils": 100,
+        "Ceylon Moors": 100,
+        "Indian Moors": 100,
+        "Malays": 100,
+        "Burghers": 100
+      }
+    }
+  ],
+  "notes": []
+}
