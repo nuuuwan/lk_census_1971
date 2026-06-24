@@ -59,7 +59,7 @@ class TablePDFMixin:
 
     @cached_property
     def pdf_file(self):
-        return PDFFile(os.path.join(self.dir_data, "table.pdf"))
+        return PDFFile(os.path.join(self.dir_data, "original.pdf"))
 
     @cached_property
     def actual_page_no(self) -> int:
