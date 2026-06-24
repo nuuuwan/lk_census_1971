@@ -38,6 +38,31 @@ class TableReadMeMixin:
             lines += ["*⚠️ No data extracted yet.*"]
         return lines
 
+    def lines_for_tsv(self) -> list[str]:
+        lines = [
+            f"## Extracted [TSV Data](../../../../{self.tsv_file.path})",
+            "",
+        ]
+
+        if not self.tsv_file.exists:
+            lines += ["*⚠️ No data extracted yet.*"]
+            return lines
+
+        rows = self.tsv_file.read()
+        if not rows:
+            lines += ["*⚠️ No data extracted yet.*"]
+            return lines
+
+        headers = list(rows[0].keys())
+        lines.append("| " + " | ".join(headers) + " |")
+        lines.append("| " + " | ".join("---" for _ in headers) + " |")
+        for row in rows:
+            lines.append(
+                "| " + " | ".join(str(row.get(h, "")) for h in headers) + " |"
+            )
+        lines.append("")
+        return lines
+
     def lines_for_files(self) -> list[str]:
         lines = []
         for label, file in [
@@ -60,8 +85,9 @@ class TableReadMeMixin:
             [f"# {self.table_no}: {self.table_name}", ""]
             + ReadMe.lines_for_header()
             + self.lines_for_files()
-            + self.lines_for_json()
             + self.lines_for_image()
+            + self.lines_for_json()
+            + self.lines_for_tsv()
             + ReadMe.lines_for_footer()
         )
         self.readme_file.write("\n".join(lines))
