@@ -6,7 +6,7 @@ log = Log("TableBuilderMixin")
 class TableBuilderMixin:
     def build(self):
         self.build_pdf()
-        self.build_data()
+        # self.build_data()
 
     @classmethod
     def build_all(cls):
@@ -15,7 +15,7 @@ class TableBuilderMixin:
         log.debug("-" * 40)
 
         tables = cls.list()
-        for table in tables[:1]:
+        for table in tables:
             table.build()
             log.debug(f"Building {table} complete.")
             log.debug("-" * 40)
