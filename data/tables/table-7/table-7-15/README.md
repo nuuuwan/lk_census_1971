@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-7/table-7-15/data.json (1.2 kB)](../../../../data/tables/table-7/table-7-15/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-7/table-7-15/data.tsv (202 B)](../../../../data/tables/table-7/table-7-15/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-7/table-7-15/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-7/table-7-15/original.images/image-01.png' alt='Table 7.15 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-15/data.json)
 
 ```json
@@ -70,9 +74,14 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-7/table-7-15/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-15/data.tsv)
 
-<img src='../../../../data/tables/table-7/table-7-15/original.images/image-01.png' alt='Table 7.15 Image' width='640px' />
+| Year | Sinhalese | Ceylon Tamils | Indian Tamils | Ceylon Moors | Burghers & Eurasians |
+| --- | --- | --- | --- | --- | --- |
+| 1946 | 38.7 | 35.6 | 41.2 | 41.7 | 35.3 |
+| 1953 | 41.0 | 39.2 | 33.0 | 42.7 | 31.1 |
+| 1963 | 34.5 | 37.6 | 28.3 | 42.9 | 26.9 |
+| 1971 | 29.9 | 31.8 | 25.7 | 39.0 | 18.3 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

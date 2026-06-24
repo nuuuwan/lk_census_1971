@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-5/table-5-09/data.json (1.6 kB)](../../../../data/tables/table-5/table-5-09/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-5/table-5-09/data.tsv (231 B)](../../../../data/tables/table-5/table-5-09/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-5/table-5-09/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-5/table-5-09/original.images/image-01.png' alt='Table 5.9 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-5/table-5-09/data.json)
 
 ```json
@@ -116,9 +120,25 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-5/table-5-09/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-5/table-5-09/data.tsv)
 
-<img src='../../../../data/tables/table-5/table-5-09/original.images/image-01.png' alt='Table 5.9 Image' width='640px' />
+| Country | Sex Ratios |
+| --- | --- |
+| Burma | 965 |
+| Hongkong | 1046 |
+| India | 1075 |
+| Indonesia | 982 |
+| Iran | 1067 |
+| Japan | 964 |
+| Korea | 1008 |
+| Singapore | 1043 |
+| Sri Lanka | 1061 |
+| Nepal | 1014 |
+| Pakistan | 1138 |
+| Thailand | 991 |
+| France | 950 |
+| United States | 948 |
+| United Kingdom | 945 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-5/table-5-07/data.json (2.6 kB)](../../../../data/tables/table-5/table-5-07/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-5/table-5-07/data.tsv (467 B)](../../../../data/tables/table-5/table-5-07/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-5/table-5-07/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-5/table-5-07/original.images/image-01.png' alt='Table 5.7 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-5/table-5-07/data.json)
 
 ```json
@@ -164,9 +168,25 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-5/table-5-07/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-5/table-5-07/data.tsv)
 
-<img src='../../../../data/tables/table-5/table-5-07/original.images/image-01.png' alt='Table 5.7 Image' width='640px' />
+| Age Group | 1946 | 1953 | 1963 | 1971 |
+| --- | --- | --- | --- | --- |
+| 0 - 4 | 1032 | 1015 | 1026 | 1032 |
+| 5 - 9 | 1031 | 1026 | 1020 | 1028 |
+| 10 - 14 | 1060 | 1066 | 1047 | 1042 |
+| 15 - 19 | 1153 | 1074 | 1028 | 1026 |
+| 20 - 24 | 1045 | 1061 | 1006 | 1013 |
+| 25 - 29 | 1137 | 1099 | 1020 | 1008 |
+| 30 - 34 | 1212 | 1212 | 1123 | 1073 |
+| 35 - 39 | 1260 | 1200 | 1107 | 1023 |
+| 40 - 44 | 1304 | 1304 | 1217 | 1156 |
+| 45 - 49 | 1347 | 1329 | 1253 | 1135 |
+| 50 - 54 | 1148 | 1348 | 1275 | 1189 |
+| 55 - 59 | 1383 | 1367 | 1371 | 1222 |
+| 60 - 64 | 1201 | 1208 | 1348 | 1282 |
+| 65 and over | 1190 | 1203 | 1212 | 1188 |
+| All ages | 1130 | 1115 | 1082 | 1061 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

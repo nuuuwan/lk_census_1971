@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-8/table-8-01/data.json (2.6 kB)](../../../../data/tables/table-8/table-8-01/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-8/table-8-01/data.tsv (551 B)](../../../../data/tables/table-8/table-8-01/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-8/table-8-01/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-8/table-8-01/original.images/image-01.png' alt='Table 8.1 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-8/table-8-01/data.json)
 
 ```json
@@ -120,9 +124,19 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-8/table-8-01/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-8/table-8-01/data.tsv)
 
-<img src='../../../../data/tables/table-8/table-8-01/original.images/image-01.png' alt='Table 8.1 Image' width='640px' />
+| Age group of the cohort at the census | Sex | 1946 20-49 | 1953 27-56 | 1963 37-66 | 1971 45-74 |
+| --- | --- | --- | --- | --- | --- |
+| Persons in age Group | T | 2779054 | 2577658 | 2222931 | 1961092 |
+| Persons in age Group | M | 1508421 | 1425328 | 1233023 | 1070589 |
+| Persons in age Group | F | 1270633 | 1152330 | 989908 | 890503 |
+| Number literate | T | 1799182 | 1712400 | 1520452 | 1266116 |
+| Number literate | M | 1209047 | 1145529 | 1011231 | 850330 |
+| Number literate | F | 590135 | 566871 | 509221 | 415786 |
+| Literacy rate per 1000 persons | T | 647 | 664 | 684 | 646 |
+| Literacy rate per 1000 persons | M | 802 | 804 | 820 | 794 |
+| Literacy rate per 1000 persons | F | 464 | 492 | 514 | 467 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

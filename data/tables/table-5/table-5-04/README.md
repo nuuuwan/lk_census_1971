@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-5/table-5-04/data.json (2.8 kB)](../../../../data/tables/table-5/table-5-04/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-5/table-5-04/data.tsv (494 B)](../../../../data/tables/table-5/table-5-04/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-5/table-5-04/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-5/table-5-04/original.images/image-01.png' alt='Table 5.4 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-5/table-5-04/data.json)
 
 ```json
@@ -180,9 +184,25 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-5/table-5-04/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-5/table-5-04/data.tsv)
 
-<img src='../../../../data/tables/table-5/table-5-04/original.images/image-01.png' alt='Table 5.4 Image' width='640px' />
+| Age | 1921 | 1946 | 1953 | 1963 | 1971 |
+| --- | --- | --- | --- | --- | --- |
+| All Ages | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 |
+| 0 - 4 | 14.3 | 12.9 | 14.9 | 15.3 | 13.1 |
+| 5 - 9 | 12.8 | 12.2 | 13.4 | 13.8 | 13.2 |
+| 10 - 14 | 12.3 | 12.1 | 11.4 | 12.7 | 12.7 |
+| 15 - 19 | 9.2 | 10.2 | 8.7 | 9.7 | 10.7 |
+| 20 - 24 | 9.8 | 9.6 | 9.5 | 8.4 | 10.0 |
+| 25 - 29 | 9.4 | 8.7 | 8.8 | 7.1 | 7.5 |
+| 30 - 34 | 7.2 | 6.8 | 6.4 | 6.4 | 5.8 |
+| 35 - 39 | 6.6 | 7.0 | 6.6 | 6.2 | 5.7 |
+| 40 - 44 | 4.8 | 4.8 | 4.6 | 4.5 | 4.6 |
+| 45 - 49 | 3.9 | 4.8 | 4.6 | 4.2 | 4.3 |
+| 50 - 54 | 3.2 | 3.0 | 3.4 | 3.3 | 3.3 |
+| 55 - 59 | 2.1 | 2.5 | 2.3 | 2.6 | 2.8 |
+| 60 - 64 | 2.0 | 2.0 | 1.9 | 2.3 | 2.1 |
+| 65 and over | 2.4 | 3.5 | 3.5 | 3.6 | 4.3 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

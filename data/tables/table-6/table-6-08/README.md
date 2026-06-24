@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-6/table-6-08/data.json (1.3 kB)](../../../../data/tables/table-6/table-6-08/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-6/table-6-08/data.tsv (223 B)](../../../../data/tables/table-6/table-6-08/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-6/table-6-08/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-6/table-6-08/original.images/image-01.png' alt='Table 6.8 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-6/table-6-08/data.json)
 
 ```json
@@ -76,9 +80,17 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-6/table-6-08/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-6/table-6-08/data.tsv)
 
-<img src='../../../../data/tables/table-6/table-6-08/original.images/image-01.png' alt='Table 6.8 Image' width='640px' />
+| Denomination | Number in thousands | Percentage |
+| --- | --- | --- |
+| All Religions | 12689.9 | 100 |
+| 1. Buddhists | 8536.9 | 67.3 |
+| 2. Hindus | 2238.7 | 17.6 |
+| 3. Muslims | 901.8 | 7.1 |
+| 4. Roman Catholics | 899.0 | 7.1 |
+| 5. Other Christians | 105.3 | 0.8 |
+| 6. Others | 8.2 | 0.1 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

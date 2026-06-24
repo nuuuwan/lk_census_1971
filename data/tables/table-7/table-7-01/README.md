@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-7/table-7-01/data.json (1.5 kB)](../../../../data/tables/table-7/table-7-01/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-7/table-7-01/data.tsv (191 B)](../../../../data/tables/table-7/table-7-01/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-7/table-7-01/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-7/table-7-01/original.images/image-01.png' alt='Table 7.1 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-01/data.json)
 
 ```json
@@ -64,9 +68,14 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-7/table-7-01/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-01/data.tsv)
 
-<img src='../../../../data/tables/table-7/table-7-01/original.images/image-01.png' alt='Table 7.1 Image' width='640px' />
+| Census Year | Average age at marriage (in years) - Males | Average age at marriage (in years) - Femals | Difference |
+| --- | --- | --- | --- |
+| 1946 | 27.0 | 20.7 | 6.3 |
+| 1953 | 27.2 | 20.9 | 6.3 |
+| 1963 | 27.9 | 22.1 | 5.8 |
+| 1971 | 28.0 | 23.5 | 4.5 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

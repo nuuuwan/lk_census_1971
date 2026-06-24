@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-8/table-8-04/data.json (4.0 kB)](../../../../data/tables/table-8/table-8-04/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-8/table-8-04/data.tsv (495 B)](../../../../data/tables/table-8/table-8-04/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-8/table-8-04/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-8/table-8-04/original.images/image-01.png' alt='Table 8.4 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-8/table-8-04/data.json)
 
 ```json
@@ -120,9 +124,19 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-8/table-8-04/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-8/table-8-04/data.tsv)
 
-<img src='../../../../data/tables/table-8/table-8-04/original.images/image-01.png' alt='Table 8.4 Image' width='640px' />
+| Sector | Sex | Literacy rates per 1000 persons aged 10 and over - 1963 | Literacy rates per 1000 persons aged 10 and over - 1971 | Ratio of male rate to the female rate (percentage) - 1963 | Ratio of male rate to the female rate (percentage) - 1971 |
+| --- | --- | --- | --- | --- | --- |
+| Sri Lanka | T | 771 | 785 |  |  |
+| Sri Lanka | M | 858 | 856 | 127.1 | 120.7 |
+| Sri Lanka | F | 675 | 709 |  |  |
+| Urban Sector | T | 876 | 862 |  |  |
+| Urban Sector | M | 918 | 903 | 111.4 | 110.8 |
+| Urban Sector | F | 824 | 815 |  |  |
+| Rural Sector | T | 745 | 762 |  |  |
+| Rural Sector | M | 842 | 841 | 131.4 | 123.9 |
+| Rural Sector | F | 641 | 679 |  |  |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

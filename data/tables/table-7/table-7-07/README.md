@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-7/table-7-07/data.json (1.8 kB)](../../../../data/tables/table-7/table-7-07/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-7/table-7-07/data.tsv (242 B)](../../../../data/tables/table-7/table-7-07/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-7/table-7-07/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-7/table-7-07/original.images/image-01.png' alt='Table 7.7 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-07/data.json)
 
 ```json
@@ -84,9 +88,17 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-7/table-7-07/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-07/data.tsv)
 
-<img src='../../../../data/tables/table-7/table-7-07/original.images/image-01.png' alt='Table 7.7 Image' width='640px' />
+| Age Group | Age-specific fertility rates - 1953 | Age-specific fertility rates - 1963 | Percent change 1953 - 1963 |
+| --- | --- | --- | --- |
+| 15-19 | 288 | 354 | 22.9 |
+| 20-24 | 394 | 396 | 0.5 |
+| 25-29 | 339 | 344 | 1.5 |
+| 30-34 | 280 | 270 | -3.6 |
+| 35-39 | 174 | 175 | 0.6 |
+| 40-44 | 47 | 53 | 12.8 |
+| 45-49 | 9 | 8 | -11.1 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

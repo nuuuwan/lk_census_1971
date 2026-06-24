@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-8/table-8-03/data.json (3.2 kB)](../../../../data/tables/table-8/table-8-03/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-8/table-8-03/data.tsv (453 B)](../../../../data/tables/table-8/table-8-03/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-8/table-8-03/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-8/table-8-03/original.images/image-01.png' alt='Table 8.3 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-8/table-8-03/data.json)
 
 ```json
@@ -164,9 +168,25 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-8/table-8-03/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-8/table-8-03/data.tsv)
 
-<img src='../../../../data/tables/table-8/table-8-03/original.images/image-01.png' alt='Table 8.3 Image' width='640px' />
+| Age | Total | Male | Female | Ratio of male rate to female rate (percentage) |
+| --- | --- | --- | --- | --- |
+| 10 & Over | 785 | 856 | 709 | 120.7 |
+| 10-14 | 830 | 837 | 823 | 101.7 |
+| 15-19 | 867 | 883 | 851 | 103.8 |
+| 20-24 | 871 | 910 | 831 | 109.5 |
+| 25-29 | 847 | 910 | 783 | 116.2 |
+| 30-34 | 824 | 904 | 738 | 122.5 |
+| 35-39 | 745 | 863 | 625 | 138.1 |
+| 40-44 | 749 | 867 | 613 | 141.4 |
+| 45-49 | 701 | 840 | 544 | 154.4 |
+| 50-54 | 687 | 833 | 513 | 162.4 |
+| 55-59 | 639 | 791 | 453 | 174.6 |
+| 60-64 | 605 | 756 | 410 | 184.4 |
+| 65-69 | 573 | 735 | 375 | 196.0 |
+| 70-74 | 532 | 699 | 318 | 219.8 |
+| 75 & Over | 429 | 608 | 238 | 255.5 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

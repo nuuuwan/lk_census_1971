@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-3/table-3-07/data.json (11.3 kB)](../../../../data/tables/table-3/table-3-07/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-3/table-3-07/data.tsv (1.3 kB)](../../../../data/tables/table-3/table-3-07/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-3/table-3-07/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-3/table-3-07/original.images/image-01.png' alt='Table 3.7 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-3/table-3-07/data.json)
 
 ```json
@@ -356,9 +360,33 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-3/table-3-07/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-3/table-3-07/data.tsv)
 
-<img src='../../../../data/tables/table-3/table-3-07/original.images/image-01.png' alt='Table 3.7 Image' width='640px' />
+| DISTRICT | MUNICIPAL COUNCIL - No.of M.CC. | MUNICIPAL COUNCIL - Population | URBAN COUNCIL - No.of U.CC. | URBAN COUNCIL - Population | TOWN COUNCIL - No.of T.CC. | TOWN COUNCIL - Population | TOTAL - Population | Percentage Urban in the Dist. | Percentage of the total urban |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Colombo | 3 | 773409 | 9 | 340498 | 16 | 362281 | 1476188 | 55.2 | 51.8 |
+| Jaffna | 1 | 107184 | 3 | 43693 | 9 | 83015 | 233892 | 33.3 | 8.2 |
+| Kalutara |  |  | 4 | 83698 | 7 | 75769 | 159467 | 21.9 | 5.6 |
+| Galle | 1 | 71266 | 1 | 14296 | 7 | 69390 | 154952 | 21.1 | 5.4 |
+| Kandy | 1 | 93303 | 5 | 49236 | 2 | 4779 | 147318 | 12.4 | 5.2 |
+| Trincomalee |  |  | 1 | 40592 | 3 | 31368 | 1960 | 38.4 | 2.5 |
+| Batticaloa | 1 | 36696 |  |  | 2 | 32812 | 69508 | 27.1 | 2.4 |
+| Matara |  |  | 2 | 52878 | 2 | 13231 | 66109 | 11.3 | 2.3 |
+| Badulla | 1 | 35470 | 2 | 7864 | 4 | 12034 | 55368 | 9.0 | 1.9 |
+| Puttalam |  |  | 2 | 35775 | 5 | 16648 | 52423 | 13.9 | 1.8 |
+| Ratnapura | 1 | 30614 | 1 | 9269 | 3 | 10050 | 49933 | 7.6 | 1.8 |
+| Kegalle |  |  | 1 | 13305 | 6 | 32773 | 46078 | 7.0 | 1.6 |
+| Kurunegala | 1 | 24357 | 1 | 5374 | 4 | 12514 | 42245 | 4.1 | 1.5 |
+| Anuradhapura |  |  | 1 | 34734 | 1 | 4090 | 38824 | 10.0 | 1.4 |
+| Matale | 1 | 30095 |  |  | 3 | 7458 | 37553 | 11.9 | 1.3 |
+| Hambantota |  |  | 2 | 15641 | 4 | 17639 | 33280 | 9.8 | 1.2 |
+| Amparai |  |  |  |  | 2 | 31970 | 31970 | 11.7 | 1.1 |
+| N'Eliya | 1 | 17288 | 1 | 8522 | 1 | 1817 | 27627 | 6.1 | 1.0 |
+| Vavuniya |  |  | 1 | 15720 | 1 | 4908 | 20628 | 21.7 | 0.7 |
+| Polonnaruwa |  |  |  |  | 2 | 16287 | 16287 | 10.0 | 0.6 |
+| Mannar |  |  |  |  | 1 | 11095 | 11095 | 14.3 | 0.4 |
+| Moneragala |  |  |  |  | 1 | 5132 | 5132 | 2.7 | 0.2 |
+| SRI LANKA | 12 | 1219682 | 37 | 771095 | 86 | 857339 | 2848116 | 22.4 | 100.0 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

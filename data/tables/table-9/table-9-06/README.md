@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-9/table-9-06/data.json (1.8 kB)](../../../../data/tables/table-9/table-9-06/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-9/table-9-06/data.tsv (301 B)](../../../../data/tables/table-9/table-9-06/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-9/table-9-06/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-9/table-9-06/original.images/image-01.png' alt='Table 9.6 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-9/table-9-06/data.json)
 
 ```json
@@ -104,9 +108,16 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-9/table-9-06/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-9/table-9-06/data.tsv)
 
-<img src='../../../../data/tables/table-9/table-9-06/original.images/image-01.png' alt='Table 9.6 Image' width='640px' />
+| Year | Sex | Employed | Unemployed | Students | Engaged in home duties | Others | Total |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1963 | T | 27.4 | 6.7 | 40.0 | 20.0 | 5.7 | 100.0 |
+| 1963 | M | 26.0 | 10.3 | 43.3 | 4.3 | 6.0 | 100.0 |
+| 1963 | F | 18.5 | 3.1 | 36.6 | 36.3 | 5.4 | 100.0 |
+| 1971 | T | 21.4 | 15.2 | 34.5 | 17.2 | 10.6 | 100.0 |
+| 1971 | M | 29.1 | 18.5 | 36.7 | 3.1 | 13.8 | 100.0 |
+| 1971 | F | 10.9 | 11.8 | 32.1 | 31.6 | 9.4 | 100.0 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

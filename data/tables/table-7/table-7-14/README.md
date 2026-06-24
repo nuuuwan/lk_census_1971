@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-7/table-7-14/data.json (1.4 kB)](../../../../data/tables/table-7/table-7-14/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-7/table-7-14/data.tsv (268 B)](../../../../data/tables/table-7/table-7-14/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-7/table-7-14/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-7/table-7-14/original.images/image-01.png' alt='Table 7.14 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-14/data.json)
 
 ```json
@@ -74,9 +78,15 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-7/table-7-14/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-14/data.tsv)
 
-<img src='../../../../data/tables/table-7/table-7-14/original.images/image-01.png' alt='Table 7.14 Image' width='640px' />
+| Ethnic Group | Rank | Child-Woman Ratio - 1963 | Child-Woman Ratio - 1971 | Percentage Change |
+| --- | --- | --- | --- | --- |
+| Sinhalese | 3 | 741.17 | 598.09 | -19.3 |
+| Sri Lanka Tamil | 2 | 773.76 | 609.23 | -21.23 |
+| Indian Tamil | 4 | 617.11 | 536.54 | -12.73 |
+| Sri Lanka Moor | 1 | 940.72 | 767.03 | -18.46 |
+| Burgher | 5 | 550.05 | 427.91 | -22.21 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

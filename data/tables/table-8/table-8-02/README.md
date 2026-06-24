@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-8/table-8-02/data.json (1.1 kB)](../../../../data/tables/table-8/table-8-02/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-8/table-8-02/data.tsv (153 B)](../../../../data/tables/table-8/table-8-02/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-8/table-8-02/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-8/table-8-02/original.images/image-01.png' alt='Table 8.2 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-8/table-8-02/data.json)
 
 ```json
@@ -65,9 +69,14 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-8/table-8-02/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-8/table-8-02/data.tsv)
 
-<img src='../../../../data/tables/table-8/table-8-02/original.images/image-01.png' alt='Table 8.2 Image' width='640px' />
+| Year | Total | Male | Female | Difference between male and female rates |
+| --- | --- | --- | --- | --- |
+| 1946 | 628 | 765 | 468 | 297 |
+| 1953 | 690 | 807 | 555 | 252 |
+| 1963 | 771 | 858 | 675 | 183 |
+| 1971 | 785 | 856 | 709 | 147 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

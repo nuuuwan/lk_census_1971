@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-2/table-2-02/data.json (5.1 kB)](../../../../data/tables/table-2/table-2-02/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-2/table-2-02/data.tsv (895 B)](../../../../data/tables/table-2/table-2-02/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-2/table-2-02/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-2/table-2-02/original.images/image-01.png' alt='Table 2.2 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-2/table-2-02/data.json)
 
 ```json
@@ -174,9 +178,20 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-2/table-2-02/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-2/table-2-02/data.tsv)
 
-<img src='../../../../data/tables/table-2/table-2-02/original.images/image-01.png' alt='Table 2.2 Image' width='640px' />
+| Period | Intercensal increase in population | Births | Deaths | Natural increase | Migration increase | Migration increase as percentage of intercensal increase | Births per 100 deaths | Mean birth rate per 1000 persons | Mean death rate per 1000 persons |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1871-1881 | 359358 | 708150 | 588358 | 119792 | 239566 | 66.7 | 120 | 27.4 | 22.8 |
+| 1881-1891 | 248051 | 836636 | 692376 | 144260 | 103791 | 41.8 | 121 | 28.9 | 24.0 |
+| 1891-1901 | 558165 | 1122041 | 896635 | 225406 | 332759 | 59.6 | 125 | 34.1 | 27.2 |
+| 1901-1911 | 540396 | 1459618 | 1103471 | 356147 | 184249 | 34.1 | 132 | 38.0 | 28.7 |
+| 1911-1921 | 392255 | 1648066 | 1328656 | 319410 | 72845 | 18.6 | 124 | 38.2 | 30.8 |
+| 1921-1931 | 808266 | 1946115 | 1289165 | 656950 | 151316 | 18.7 | 151 | 39.5 | 26.2 |
+| 1931-1946 | 1350468 | 3209520 | 1928604 | 1280916 | 69552 | 5.2 | 166 | 39.0 | 22.1 |
+| 1946-1953 | 1440556 | 2053420 | 700814 | 1352606 | 64796 | 4.5 | 293 | 39.0 | 13.7 |
+| 1953-1963 | 2484169 | 3517929 | 912976 | 2604953 | -124103 |  | 385 | 36.5 | 9.7 |
+| 1963-1971 | 2107833 | 3066461 | 777835 | 2288626 | -120092 |  | 394 | 32.0 | 8.1 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-7/table-7-04/data.json (2.8 kB)](../../../../data/tables/table-7/table-7-04/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-7/table-7-04/data.tsv (423 B)](../../../../data/tables/table-7/table-7-04/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-7/table-7-04/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-7/table-7-04/original.images/image-01.png' alt='Table 7.4 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-04/data.json)
 
 ```json
@@ -125,9 +129,17 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-7/table-7-04/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-04/data.tsv)
 
-<img src='../../../../data/tables/table-7/table-7-04/original.images/image-01.png' alt='Table 7.4 Image' width='640px' />
+| Age Group | 1946 - Widowed | 1946 - Divorced | 1953 - Widowed | 1953 - Divorced | 1963 - Widowed | 1963 - Divorced | 1971 - Divorced | 1971 - Legally Separated |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 15-19 | 0.6 | 0.2 | 0.3 | 0.2 | 0.1 | 0.1 | 0.1 | 0.1 |
+| 20-24 | 1.8 | 0.4 | 1.2 | 0.5 | 0.5 | 0.5 | 0.2 | 0.2 |
+| 25-29 | 3.4 | 0.4 | 2.2 | 0.6 | 1.2 | 0.4 | 0.3 | 0.4 |
+| 30-34 | 5.9 | 0.4 | 4.1 | 0.6 | 2.3 | 0.5 | 0.5 | 0.5 |
+| 35-39 | 9.8 | 0.4 | 7.5 | 0.6 | 4.2 | 0.5 | 0.5 | 0.5 |
+| 40-44 | 17.1 | 0.4 | 13.6 | 0.6 | 7.0 | 0.5 | 0.4 | 0.4 |
+| 45-49 | 24.8 | 0.4 | 21.1 | 0.6 | 10.6 | 0.5 | 0.5 | 0.4 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

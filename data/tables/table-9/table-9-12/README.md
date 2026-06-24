@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-9/table-9-12/data.json (1.8 kB)](../../../../data/tables/table-9/table-9-12/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-9/table-9-12/data.tsv (377 B)](../../../../data/tables/table-9/table-9-12/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-9/table-9-12/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-9/table-9-12/original.images/image-01.png' alt='Table 9.12 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-9/table-9-12/data.json)
 
 ```json
@@ -78,9 +82,13 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-9/table-9-12/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-9/table-9-12/data.tsv)
 
-<img src='../../../../data/tables/table-9/table-9-12/original.images/image-01.png' alt='Table 9.12 Image' width='640px' />
+| ACREAGE CULTIVATED | TEA - 1953 | TEA - 1963 | TEA - 1971 | RUBBER - 1953 | RUBBER - 1963 | RUBBER - 1971 | PADDY(RICE) - 1953 | PADDY(RICE) - 1963 | PADDY(RICE) - 1971 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Acreage Cultivated | 574250 | 587375 | 597171 | 657427 | 568094 | 567994 | 964484 | 1230491 | 1419195 |
+| Employment | 550191 | 587785 | 559316 | 210171 | 160527 | 137994 | 378277 | 623937 | 802768 |
+| Employment per acre | 0.96 | 1.0 | 0.94 | 0.32 | 0.28 | 0.24 | 0.39 | 0.51 | 0.56 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

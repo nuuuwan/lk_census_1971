@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-5/table-5-08/data.json (767 B)](../../../../data/tables/table-5/table-5-08/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-5/table-5-08/data.tsv (109 B)](../../../../data/tables/table-5/table-5-08/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-5/table-5-08/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-5/table-5-08/original.images/image-01.png' alt='Table 5.8 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-5/table-5-08/data.json)
 
 ```json
@@ -62,9 +66,16 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-5/table-5-08/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-5/table-5-08/data.tsv)
 
-<img src='../../../../data/tables/table-5/table-5-08/original.images/image-01.png' alt='Table 5.8 Image' width='640px' />
+| District | Sex Ratio |
+| --- | --- |
+| Sri Lanka | 1061 |
+| Colombo | 1101 |
+| Kalutara | 1015 |
+| Kandy | 1039 |
+| Matale | 1063 |
+| Nuwara Eliya | 1041 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

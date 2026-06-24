@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-4/table-4-05/data.json (10.9 kB)](../../../../data/tables/table-4/table-4-05/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-4/table-4-05/data.tsv (1.9 kB)](../../../../data/tables/table-4/table-4-05/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-4/table-4-05/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-4/table-4-05/original.images/image-01.png' alt='Table 4.5 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-4/table-4-05/data.json)
 
 ```json
@@ -367,9 +371,32 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-4/table-4-05/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-4/table-4-05/data.tsv)
 
-<img src='../../../../data/tables/table-4/table-4-05/original.images/image-01.png' alt='Table 4.5 Image' width='640px' />
+| District of birth | Total lifetime out-migrants | largest | largest - value | largest - percentage | second largest | second largest - value | second largest - percentage | third largest | third largest - value | third largest - percentage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Colombo | 279362 | Kurunegala | 47440 | 17.0 | Kalutara | 44738 | 16.0 | Puttalam | 35629 | 12.8 |
+| Kalutara | 137515 | Colombo | 60573 | 44.0 | Galle | 16659 | 12.1 | Ratnapura | 15697 | 11.4 |
+| Kandy | 264012 | Colombo | 52501 | 20.0 | N'Eliya | 40751 | 15.4 | Matale | 36827 | 14.0 |
+| Matale | 65914 | Kandy | 18384 | 28.0 | A'pura | 10504 | 16.0 | Polonnaruwa | 10429 | 15.8 |
+| Nuwara Eliya | 105345 | Kandy | 34536 | 32.8 | Badulla | 16874 | 16.0 | Colombo | 15921 | 15.1 |
+| Galle | 162601 | Colombo | 69443 | 42.7 | Kalutara | 18641 | 11.5 | Matara | 16544 | 10.17 |
+| Matara | 176242 | Colombo | 54854 | 31.1 | Hambantota | 34854 | 19.8 | Galle | 20816 | 11.8 |
+| Hambantota | 38872 | Matara | 11829 | 30.4 | Ratnapura | 9030 | 23.2 | Colombo | 5924 | 15.2 |
+| Jaffna | 88354 | Colombo | 33832 | 38.3 | Vavuniya | 14605 | 16.5 | Trincomalee | 9652 | 10.9 |
+| Mannar | 22680 | Colombo | 5246 | 23.1 | Jaffna | 4075 | 18.0 | Kandy | 1814 | 8.0 |
+| Vavuniya | 4873 | Jaffna | 1387 | 28.5 | A'pura | 1231 | 25.3 | Mannar | 719 | 14.8 |
+| Batticaloa | 23438 | Trincomalee | 6982 | 29.8 | Amparai | 3764 | 16.1 | Colombo | 2605 | 11.1 |
+| Amparai | 5892 | Batticaloa | 1519 | 25.8 | Colombo | 646 | 11.0 | Polonnaruwa | 555 | 9.4 |
+| Trincomalee | 13628 | Amparai | 3659 | 26.9 | Colombo | 2368 | 17.4 | Anuradhapura | 1515 | 11.1 |
+| Kurunegala | 118238 | Colombo | 28109 | 23.8 | Puttalam | 24273 | 20.5 | Anuradhapura | 16670 | 14.1 |
+| Puttalam | 47666 | Kurunegala | 21144 | 44.4 | Colombo | 17372 | 36.5 | Anuradhapura | 1965 | 4.1 |
+| Anuradhapura | 24297 | Colombo | 4673 | 19.2 | Kurunegala | 3611 | 14.9 | Kandy | 2430 | 10.0 |
+| Polonnaruwa | 8279 | Anuradhapura | 1428 | 17.3 | Colombo | 1087 | 13.1 | Kandy | 800 | 9.7 |
+| Badulla | 89813 | Moneragala | 24572 | 27.4 | Colombo | 15628 | 17.4 | Nuwara Eliya | 11267 | 12.5 |
+| Moneragala | 10798 | Hambantota | 2289 | 21.2 | Amparai | 2226 | 20.6 | Badulla | 2114 | 19.6 |
+| Ratnapura | 83789 | Colombo | 25371 | 30.3 | Kegalle | 14164 | 17.0 | Kalutara | 8702 | 10.4 |
+| Kegalle | 140142 | Colombo | 34813 | 24.8 | Kurunegala | 21472 | 15.3 | Kandy | 20179 | 14.4 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

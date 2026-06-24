@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-3/table-3-01/data.json (7.5 kB)](../../../../data/tables/table-3/table-3-01/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-3/table-3-01/data.tsv (1.0 kB)](../../../../data/tables/table-3/table-3-01/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-3/table-3-01/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-3/table-3-01/original.images/image-01.png' alt='Table 3.1 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-3/table-3-01/data.json)
 
 ```json
@@ -308,9 +312,33 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-3/table-3-01/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-3/table-3-01/data.tsv)
 
-<img src='../../../../data/tables/table-3/table-3-01/original.images/image-01.png' alt='Table 3.1 Image' width='640px' />
+| DISTRICT | POPULATION - in 1000 | POPULATION - % | LAND AREA - sq.miles | LAND AREA - % | LAND AREA - rank | DENSITY - per sq. mile | DENSITY - rank |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Colombo | 2672.3 | 21.3 | 792 | 3.2 | 16 | 3374 | 1 |
+| Kandy | 1187.9 | 9.3 | 913 | 3.7 | 15 | 1301 | 2 |
+| Kurunegala | 1025.6 | 8.1 | 1842 | 7.4 | 3 | 557 | 10 |
+| Galle | 735.2 | 5.7 | 646 | 2.6 | 18 | 1138 | 5 |
+| Kalutara | 729.5 | 5.7 | 620 | 2.5 | 20 | 1177 | 4 |
+| Jaffna | 701.6 | 5.5 | 964 | 3.9 | 12 | 728 | 8 |
+| Ratnapura | 661.4 | 5.2 | 1250 | 5.0 | 6 | 529 | 11 |
+| Kegalle | 654.8 | 5.1 | 642 | 2.6 | 19 | 1020 | 6 |
+| Badulla | 615.4 | 4.8 | 1088 | 4.3 | 9 | 566 | 9 |
+| Matara | 586.4 | 4.5 | 481 | 1.9 | 21 | 1219 | 3 |
+| N'Eliya | 450.3 | 3.6 | 474 | 1.9 | 22 | 950 | 7 |
+| Anuradhapura | 388.8 | 3.1 | 2752 | 11.0 | 2 | 141 | 18 |
+| Puttalam | 378.4 | 3.0 | 1149 | 4.6 | 8 | 329 | 14 |
+| Hambantota | 340.3 | 2.6 | 1001 | 4.0 | 11 | 340 | 13 |
+| Matale | 314.8 | 2.4 | 770 | 3.1 | 17 | 410 | 12 |
+| Amparai | 272.6 | 2.2 | 1152 | 4.6 | 7 | 237 | 16 |
+| Batticaloa | 256.7 | 2.0 | 951 | 3.8 | 14 | 270 | 15 |
+| Moneragala | 193.0 | 1.5 | 2754 | 11.0 | 1 | 70 | 21 |
+| Trincomalee | 188.2 | 1.5 | 1010 | 4.0 | 10 | 186 | 17 |
+| Polonnaruwa | 163.7 | 1.3 | 1314 | 5.3 | 5 | 125 | 19 |
+| Vavuniya | 95.2 | 0.8 | 1431 | 5.7 | 4 | 67 | 22 |
+| Mannar | 77.8 | 0.6 | 957 | 3.8 | 13 | 81 | 20 |
+| SRI LANKA | 12689.9 | 100 | 24962 | 100 |  | 508 |  |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

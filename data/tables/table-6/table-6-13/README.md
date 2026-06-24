@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-6/table-6-13/data.json (6.4 kB)](../../../../data/tables/table-6/table-6-13/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-6/table-6-13/data.tsv (1.0 kB)](../../../../data/tables/table-6/table-6-13/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-6/table-6-13/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-6/table-6-13/original.images/image-01.png' alt='Table 6.13 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-6/table-6-13/data.json)
 
 ```json
@@ -280,9 +284,29 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-6/table-6-13/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-6/table-6-13/data.tsv)
 
-<img src='../../../../data/tables/table-6/table-6-13/original.images/image-01.png' alt='Table 6.13 Image' width='640px' />
+| Citizenship | TOTAL - 1963 | TOTAL - 1971 | MALE - 1963 | MALE - 1971 | FEMALE - 1963 | FEMALE - 1971 | SEX RATIO - 1963 | SEX RATIO - 1971 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Total | 10582064 | 12689897 | 5498674 | 6531361 | 5083390 | 6158536 | 108 | 106 |
+| Sri Lanka Citizens | 9569883 | 11589050 | 4960653 | 4963945 | 4609230 | 5625105 | 107 | 106 |
+| Aliens | 1012181 | 1100847 | 538021 | 567416 | 474160 | 533431 | 113 | 106 |
+| Aliens % of total population | 9.6 | 8.7 | 9.8 | 8.7 | 9.3 | 8.7 |  |  |
+| India | 997336 | 1091712 | 579421 | 562314 | 467915 | 529398 | 124 | 106 |
+| India % of Aliens | 98.7 | 99.2 | 98.4 | 99.1 | 98.7 | 99.2 |  |  |
+| Pakistan | 1571 | 480 | 885 | 263 | 686 | 217 | 129 | 121 |
+| Great Britain | 1776 | 729 | 909 | 399 | 867 | 330 | 101 | 121 |
+| Malaysia | 504 | 719 | 282 | 397 | 222 | 322 | 127 | 123 |
+| Singapore |  | 69 |  | 36 |  | 33 |  |  |
+| China | 397 | 878 | 238 | 891 | 159 | 187 | 149 | 369 |
+| U.S.A. | 260 | 243 | 137 | 119 | 125 | 124 | 110 | 96 |
+| Australia | 154 | 78 | 78 | 36 | 76 | 42 | 103 | 86 |
+| Canada | 110 | 46 | 57 | 24 | 53 | 22 | 107 | 109 |
+| Japan | 98 | 140 | 62 | 92 | 36 | 48 | 172 | 192 |
+| Burma | 70 | 31 | 51 | 16 | 19 | 15 | 868 | 107 |
+| New Zealand | 17 | 17 | 7 | 8 | 10 | 9 | 70 | 89 |
+| Other Countries | 2359 | 1398 | 1257 | 771 | 1102 | 627 | 114 | 123 |
+| Unspecified | 7529 | 4307 | 4637 | 2250 | 2892 | 2057 | 160 | 109 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

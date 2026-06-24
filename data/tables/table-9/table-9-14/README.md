@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-9/table-9-14/data.json (8.6 kB)](../../../../data/tables/table-9/table-9-14/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-9/table-9-14/data.tsv (1.9 kB)](../../../../data/tables/table-9/table-9-14/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-9/table-9-14/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-9/table-9-14/original.images/image-01.png' alt='Table 9.14 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-9/table-9-14/data.json)
 
 ```json
@@ -392,9 +396,40 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-9/table-9-14/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-9/table-9-14/data.tsv)
 
-<img src='../../../../data/tables/table-9/table-9-14/original.images/image-01.png' alt='Table 9.14 Image' width='640px' />
+| Industry | Sex | 1953 - Number | 1953 - % | 1963 - Number | 1963 - % | 1971 - Number | 1971 - % |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Manufacturing | T | 289245 | 100 | 292275 | 100 | 339405 | 100 |
+| Manufacturing | M | 199083 | 100 | 229075 | 100 | 240115 | 100 |
+| Manufacturing | F | 90162 | 100 | 63200 | 100 | 99290 | 100 |
+| Food Manufacturing | T | 47989 | 16.6 | 70504 | 24.1 | 71988 | 21.2 |
+| Food Manufacturing | M | 40538 | 20.4 | 61271 | 26.7 | 58528 | 24.4 |
+| Food Manufacturing | F | 7451 | 8.2 | 9233 | 14.6 | 13460 | 13.5 |
+| Manufacture of Textiles | T | 92745 | 32.1 | 66470 | 22.7 | 122188 | 36.0 |
+| Manufacture of Textiles | M | 24746 | 12.4 | 21752 | 9.5 | 45675 | 19.0 |
+| Manufacture of Textiles | F | 67999 | 75.4 | 44718 | 70.8 | 76513 | 77.0 |
+| Manufacture of Wood and Wood Products | T | 72832 | 25.1 | 71620 | 24.5 | 71406 | 21.0 |
+| Manufacture of Wood and Wood Products | M | 68062 | 34.2 | 70080 | 30.6 | 69622 | 28.9 |
+| Manufacture of Wood and Wood Products | F | 4770 | 5.3 | 1540 | 2.4 | 1784 | 1.8 |
+| Manufacture of Paper and Paper Products | T | 8253 | 2.9 | 13092 | 4.5 | 14696 | 4.3 |
+| Manufacture of Paper and Paper Products | M | 7831 | 3.9 | 12656 | 5.5 | 14124 | 5.9 |
+| Manufacture of Paper and Paper Products | F | 422 | 0.4 | 436 | 0.7 | 572 | 0.6 |
+| Manufacture of Chemicals | T | 11672 | 4.0 | 16419 | 5.6 | 11055 | 3.2 |
+| Manufacture of Chemicals | M | 9626 | 4.8 | 13998 | 6.1 | 9198 | 3.8 |
+| Manufacture of Chemicals | F | 2046 | 2.3 | 2421 | 3.8 | 1857 | 1.8 |
+| Manufacture of Non Metallic Mineral Products | T | 19450 | 6.7 | 17667 | 6.0 | 20341 | 6.0 |
+| Manufacture of Non Metallic Mineral Products | M | 14690 | 7.4 | 13897 | 6.1 | 16267 | 6.8 |
+| Manufacture of Non Metallic Mineral Products | F | 4760 | 5.3 | 3770 | 6.0 | 4074 | 4.1 |
+| Basic Metal Industries | T | 1661 | 0.6 | 1281 | 0.4 | 5150 | 1.5 |
+| Basic Metal Industries | M | 1516 | 0.8 | 1263 | 0.6 | 5104 | 2.1 |
+| Basic Metal Industries | F | 145 | 0.2 | 18 | 0.0 | 46 | 0.0 |
+| Manufacture of Metal Products and Machinery | T | 17625 | 6.1 | 18996 | 6.5 | 11808 | 3.5 |
+| Manufacture of Metal Products and Machinery | M | 16755 | 8.4 | 18630 | 8.1 | 11173 | 4.6 |
+| Manufacture of Metal Products and Machinery | F | 870 | 1.0 | 366 | 0.6 | 635 | 0.6 |
+| Other Manufacturing | T | 17018 | 5.9 | 16226 | 5.6 | 10773 | 3.2 |
+| Other Manufacturing | M | 15319 | 7.7 | 15528 | 6.8 | 10424 | 4.3 |
+| Other Manufacturing | F | 1699 | 1.9 | 698 | 1.1 | 349 | 0.4 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

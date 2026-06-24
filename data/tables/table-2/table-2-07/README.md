@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-2/table-2-07/data.json (1.6 kB)](../../../../data/tables/table-2/table-2-07/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-2/table-2-07/data.tsv (243 B)](../../../../data/tables/table-2/table-2-07/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-2/table-2-07/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-2/table-2-07/original.images/image-01.png' alt='Table 2.7 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-2/table-2-07/data.json)
 
 ```json
@@ -86,9 +90,17 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-2/table-2-07/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-2/table-2-07/data.tsv)
 
-<img src='../../../../data/tables/table-2/table-2-07/original.images/image-01.png' alt='Table 2.7 Image' width='640px' />
+| AVERAGE ANNUAL RATE OF GROWTH | 1946-53 | 1953-63 | 1963-71 |
+| --- | --- | --- | --- |
+| All Ethnic Groups | 2.8 | 2.7 | 2.2 |
+| Sinhalese | 2.8 | 2.9 | 2.4 |
+| Ceylon Tamils | 2.7 | 2.7 | 2.4 |
+| Indian Tamils | 3.2 | 2.3 | -0.3 |
+| Ceylon Moors | 3.1 | 3.0 | 3.5 |
+| Indian Moors | 4.2 | 1.5 | -8.2 |
+| Burghers | 1.4 | -0.03 | -0.14 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

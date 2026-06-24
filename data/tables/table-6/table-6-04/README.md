@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-6/table-6-04/data.json (9.0 kB)](../../../../data/tables/table-6/table-6-04/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-6/table-6-04/data.tsv (1.4 kB)](../../../../data/tables/table-6/table-6-04/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-6/table-6-04/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-6/table-6-04/original.images/image-01.png' alt='Table 6.4 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-6/table-6-04/data.json)
 
 ```json
@@ -384,9 +388,37 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-6/table-6-04/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-6/table-6-04/data.tsv)
 
-<img src='../../../../data/tables/table-6/table-6-04/original.images/image-01.png' alt='Table 6.4 Image' width='640px' />
+| District | Low country Sinhalese | Kandyan Sinhalese | Sri Lankan Tamils | Indian Tamils | Sri Lankan Moors | Indian Moors | Burghers | Malays |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Sri Lanka | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 |
+| 1. Colombo | 39.3 | 2.4 | 11.9 | 5.1 | 17.9 | 22.9 | 72.2 | 63.7 |
+| 2. Kalutara | 11.6 | 0.2 | 0.5 | 3.3 | 6.0 | 1.8 | 0.9 | 1.6 |
+| 3. Galle | 12.8 | 0.1 | 0.3 | 1.3 | 2.7 | 1.1 | 1.1 | 0.5 |
+| 4. Matara | 10.2 | 0.06 | 0.1 | 1.6 | 1.8 | 0.4 | 0.4 | 0.2 |
+| Zone (i) | 73.9 | 2.7 | 12.8 | 11.3 | 28.4 | 26.2 | 80.6 | 66.0 |
+| 5. Hambantota | 6.0 | 0.08 | 0.1 | 0.3 | 0.5 | 0.0 | 0.0 | 7.6 |
+| 6. Moneragala | 0.7 | 3.7 | 0.2 | 0.9 | 0.4 | 0.4 | 0.2 | 0.2 |
+| 7. Amparai | 0.6 | 1.4 | 4.2 | 0.2 | 15.3 | 2.9 | 1.5 | 0.5 |
+| 8. Polonnaruwa | 0.9 | 2.6 | 0.3 | 0.2 | 1.4 | 0.4 | 2.2 | 0.0 |
+| 9. Anuradhapura | 1.5 | 7.2 | 0.5 | 0.2 | 3.1 | 2.9 | 0.4 | 0.7 |
+| 10. Puttalam | 5.0 | 0.9 | 1.8 | 0.5 | 4.5 | 2.6 | 0.9 | 1.8 |
+| Zone (ii) | 14.7 | 15.8 | 7.1 | 2.3 | 25.2 | 9.2 | 5.2 | 10.8 |
+| 11. Jaffna | 0.07 | 0.06 | 46.7 | 1.5 | 1.2 | 2.2 | 0.7 | 0.5 |
+| 12. Mannar | 0.04 | 0.02 | 2.8 | 1.1 | 2.4 | 6.9 | 0.0 | 0.0 |
+| 13. Vavuniya | 0.09 | 0.3 | 4.1 | 1.2 | 0.8 | 1.1 | 2.2 | 0.2 |
+| 14. Trincomalee | 0.5 | 0.7 | 4.6 | 0.4 | 7.3 | 1.8 | 2.6 | 1.1 |
+| 15. Batticaloa | 0.1 | 0.2 | 12.4 | 0.4 | 7.4 | 2.2 | 4.2 | 0.2 |
+| Zone (iii) | 0.8 | 1.3 | 70.6 | 4.6 | 19.1 | 14.2 | 9.7 | 2.0 |
+| 16. Kandy | 2.4 | 16.4 | 3.6 | 24.3 | 11.7 | 16.1 | 6.6 | 7.6 |
+| 17. Matale | 0.7 | 5.3 | 0.8 | 3.9 | 2.4 | 4.4 | 0.9 | 1.4 |
+| 18. N'Eliya | 0.7 | 4.1 | 1.3 | 20.0 | 0.9 | 4.4 | 1.5 | 1.8 |
+| 19. Badulla | 0.9 | 8.4 | 1.4 | 17.8 | 2.4 | 8.0 | 1.9 | 3.9 |
+| 20. Ratnapura | 2.0 | 12.8 | 0.7 | 9.6 | 0.9 | 6.6 | 0.9 | 1.4 |
+| 21. Kegalle | 0.9 | 13.0 | 0.8 | 5.3 | 3.5 | 4.7 | 0.7 | 1.1 |
+| 22. Kurunegala | 3.2 | 20.3 | 0.7 | 1.1 | 5.6 | 5.8 | 1.5 | 3.2 |
+| Zone (iv) | 10.6 | 80.2 | 9.3 | 82.0 | 27.4 | 50.0 | 14.0 | 20.4 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

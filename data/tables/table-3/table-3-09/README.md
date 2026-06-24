@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-3/table-3-09/data.json (1.4 kB)](../../../../data/tables/table-3/table-3-09/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-3/table-3-09/data.tsv (285 B)](../../../../data/tables/table-3/table-3-09/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-3/table-3-09/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-3/table-3-09/original.images/image-01.png' alt='Table 3.9 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-3/table-3-09/data.json)
 
 ```json
@@ -75,9 +79,14 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-3/table-3-09/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-3/table-3-09/data.tsv)
 
-<img src='../../../../data/tables/table-3/table-3-09/original.images/image-01.png' alt='Table 3.9 Image' width='640px' />
+| Type | 1963 - No. | 1963 - Population | 1963 - Percentage | 1971 - No. | 1971 - Population | 1971 - Percentage |
+| --- | --- | --- | --- | --- | --- | --- |
+| Municipal Councils | 10 | 1031557 | 51.2 | 12 | 1219682 | 42.8 |
+| Urban Councils | 35 | 581279 | 28.8 | 37 | 771095 | 27.1 |
+| Town Councils | 54 | 403449 | 20.0 | 86 | 857339 | 30.1 |
+| Total | 99 | 2016285 | 100.0 | 135 | 2848116 | 100.0 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

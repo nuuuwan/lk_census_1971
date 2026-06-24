@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-3/table-3-02/data.json (3.8 kB)](../../../../data/tables/table-3/table-3-02/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-3/table-3-02/data.tsv (559 B)](../../../../data/tables/table-3/table-3-02/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-3/table-3-02/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-3/table-3-02/original.images/image-01.png' alt='Table 3.2 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-3/table-3-02/data.json)
 
 ```json
@@ -152,9 +156,21 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-3/table-3-02/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-3/table-3-02/data.tsv)
 
-<img src='../../../../data/tables/table-3/table-3-02/original.images/image-01.png' alt='Table 3.2 Image' width='640px' />
+| Census Year | Population in 1000 - Wet Zone | Population in 1000 - Dry Zone | Percentage - Wet Zone | Percentage - Dry Zone | Density - Wet Zone | Density - Dry Zone |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1871 | 1813.4 | 586.9 | 75.6 | 24.4 | 190 | 38 |
+| 1881 | 2023.4 | 646.2 | 75.8 | 24.2 | 212 | 42 |
+| 1891 | 2285.5 | 722.2 | 75.9 | 24.1 | 240 | 47 |
+| 1901 | 2763.2 | 802.7 | 77.5 | 22.5 | 290 | 52 |
+| 1911 | 3228.9 | 877.4 | 78.6 | 21.4 | 339 | 57 |
+| 1921 | 3576.1 | 921.7 | 79.5 | 20.5 | 375 | 60 |
+| 1931 | 4324.1 | 982.7 | 80.0 | 20.0 | 454 | 64 |
+| 1946 | 5426.6 | 1230.7 | 81.5 | 18.5 | 570 | 80 |
+| 1953 | 6523.1 | 1574.7 | 79.6 | 20.4 | 685 | 102 |
+| 1963 | 8191.4 | 2390.6 | 77.4 | 22.6 | 860 | 155 |
+| 1971 | 9633.6 | 3056.3 | 75.9 | 24.1 | 1009 | 198 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-9/table-9-18/data.json (8.5 kB)](../../../../data/tables/table-9/table-9-18/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-9/table-9-18/data.tsv (1.1 kB)](../../../../data/tables/table-9/table-9-18/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-9/table-9-18/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-9/table-9-18/original.images/image-01.png' alt='Table 9.18 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-9/table-9-18/data.json)
 
 ```json
@@ -284,9 +288,31 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-9/table-9-18/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-9/table-9-18/data.tsv)
 
-<img src='../../../../data/tables/table-9/table-9-18/original.images/image-01.png' alt='Table 9.18 Image' width='640px' />
+| Educational Attainment | Sex | White Collar Occupations - Number | White Collar Occupations - % | Agricultural Occupations - Number | Agricultural Occupations - % | Other Occupations - Number | Other Occupations - % |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Total | T | 650916 | 17.8 | 1782130 | 48.8 | 1215829 | 33.3 |
+| Total | M | 539911 | 19.0 | 1287175 | 45.3 | 1011318 | 35.6 |
+| Total | F | 111005 | 13.7 | 494955 | 61.1 | 204511 | 25.2 |
+| No Schooling | T | 47224 | 5.6 | 583013 | 69.3 | 210954 | 25.1 |
+| No Schooling | M | 38246 | 7.9 | 291617 | 60.7 | 150372 | 31.3 |
+| No Schooling | F | 8978 | 2.5 | 291396 | 80.7 | 60682 | 16.8 |
+| Grades I-V | T | 105246 | 7.4 | 844750 | 59.1 | 480538 | 33.6 |
+| Grades I-V | M | 99260 | 8.4 | 676666 | 57.0 | 410674 | 34.6 |
+| Grades I-V | F | 5986 | 2.4 | 168084 | 68.9 | 69864 | 28.6 |
+| Grades VI-X | T | 286685 | 25.9 | 338040 | 30.6 | 480267 | 43.5 |
+| Grades VI-X | M | 255157 | 26.2 | 303911 | 31.2 | 413877 | 42.5 |
+| Grades VI-X | F | 31528 | 23.9 | 34129 | 25.8 | 66390 | 50.3 |
+| G.C.E.'O' | T | 119331 | 68.4 | 14829 | 8.5 | 40254 | 23.1 |
+| G.C.E.'O' | M | 89423 | 65.6 | 13542 | 9.9 | 33321 | 24.4 |
+| G.C.E.'O' | F | 29908 | 78.4 | 1287 | 3.4 | 6933 | 18.2 |
+| G.C.E.'A' | T | 57736 | 94.1 | 1205 | 1.8 | 2770 | 4.1 |
+| G.C.E.'A' | M | 30425 | 91.3 | 1150 | 2.9 | 2320 | 5.8 |
+| G.C.E.'A' | F | 27311 | 98.1 | 55 | 0.2 | 450 | 1.6 |
+| Degree | T | 28703 | 95.7 | 297 | 1.0 | 1002 | 3.3 |
+| Degree | M | 21409 | 95.1 | 289 | 1.3 | 814 | 3.6 |
+| Degree | F | 7294 | 97.4 | 8 | 0.1 | 188 | 2.5 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

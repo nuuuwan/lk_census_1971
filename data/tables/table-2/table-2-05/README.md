@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-2/table-2-05/data.json (908 B)](../../../../data/tables/table-2/table-2-05/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-2/table-2-05/data.tsv (150 B)](../../../../data/tables/table-2/table-2-05/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-2/table-2-05/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-2/table-2-05/original.images/image-01.png' alt='Table 2.5 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-2/table-2-05/data.json)
 
 ```json
@@ -65,9 +69,14 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-2/table-2-05/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-2/table-2-05/data.tsv)
 
-<img src='../../../../data/tables/table-2/table-2-05/original.images/image-01.png' alt='Table 2.5 Image' width='640px' />
+| Age of Women | 1946 | 1953 | 1963 | 1971 |
+| --- | --- | --- | --- | --- |
+| 15 - 19 | 23.9 | 23.7 | 14.8 | 10.3 |
+| 20 - 24 | 68.4 | 65.7 | 57.6 | 45.9 |
+| 25 - 29 | 84.4 | 84.4 | 81.0 | 73.5 |
+| 30 - 34 | 87.1 | 87.8 | 88.6 | 85.9 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

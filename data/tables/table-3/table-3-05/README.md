@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-3/table-3-05/data.json (3.4 kB)](../../../../data/tables/table-3/table-3-05/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-3/table-3-05/data.tsv (546 B)](../../../../data/tables/table-3/table-3-05/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-3/table-3-05/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-3/table-3-05/original.images/image-01.png' alt='Table 3.5 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-3/table-3-05/data.json)
 
 ```json
@@ -119,9 +123,18 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-3/table-3-05/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-3/table-3-05/data.tsv)
 
-<img src='../../../../data/tables/table-3/table-3-05/original.images/image-01.png' alt='Table 3.5 Image' width='640px' />
+| Census Year | Urban and Rural areas - Population ('000) | Urban and Rural areas - Percentage | Urban Areas - Population ('000) | Urban Areas - Percentage | Rural Areas - Population ('000) | Rural Areas - Percentage |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1901 | 3565.9 | 100.0 | 414.0 | 11.6 | 3151.9 | 88.4 |
+| 1911 | 4106.4 | 100.0 | 543.0 | 13.2 | 3563.4 | 86.8 |
+| 1921 | 4498.6 | 100.0 | 637.9 | 14.2 | 3860.7 | 85.8 |
+| 1931 | 5306.9 | 100.0 | 737.3 | 13.9 | 4569.6 | 86.1 |
+| 1946 | 6657.3 | 100.0 | 1023.0 | 15.4 | 5634.3 | 84.6 |
+| 1953 | 8097.9 | 100.0 | 1239.1 | 15.3 | 6858.8 | 84.7 |
+| 1963 | 10582.0 | 100.0 | 2016.3 | 19.1 | 8565.7 | 80.9 |
+| 1971 | 12689.9 | 100.0 | 2848.1 | 22.4 | 9841.8 | 77.6 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

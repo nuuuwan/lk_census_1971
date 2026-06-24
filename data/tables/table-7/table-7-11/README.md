@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-7/table-7-11/data.json (817 B)](../../../../data/tables/table-7/table-7-11/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-7/table-7-11/data.tsv (92 B)](../../../../data/tables/table-7/table-7-11/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-7/table-7-11/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-7/table-7-11/original.images/image-01.png' alt='Table 7.11 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-11/data.json)
 
 ```json
@@ -55,9 +59,13 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-7/table-7-11/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-11/data.tsv)
 
-<img src='../../../../data/tables/table-7/table-7-11/original.images/image-01.png' alt='Table 7.11 Image' width='640px' />
+| Year | Urban | Rural | Rural x 100 / Urban |
+| --- | --- | --- | --- |
+| 1953 | 549 | 672 | 123 |
+| 1963 | 594 | 712 | 120 |
+| 1971 | 492 | 569 | 116 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

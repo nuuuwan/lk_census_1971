@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-6/table-6-07/data.json (2.2 kB)](../../../../data/tables/table-6/table-6-07/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-6/table-6-07/data.tsv (409 B)](../../../../data/tables/table-6/table-6-07/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-6/table-6-07/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-6/table-6-07/original.images/image-01.png' alt='Table 6.7 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-6/table-6-07/data.json)
 
 ```json
@@ -111,9 +115,16 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-6/table-6-07/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-6/table-6-07/data.tsv)
 
-<img src='../../../../data/tables/table-6/table-6-07/original.images/image-01.png' alt='Table 6.7 Image' width='640px' />
+| Religion | Low Country Sinhalese | Kandyan Sinhalese | Ceylon Tamils | Indian Tamils | Ceylon Moors | Indian Moors | Malays | Burghers |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Buddhists | 87.9 | 98.77 | 2.61 | 2.27 | 1.0 | 0.02 | 2.35 | 2.77 |
+| Hindus | 0.1 | False | 80.59 | 89.33 | False | 3.03 | 3.34 | 0.01 |
+| Muslims | 0.01 | False | False | False | 98.67 | 95.23 | 92.02 | 0.01 |
+| Christians | 11.9 | 1.03 | 16.54 | 8.09 | 0.33 | 1.74 | 2.16 | 95.92 |
+| Others | 0.09 | 0.23 | 2.6 | 0.31 |  |  | 0.13 | 1.29 |
+| Total | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

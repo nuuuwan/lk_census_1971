@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-5/table-5-03/data.json (3.6 kB)](../../../../data/tables/table-5/table-5-03/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-5/table-5-03/data.tsv (735 B)](../../../../data/tables/table-5/table-5-03/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-5/table-5-03/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-5/table-5-03/original.images/image-01.png' alt='Table 5.3 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-5/table-5-03/data.json)
 
 ```json
@@ -190,9 +194,26 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-5/table-5-03/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-5/table-5-03/data.tsv)
 
-<img src='../../../../data/tables/table-5/table-5-03/original.images/image-01.png' alt='Table 5.3 Image' width='640px' />
+| Age | 1946 | 1953 | 1963 | 1971 | Percentage increase 1946 - 1971 |
+| --- | --- | --- | --- | --- | --- |
+| All ages | 6657339 | 8097895 | 10582064 | 12689897 | 90.6 |
+| 0 - 4 | 861439 | 1208829 | 1611584 | 1664678 | 93.2 |
+| 5 - 9 | 811363 | 1085914 | 1447275 | 1670916 | 105.9 |
+| 10 - 14 | 805642 | 920186 | 1330796 | 1609091 | 99.7 |
+| 15 - 19 | 680614 | 703844 | 1021354 | 1359963 | 99.8 |
+| 20 - 24 | 641571 | 767472 | 885859 | 1270689 | 98.1 |
+| 25 - 29 | 577518 | 708871 | 744212 | 954158 | 65.2 |
+| 30 - 34 | 449887 | 520785 | 667918 | 729779 | 62.2 |
+| 35 - 39 | 468282 | 535590 | 653546 | 725451 | 54.9 |
+| 40 - 44 | 322232 | 372040 | 471368 | 586219 | 81.9 |
+| 45 - 49 | 319364 | 370316 | 443826 | 544808 | 70.5 |
+| 50 - 54 | 196131 | 278154 | 345985 | 418025 | 113.1 |
+| 55 - 59 | 163150 | 188625 | 268103 | 349488 | 114.2 |
+| 60 - 64 | 130448 | 153448 | 241575 | 268042 | 105.5 |
+| 65 & Over | 229498 | 283821 | 379357 | 538590 | 134.7 |
+| Age Unspecified |  |  | 69306 |  |  |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

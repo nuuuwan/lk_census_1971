@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-4/table-4-12/data.json (4.1 kB)](../../../../data/tables/table-4/table-4-12/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-4/table-4-12/data.tsv (788 B)](../../../../data/tables/table-4/table-4-12/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-4/table-4-12/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-4/table-4-12/original.images/image-01.png' alt='Table 4.12 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-4/table-4-12/data.json)
 
 ```json
@@ -137,9 +141,18 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-4/table-4-12/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-4/table-4-12/data.tsv)
 
-<img src='../../../../data/tables/table-4/table-4-12/original.images/image-01.png' alt='Table 4.12 Image' width='640px' />
+| Town | Usual Residence in Town | All non Migrants | All Durations | Duration of residence - Under 1 yr. | Duration of residence - 1 - 4 yrs. | Duration of residence - 5 - 9 yrs. | Duration of residence - 10 or more years | Duration of residence - Not Stated |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Colombo | M.C. 1225.0 | 1057.4 | 1490.6 | 1740.7 | 1588.5 | 1620.9 | 1320.5 | 1289.3 |
+| Dehiwela Mt. | M.C. 1075.5 | 1087.5 | 1120.4 | 1134.6 | 1155.6 | 1081.7 | 1017.4 | 1087.8 |
+| Negombo | M.C. 1033.6 | 989.5 | 1255.5 | 1567.5 | 1095.1 | 1172.5 | 1161.6 | 965.8 |
+| Moratuwa | U.C. 969.8 | 974.0 | 956.0 | 1157.7 | 956.4 | 1000.5 | 780.3 | 974.0 |
+| Kotte | U.C. 1067.1 | 985.4 | 1161.1 | 1245.4 | 1184.8 | 1046.2 | 1133.5 | 1063.9 |
+| Kandy | M.C. 1090.9 | 1036.1 | 1157.7 | 1463.3 | 1266.6 | 1057.1 | 1001.8 | 1033.2 |
+| Galle | M.C. 995.5 | 1025.1 | 945.6 | 1166.7 | 1046.1 | 817.7 | 839.3 | 721.3 |
+| Jaffna | M.C. 1030.7 | 1007.4 | 1246.3 | 1517.6 | 1449.8 | 1217.3 | 1093.0 | 1030.8 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

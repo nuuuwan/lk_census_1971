@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-3/table-3-04/data.json (2.6 kB)](../../../../data/tables/table-3/table-3-04/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-3/table-3-04/data.tsv (472 B)](../../../../data/tables/table-3/table-3-04/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-3/table-3-04/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-3/table-3-04/original.images/image-01.png' alt='Table 3.4 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-3/table-3-04/data.json)
 
 ```json
@@ -104,9 +108,15 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-3/table-3-04/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-3/table-3-04/data.tsv)
 
-<img src='../../../../data/tables/table-3/table-3-04/original.images/image-01.png' alt='Table 3.4 Image' width='640px' />
+| Zone | Land Area - Sq.Mis. | Land Area - % | Population in 1000 - 1963 | Population in 1000 - % | Population in 1000 - 1971 | Population in 1000 - % (1971) | Density per Sq.Mile - 1963 | Density per Sq.Mile - 1971 | % Incre |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| I | 2540 | 10.3 | 4022.3 | 37.7 | 4723.4 | 37.0 | 1581 | 1861 | 17.0 |
+| II | 10125 | 40.5 | 1314.6 | 12.5 | 1736.7 | 13.7 | 130 | 172 | 32.0 |
+| III | 5316 | 21.3 | 1076.1 | 10.3 | 1319.6 | 10.2 | 202 | 248 | 22.0 |
+| IV | 6981 | 27.9 | 4196.1 | 39.5 | 4910.2 | 39.1 | 600 | 702 | 17.0 |
+| Sri Lanka | 24962 | 100 | 10582.1 | 100 | 12689.9 | 100 | 423 | 508 | 20.0 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

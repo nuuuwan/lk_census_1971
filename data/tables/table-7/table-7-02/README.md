@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-7/table-7-02/data.json (3.3 kB)](../../../../data/tables/table-7/table-7-02/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-7/table-7-02/data.tsv (518 B)](../../../../data/tables/table-7/table-7-02/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-7/table-7-02/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-7/table-7-02/original.images/image-01.png' alt='Table 7.2 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-02/data.json)
 
 ```json
@@ -124,9 +128,17 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-7/table-7-02/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-7/table-7-02/data.tsv)
 
-<img src='../../../../data/tables/table-7/table-7-02/original.images/image-01.png' alt='Table 7.2 Image' width='640px' />
+| Age of Women | 1946 - Currently Married | 1946 - Never Married | 1953 - Currently Married | 1953 - Never Married | 1963 - Currently Married | 1963 - Never Married | 1971 - Currently Never Married | 1971 - Never Married |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 15-19 | 23.9 | 75.3 | 23.7 | 75.7 | 14.8 | 85.0 | 10.3 | 89.5 |
+| 20-24 | 68.4 | 29.4 | 65.7 | 32.5 | 57.6 | 41.3 | 45.9 | 53.1 |
+| 25-29 | 84.4 | 11.8 | 84.4 | 12.8 | 81.0 | 17.1 | 73.5 | 24.6 |
+| 30-34 | 87.1 | 6.6 | 87.8 | 7.5 | 88.6 | 8.3 | 85.9 | 10.9 |
+| 35-39 | 85.5 | 4.3 | 86.5 | 5.4 | 89.8 | 4.8 | 89.3 | 5.6 |
+| 40-44 | 78.4 | 4.1 | 80.7 | 5.0 | 86.1 | 4.3 | 87.8 | 4.3 |
+| 45-49 | 71.4 | 3.4 | 73.8 | 4.4 | 81.6 | 3.9 | 84.9 | 3.6 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

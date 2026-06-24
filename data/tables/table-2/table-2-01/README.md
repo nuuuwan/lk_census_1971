@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-2/table-2-01/data.json (3.9 kB)](../../../../data/tables/table-2/table-2-01/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-2/table-2-01/data.tsv (615 B)](../../../../data/tables/table-2/table-2-01/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-2/table-2-01/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-2/table-2-01/original.images/image-01.png' alt='Table 2.1 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-2/table-2-01/data.json)
 
 ```json
@@ -154,9 +158,21 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-2/table-2-01/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-2/table-2-01/data.tsv)
 
-<img src='../../../../data/tables/table-2/table-2-01/original.images/image-01.png' alt='Table 2.1 Image' width='640px' />
+| Year | Date of Census | Population | Numerical increase over previous Census | Percent increase | Average annual rate of growth | Rate of natural increase |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1871 | March 27 | 2400380 |  |  |  |  |
+| 1881 | February 17 | 2759738 | 359358 | 15.0 | 1.4 | 0.5 |
+| 1891 | February 26 | 3007789 | 248051 | 9.0 | 0.9 | 0.5 |
+| 1901 | March 01 | 3565954 | 558165 | 18.6 | 1.7 | 0.7 |
+| 1911 | March 10 | 4106350 | 540396 | 15.2 | 1.4 | 0.9 |
+| 1921 | March 18 | 4498605 | 392255 | 9.6 | 0.9 | 0.8 |
+| 1931 | February 26 | 5306871 | 808266 | 18.0 | 1.7 | 1.4 |
+| 1946 | March 19 | 6657339 | 1350468 | 25.4 | 1.5 | 1.5 |
+| 1953 | March 20 | 8097895 | 1440556 | 21.6 | 2.8 | 2.7 |
+| 1963 | July 08 | 10582064 | 2484169 | 30.7 | 2.7 | 2.8 |
+| 1971 | October 09 | 12689897 | 2107833 | 19.9 | 2.2 | 2.4 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

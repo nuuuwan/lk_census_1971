@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-8/table-8-11/data.json (3.1 kB)](../../../../data/tables/table-8/table-8-11/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-8/table-8-11/data.tsv (459 B)](../../../../data/tables/table-8/table-8-11/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-8/table-8-11/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-8/table-8-11/original.images/image-01.png' alt='Table 8.11 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-8/table-8-11/data.json)
 
 ```json
@@ -110,9 +114,19 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-8/table-8-11/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-8/table-8-11/data.tsv)
 
-<img src='../../../../data/tables/table-8/table-8-11/original.images/image-01.png' alt='Table 8.11 Image' width='640px' />
+| Age | Number reported as literate | Number estimated as literate from educational attainment | Difference - Number | Difference - Percent of number reported as literate |
+| --- | --- | --- | --- | --- |
+| 10 and above | T | 7251002 | 93529 | 1.3 |
+| 10 and above | M | 4066239 | 77063 | 1.9 |
+| 10 and above | F | 3184763 | 16466 | 0.5 |
+| 10 - 24 | T | 3646261 | -24440 | -0.7 |
+| 10 - 24 | M | 1894240 | -16798 | -0.9 |
+| 10 - 24 | F | 1752021 | -7642 | -0.4 |
+| 25 and above | T | 3604741 | 117696 | 3.2 |
+| 25 and above | M | 2171999 | 93861 | 4.1 |
+| 25 and above | F | 1432742 | 24108 | 1.7 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

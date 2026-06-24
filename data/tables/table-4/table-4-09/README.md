@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-4/table-4-09/data.json (13.8 kB)](../../../../data/tables/table-4/table-4-09/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-4/table-4-09/data.tsv (1.7 kB)](../../../../data/tables/table-4/table-4-09/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-4/table-4-09/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-4/table-4-09/original.images/image-01.png' alt='Table 4.9 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-4/table-4-09/data.json)
 
 ```json
@@ -365,9 +369,32 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-4/table-4-09/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-4/table-4-09/data.tsv)
 
-<img src='../../../../data/tables/table-4/table-4-09/original.images/image-01.png' alt='Table 4.9 Image' width='640px' />
+| District | Number ('000) - Total | Number ('000) - Under 1 year 1970-1971 | Number ('000) - 1-4 years 1966-1970 | Number ('000) - 5-9 years 1961-1966 | Number ('000) - 10 years and more before 1961 | Percentages - Total | Percentages - Number 1 year 1970 - 1971 | Percentages - 1-4 years 1966-1970 | Percentages - 5-9 years 1961-1966 | Percentages - 10 Years and more before 1961 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Colombo | 108.3 | 28.4 | 31.8 | 20.5 | 27.6 | 100.0 | 26.2 | 29.4 | 18.9 | 25.5 |
+| Kalutara | -16.6 | -2.1 | -0.7 | -1.5 | -12.2 | 100.0 | -12.7 | -4.2 | -9.3 | -73.7 |
+| Kandy | -75.5 | -8.4 | -16.9 | -16.3 | -33.9 | 100.0 | -11.2 | -22.3 | -21.6 | -44.9 |
+| Matale | 4.6 | 1.1 | 2.3 | 2.4 | -1.3 | 100.0 | 23.7 | 50.7 | 53.7 | -28.0 |
+| N'Eliya | -27.2 | -2.7 | -5.6 | -4.8 | -14.1 | 100.0 | -9.9 | -20.6 | -17.6 | -51.9 |
+| Galle | -69.1 | -12.2 | -14.2 | -10.1 | -32.7 | 100.0 | -17.6 | -20.5 | -14.6 | -47.3 |
+| Matara | -93.7 | -12.8 | -16.1 | -15.8 | -49.0 | 100.0 | -13.7 | -17.1 | -16.9 | -52.3 |
+| Hambantota | 11.7 | 1.2 | 2.3 | 0.5 | 7.7 | 100.0 | 9.9 | 19.6 | 4.3 | 66.2 |
+| Jaffna | -43.1 | -8.5 | -9.7 | -6.6 | -18.3 | 100.0 | -19.7 | -22.5 | -15.3 | -42.4 |
+| Mannar | 8.6 | 2.6 | 2.0 | 1.0 | 2.9 | 100.0 | 30.1 | 23.6 | 11.9 | 34.3 |
+| Vavuniya | 21.5 | 4.3 | 5.4 | 2.5 | 9.3 | 100.0 | 19.9 | 25.0 | 11.8 | 43.3 |
+| Batticaloa | -5.8 | -1.5 | -0.3 | -1.1 | -2.8 | 100.0 | -26.4 | -5.8 | -19.1 | -48.7 |
+| Amparai | 39.6 | 4.0 | 5.9 | 6.0 | 23.7 | 100.0 | 10.0 | 14.9 | 15.3 | 59.8 |
+| Trincomalee | 35.1 | 5.0 | 6.4 | 5.1 | 18.7 | 100.0 | 13.9 | 18.2 | 14.6 | 53.2 |
+| Kurunegala | 7.2 | 0.6 | -3.4 | -2.3 | 12.3 | 100.0 | 7.8 | -47.0 | -31.4 | 170.6 |
+| Puttalam | 16.0 | 3.0 | 3.6 | 3.8 | 5.6 | 100.0 | 18.6 | 22.5 | 23.6 | 35.2 |
+| Anuradhapura | 55.7 | 5.8 | 8.6 | 12.8 | 28.5 | 100.0 | 10.4 | 15.4 | 23.0 | 51.2 |
+| Polonnaruwa | 52.9 | 4.6 | 7.1 | 6.9 | 34.4 | 100.0 | 8.7 | 13.4 | 13.0 | 65.0 |
+| Badulla | -23.2 | -3.6 | -3.6 | -4.9 | -11.1 | 100.0 | -15.5 | -15.6 | -21.3 | -47.7 |
+| Moneragala | 32.7 | 3.6 | 6.7 | 7.7 | 14.7 | 100.0 | 10.9 | 20.4 | 23.6 | 45.0 |
+| Ratnapura | 10.7 | -3.7 | 1.3 | 3.6 | 9.5 | 100.0 | -34.4 | 11.7 | 34.1 | 88.6 |
+| Kegalle | -50.1 | -8.3 | -12.8 | -9.5 | -19.5 | 100.0 | -16.6 | -25.6 | -18.9 | -38.9 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

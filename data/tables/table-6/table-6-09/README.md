@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-6/table-6-09/data.json (3.7 kB)](../../../../data/tables/table-6/table-6-09/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-6/table-6-09/data.tsv (701 B)](../../../../data/tables/table-6/table-6-09/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-6/table-6-09/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-6/table-6-09/original.images/image-01.png' alt='Table 6.9 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-6/table-6-09/data.json)
 
 ```json
@@ -158,9 +162,17 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-6/table-6-09/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-6/table-6-09/data.tsv)
 
-<img src='../../../../data/tables/table-6/table-6-09/original.images/image-01.png' alt='Table 6.9 Image' width='640px' />
+| DENOMINATION | 1881 - No. | 1881 - Percentage | 1911 - No. | 1911 - Percentage | 1946 - No. | 1946 - Percentage | 1953 - No. | 1953 - Percentage | 1963 - No. | 1963 - Percentage | 1971 - No. | 1971 - Percentage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| All religions | 2759.7 | 100 | 4106.4 | 100 | 6657.3 | 100 | 8097.9 | 100 | 10590.1 | 100 | 12689.9 | 100 |
+| Buddhists | 1698.1 | 61.59 | 2474.2 | 60.25 | 4294.9 | 64.51 | 5209.4 | 64.3 | 7020.8 | 66.3 | 8536.9 | 67.3 |
+| Hindus | 593.6 | 21.51 | 938.3 | 22.85 | 1320.3 | 19.83 | 1610.6 | 19.9 | 1945.2 | 18.4 | 2238.7 | 17.6 |
+| Muslims | 197.8 | 7.17 | 283.6 | 6.91 | 436.5 | 6.56 | 541.5 | 6.7 | 730.8 | 6.9 | 901.8 | 7.1 |
+| Roman Catholics | 268.0 | 9.71 | 409.2 | 9.96 | 603.2 | 9.06 | 724.5 | 9.0 | 767.4 | 7.2 | 899.0 | 7.1 |
+| Other Christians | 268.0 |  |  |  |  |  |  |  | 116.4 | 1.1 | 105.3 | 0.8 |
+| Others | 2.3 | 0.02 | 1.1 | 0.03 | 1.5 | 0.04 | 11.9 | 0.1 | 9.3 | 0.1 | 8.3 | 0.1 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

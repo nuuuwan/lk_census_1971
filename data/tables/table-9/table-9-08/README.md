@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-9/table-9-08/data.json (1.8 kB)](../../../../data/tables/table-9/table-9-08/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-9/table-9-08/data.tsv (358 B)](../../../../data/tables/table-9/table-9-08/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-9/table-9-08/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-9/table-9-08/original.images/image-01.png' alt='Table 9.8 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-9/table-9-08/data.json)
 
 ```json
@@ -97,9 +101,16 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-9/table-9-08/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-9/table-9-08/data.tsv)
 
-<img src='../../../../data/tables/table-9/table-9-08/original.images/image-01.png' alt='Table 9.8 Image' width='640px' />
+| Status | 1953 - Number | 1953 - % | 1963 - Number | 1963 - % | 1971 - Number | 1971 - % |
+| --- | --- | --- | --- | --- | --- | --- |
+| Paid Employee. | 484745 | 66.9 | 544125 | 83.11 | 599901 | 77.54 |
+| Employer | 9200 | 1.27 | 3757 | 0.57 | 5543 | 0.72 |
+| Own Account Worker | 136742 | 18.87 | 56422 | 8.62 | 82935 | 10.72 |
+| Unpaid Family Worker | 93922 | 12.96 | 42742 | 6.53 | 85242 | 11.02 |
+| Status Unspecified |  |  | 7672 | 1.17 |  |  |
+| Total | 724609 | 100 | 654718 | 100 | 773621 | 100 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

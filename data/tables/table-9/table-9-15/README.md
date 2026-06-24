@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-9/table-9-15/data.json (15.2 kB)](../../../../data/tables/table-9/table-9-15/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-9/table-9-15/data.tsv (2.3 kB)](../../../../data/tables/table-9/table-9-15/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-9/table-9-15/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-9/table-9-15/original.images/image-01.png' alt='Table 9.15 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-9/table-9-15/data.json)
 
 ```json
@@ -519,9 +523,40 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-9/table-9-15/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-9/table-9-15/data.tsv)
 
-<img src='../../../../data/tables/table-9/table-9-15/original.images/image-01.png' alt='Table 9.15 Image' width='640px' />
+| Industry Sector | Year | Sex | Total - Number | Employers - Number | Employers - % | Paid Employees - Number | Paid Employees - % | Workers on own Account - Number | Workers on own Account - % | Unpaid Family Workers - Number | Unpaid Family Workers - % |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Industry Sector | 1953* | T | 378794 | 11420 | 3.0 | 207880 | 54.9 | 138591 | 36.6 | 20903 | 5.5 |
+| Industry Sector | 1953* | M | 282668 | 10416 | 3.7 | 190124 | 67.3 | 77199 | 27.3 | 4929 | 1.7 |
+| Industry Sector | 1953* | F | 96126 | 1004 | 1.0 | 17756 | 18.5 | 61392 | 63.9 | 15974 | 16.6 |
+| Industry Sector | 1971 | T | 465612 | 17769 | 3.8 | 388785 | 83.5 | 54013 | 11.6 | 5045 | 1.1 |
+| Industry Sector | 1971 | M | 363814 | 16058 | 4.4 | 305758 | 84.0 | 39069 | 10.7 | 2929 | 0.8 |
+| Industry Sector | 1971 | F | 101798 | 1711 | 1.7 | 83027 | 81.6 | 14944 | 14.7 | 2116 | 2.1 |
+| Mining and Quarrying | 1953 | T | 13790 | 332 | 2.4 | 10688 | 77.5 | 2198 | 15.9 | 572 | 4.1 |
+| Mining and Quarrying | 1953 | M | 12033 | 303 | 2.5 | 9628 | 80.0 | 1953 | 16.2 | 149 | 1.2 |
+| Mining and Quarrying | 1953 | F | 1757 | 29 | 1.7 | 1060 | 60.3 | 245 | 13.9 | 423 | 24.1 |
+| Mining and Quarrying | 1971 | T | 13079 | 313 | 2.4 | 11017 | 84.2 | 1606 | 12.3 | 143 | 1.1 |
+| Mining and Quarrying | 1971 | M | 12035 | 306 | 2.5 | 10056 | 83.5 | 1565 | 13.0 | 108 | 0.8 |
+| Mining and Quarrying | 1971 | F | 1044 | 7 | 0.7 | 961 | 92.0 | 41 | 3.9 | 35 | 3.4 |
+| Manufacturing‡ | 1953 | T | 303038 | 9375 | 3.1 | 148067 | 48.9 | 126932 | 41.9 | 18604 | 6.2 |
+| Manufacturing‡ | 1953 | M | 212335 | 8482 | 4.0 | 133326 | 62.8 | 66256 | 31.2 | 4271 | 2.0 |
+| Manufacturing‡ | 1953 | F | 90703 | 893 | 1.0 | 14741 | 16.2 | 60676 | 66.9 | 14393 | 15.0 |
+| Manufacturing‡ | 1971 | T | 339405 | 15318 | 4.5 | 271775 | 80.1 | 47612 | 14.0 | 4700 | 1.4 |
+| Manufacturing‡ | 1971 | M | 240115 | 13624 | 5.7 | 191111 | 79.6 | 32750 | 13.6 | 2630 | 1.1 |
+| Manufacturing‡ | 1971 | F | 99290 | 1694 | 1.7 | 80664 | 81.2 | 14862 | 14.9 | 2070 | 2.1 |
+| Electricity, Gas & Water | 1953 | T | 5280 | 290 | 5.5 | 4543 | 86.0 | 309 | 5.9 | 138 | 2.6 |
+| Electricity, Gas & Water | 1953 | M | 4853 | 247 | 5.1 | 4256 | 87.7 | 291 | 6.0 | 59 | 1.2 |
+| Electricity, Gas & Water | 1953 | F | 427 | 43 | 10.1 | 287 | 67.2 | 18 | 4.2 | 79 | 18.5 |
+| Electricity, Gas & Water | 1971 | T | 9567 | 114 | 1.2 | 9262 | 96.8 | 183 | 2.0 | 8 | 0.1 |
+| Electricity, Gas & Water | 1971 | M | 9317 | 114 | 1.2 | 9014 | 96.7 | 181 | 2.0 | 8 | 0.1 |
+| Electricity, Gas & Water | 1971 | F | 250 |  |  | 248 | 99.2 | 2 | 0.8 |  |  |
+| Construction | 1953 | T | 56686 | 1423 | 2.5 | 44582 | 78.6 | 9152 | 16.1 | 1529 | 2.7 |
+| Construction | 1953 | M | 53447 | 1384 | 2.6 | 42914 | 80.3 | 8699 | 16.3 | 450 | 0.8 |
+| Construction | 1953 | F | 3239 | 39 | 1.2 | 1668 | 51.5 | 453 | 14.0 | 1079 | 33.3 |
+| Construction | 1971 | T | 103561 | 2024 | 1.9 | 96731 | 93.4 | 4612 | 4.4 | 194 | 0.2 |
+| Construction | 1971 | M | 102347 | 2014 | 1.9 | 95577 | 93.4 | 4573 | 4.5 | 183 | 0.2 |
+| Construction | 1971 | F | 1214 | 10 | 0.8 | 1154 | 95.0 | 39 | 3.2 | 11 | 0.9 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

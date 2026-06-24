@@ -7,6 +7,10 @@
 - 📄 Extracted JSON Data - [data/tables/table-6/table-6-12/data.json (6.2 kB)](../../../../data/tables/table-6/table-6-12/data.json)
 - 📄 Extracted TSV Data - [data/tables/table-6/table-6-12/data.tsv (1.1 kB)](../../../../data/tables/table-6/table-6-12/data.tsv)
 
+## Original Table [Image](../../../../data/tables/table-6/table-6-12/original.images/image-01.png)
+
+<img src='../../../../data/tables/table-6/table-6-12/original.images/image-01.png' alt='Table 6.12 Image' width='640px' />
+
 ## Extracted [JSON Data](../../../../data/tables/table-6/table-6-12/data.json)
 
 ```json
@@ -308,9 +312,33 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-6/table-6-12/original.images/image-01.png)
+## Extracted [TSV Data](../../../../data/tables/table-6/table-6-12/data.tsv)
 
-<img src='../../../../data/tables/table-6/table-6-12/original.images/image-01.png' alt='Table 6.12 Image' width='640px' />
+| District | Total | Buddhists | Hindus | Muslims | Roman Catholics | Other Christians | Others |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Sri Lanka | 100 | 67.3 | 17.6 | 7.1 | 7.1 | 0.8 | 0.1 |
+| 1. Colombo | 100 | 69.4 | 5.4 | 6.8 | 16.1 | 2.1 | 0.2 |
+| 2. Kalutara | 100 | 83.6 | 5.4 | 7.1 | 3.5 | 0.3 | 0.0 |
+| 3. Galle | 100 | 93.9 | 2.1 | 3.1 | 0.6 | 0.2 | 0.0 |
+| 4. Matara | 100 | 93.8 | 3.1 | 2.5 | 0.4 | 0.1 | 0.0 |
+| 5. Hambantota | 100 | 97.1 | 0.4 | 2.2 | 0.2 | 0.0 | 0.0 |
+| 6. Moneragala | 100 | 90.1 | 7.0 | 2.2 | 0.5 | 0.1 | 0.1 |
+| 7. Amparai | 100 | 29.7 | 21.0 | 46.6 | 1.9 | 0.7 | 0.0 |
+| 8. Polonnaruwa | 100 | 88.6 | 2.8 | 7.1 | 1.3 | 0.1 | 0.0 |
+| 9. Anuradhapura | 100 | 89.5 | 1.9 | 7.1 | 1.3 | 0.2 | 0.0 |
+| 10. Puttalam | 100 | 45.1 | 4.7 | 10.2 | 39.4 | 0.5 | 0.1 |
+| 11. Jaffna | 100 | 0.8 | 85.2 | 1.5 | 11.1 | 1.3 | 0.0 |
+| 12. Mannar | 100 | 2.6 | 29.6 | 27.8 | 39.2 | 0.6 | 0.1 |
+| 13. Vavuniya | 100 | 14.5 | 65.9 | 7.1 | 11.9 | 0.6 | 0.1 |
+| 14. Trincomalee | 100 | 27.9 | 32.7 | 32.3 | 6.5 | 0.5 | 0.0 |
+| 15. Batticaloa | 100 | 3.4 | 65.3 | 24.1 | 5.9 | 1.3 | 0.0 |
+| 16. Kandy | 100 | 61.7 | 25.8 | 8.9 | 2.8 | 0.7 | 0.1 |
+| 17. Matale | 100 | 73.3 | 16.8 | 7.0 | 2.4 | 0.4 | 0.0 |
+| 18. Nuwara Eliya | 100 | 40.9 | 52.5 | 2.1 | 3.8 | 0.7 | 0.0 |
+| 19. Badulla | 100 | 58.3 | 35.3 | 3.9 | 2.0 | 0.5 | 0.0 |
+| 20. Ratnapura | 100 | 79.4 | 16.9 | 1.5 | 1.7 | 0.4 | 0.1 |
+| 21. Kegalle | 100 | 83.1 | 10.1 | 4.7 | 1.5 | 0.6 | 0.0 |
+| 22. Kurunegala | 100 | 89.9 | 1.6 | 4.8 | 3.3 | 0.3 | 0.1 |
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
