@@ -44,6 +44,7 @@ class TableReadMeMixin:
             ("📜 Original Table PDF", self.pdf_file),
             ("📜 Original Table Image", self.first_image_file),
             ("📄 Extracted JSON Data", self.data_file),
+            ("📄 Extracted TSV Data", self.tsv_file),
         ]:
             if file.exists:
                 lines.append(f"- {label} - [{file}](../../../../{file.path})")
