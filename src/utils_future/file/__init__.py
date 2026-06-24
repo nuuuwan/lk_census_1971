@@ -9,5 +9,6 @@ from utils_future.file.JSONFile import JSONFile
 from utils_future.file.Markdown import Markdown
 from utils_future.file.pdf_file import (PDFFile, PDFFileCompressMixin,
                                         PDFTextMixin)
+from utils_future.file.PDFFile import PDFFile
 from utils_future.file.TSVFile import TSVFile
 from utils_future.file.XSVFile import XSVFile
