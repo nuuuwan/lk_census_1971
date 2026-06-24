@@ -40,10 +40,9 @@ class TableReadMeMixin:
     def lines_for_files(self) -> list[str]:
         lines = []
         for label, file in [
-            ("📜 Original PDF", self.pdf_file),
-            ("📜 Original Image", File(self.get_image_paths()[0])),
+            ("📜 Original Table PDF", self.pdf_file),
+            ("📜 Original Table Image", File(self.get_image_paths()[0])),
             ("📄 Extracted JSON Data", self.data_file),
-            ("📄 README", self.readme_file),
         ]:
             if file.exists:
                 lines.append(f"- {label} - [{file}](../../../../{file.path})")
