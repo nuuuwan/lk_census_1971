@@ -41,7 +41,7 @@ class ReadMe:
                     f"- {
                         table.table_no}: [{
                         table.table_name}]({
-                        table.dir_data})"
+                        table.readme_file.path})"
                 )
             lines.append("")
 
