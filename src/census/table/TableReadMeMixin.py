@@ -17,7 +17,8 @@ class TableReadMeMixin:
         lines = [
             f"## Original Table [Image](../../../../{first_image_file.path})",
             "",
-            f"![](../../../../{first_image_file.path})",
+            f"<img src='../../../../{first_image_file.path}'"
+            + f" alt='Table {self.table_no} Image' width='640px' />",
             "",
         ]
         return lines
