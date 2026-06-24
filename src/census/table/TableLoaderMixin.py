@@ -1,3 +1,5 @@
+from functools import cache
+
 from utils_future import Log
 
 log = Log("TableLoaderMixin")
@@ -29,8 +31,21 @@ class TableLoaderMixin:
             prev_doc_page_no = table.doc_page_no
 
     @classmethod
+    @cache
     def list(cls):
         metadata = cls.load_metadata()
         tables = [cls.from_dict(d) for d in metadata]
         log.debug(f"Loaded {len(tables)} tables")
         return tables
+
+    @classmethod
+    @cache
+    def list_by_group(cls):
+        tables = cls.list()
+        grouped_tables = {}
+        for table in tables:
+            table_group_id = table.table_group_id
+            if table_group_id not in grouped_tables:
+                grouped_tables[table_group_id] = []
+            grouped_tables[table_group_id].append(table)
+        return grouped_tables
