@@ -1,0 +1,2 @@
+class TableTSVMixin:
+    pass

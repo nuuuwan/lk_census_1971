@@ -7,6 +7,7 @@ from census.table.TableMetadataMixin import TableMetadataMixin
 from census.table.TablePDFMixin import TablePDFMixin
 from census.table.TablePreDocsMixin import TablePreDocsMixin
 from census.table.TableReadMeMixin import TableReadMeMixin
+from census.table.TableTSVMixin import TableTSVMixin
 
 
 class Table(
@@ -19,6 +20,7 @@ class Table(
     TablePDFMixin,
     TableImageMixin,
     TableDataMixin,
+    TableTSVMixin,
     #
     TableReadMeMixin,
 ):
