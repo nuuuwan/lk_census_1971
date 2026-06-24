@@ -13,4 +13,8 @@ class TableBase:
         part1, part2 = self.table_no.split(".")
         part1 = int(part1)
         part2 = int(part2)
-        return f"table-{part1:02d}-{part2:02d}"
+        return f"table-{part1:01d}-{part2:02d}"
+
+    @cached_property
+    def table_group_id(self) -> str:
+        return self.table_id[:7]
