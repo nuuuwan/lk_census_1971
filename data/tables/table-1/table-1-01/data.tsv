@@ -1,0 +1,46 @@
+The Topics included in the Population Schedule	1871	1881	1891	1901	1911	1921	1931 (1)	1946	1953	1963	1971
+DEMOGRAPHIC AND PERSONAL CHARACTERISTICS											
+Name	True	True	True	True	True	True	True	True	True	True	
+Relationship to head of family or household	True	True	True	False	False	False	True		True	True	True
+Sex	True	True	True	True	True	True	True		True	True	True
+Date of birth	False	False	False	False	False	False	False		True	True	
+Age	True	True	True	True	True	True	True		True	True	True
+Marital status	True	False	False	True	True	True	True		True	True	True
+Ethnic group or nationality	True	True	True	True	True	True	True		True	True	True
+Religion	True	True	True	True	True	True	True		True	True	True
+Citizenship	False	False	False	False	False	False	False		True	True	
+EDUCATIONAL CHARACTERISTICS											
+Ability to speak Sinhala or Tamil	False	False	False	False	False	True	True	True	True		
+Ability to speak English	False	False	False	False	True	True	True	True	True	False	
+Literacy	False	True	True	True	True	True	True	True	True	True	
+Literacy in English	False	False	False	True	True	True	True	True	True	True	
+Educational attainment	False	False	False	False	False	False	False		xs	True	
+School attendance	False	False	False	False	False	False	False		False	True	
+ECONOMIC CHARACTERISTICS											
+Type of activity	False	False	False	False	False	False	False		True	True	
+Principal occupation	True	True	True	True	True	True	True		xs	True	True
+Subsidiary occupation	False	False	True	True	True	False	False		False	False	
+Industry	False	False	False	False	False	False	True		True	True	True
+Employment status	False	False	False	False	False	False	True		True	True	·x
+Salary or wages(Income)	False	False	False	False	False	False	True		xs	False	
+Dependency (means of subsistence of earner on whom dependent)	False	False	True	True	True	True	True		True	False	
+Period for which unemployed	False	False	False	False	False	False	False		xs	True	
+MIGRATION AND RESIDENCE INFORMATION											
+Place of birth	True	False	True	True	True	True	True	True	True	xs	
+Place of usual residence	False	False	False	False	False	False	False		False	xs	
+Duration of stay at usual residence	False	False	False	False	False	False	False		False	xs	
+Place of previous residence	False	False	False	False	False	False	False		False	xs	
+Length of residence in Ceylon	False	False	False	False	False	False	True	True	False		
+NUPTIALITY AND FERTILITY											
+Date of marriage	False	False	False	False	False	False	True		xs	False	
+If previously married, date of first marriage	False	False	False	False	False	False	True		xs	False	
+Age at first marriage	False	False	False	False	False	False	False		False	xs	
+Duration of first marriage	False	False	False	False	False	False	False		False	xs	
+If married more than once duration of subsequent marriages	False	False	False	False	False	False	False		False	xs	
+Age at birth of first child	False	False	False	False	False	True			xs	False	
+Number of children ever born	False	False	False	False	False	False	True		xs	xs	
+Number of children living	False	False	False	False	False	False	False		False	xs	
+Date of last live birth within the past five years	False	False	False	False	False	False	False		False	xs	
+OTHER TOPICS											
+Infirmity	True	True	True	True	True	False	True	True	True	False	
+Orphanhood	False	False	False	False	False	False	True		False		

@@ -5,6 +5,7 @@
 - 📜 Original Table PDF - [data/tables/table-7/table-7-01/original.pdf (99.1 kB)](../../../../data/tables/table-7/table-7-01/original.pdf)
 - 📜 Original Table Image - [data/tables/table-7/table-7-01/original.images/image-01.png (214.7 kB)](../../../../data/tables/table-7/table-7-01/original.images/image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-7/table-7-01/data.json (1.5 kB)](../../../../data/tables/table-7/table-7-01/data.json)
+- 📄 Extracted TSV Data - [data/tables/table-7/table-7-01/data.tsv (191 B)](../../../../data/tables/table-7/table-7-01/data.tsv)
 
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-01/data.json)
 
