@@ -29,19 +29,16 @@ class PDFFile(File):
 
     def extract_images(self):
         assert self.path.endswith(".pdf"), "File must be a PDF"
+        i_image = 0
         with fitz.open(self.path) as pdf:
-            for page_number, page in enumerate(pdf):
+            for page in pdf:
                 image_list = page.get_images(full=True)
-                for image_index, img in enumerate(image_list):
+                for img in image_list:
                     xref = img[0]
                     base_image = pdf.extract_image(xref)
                     image_bytes = base_image["image"]
-                    image_path = (
-                        self.path[:-4]
-                        + f".page{page_number + 1:03d}"
-                        + f".img{image_index + 1:02d}"
-                        + ".png"
-                    )
+                    i_image += 1
+                    image_path = self.path[:-4] + f".image-{i_image:02d}.png"
                     with open(image_path, "wb") as image_file:
                         image_file.write(image_bytes)
                     log.info(f"Wrote {File(image_path)}")
