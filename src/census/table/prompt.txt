@@ -1,0 +1,40 @@
+You are extracting ONE specific table from the attached page image(s).
+
+Target table:
+- Number: {table_no}
+- Title: {table_name}
+
+The page(s) may contain MULTIPLE tables. Extract ONLY the table whose number/title matches the target above. Ignore all other tables, body text, footnotes, and page furniture.
+
+Table structure:
+- Each table has one or more PRIMARY KEY columns (the row identifier(s), e.g. zone, district, year). Usually there is exactly one; occasionally two or more.
+- The remaining columns are FIELD columns (the measured values).
+
+Rules:
+- Identify which column(s) are primary keys and which are fields.
+- Output one entry per DATA row (exclude header rows and total/subtotal rows unless they are genuine data).
+- Keep all cell values verbatim (do not round, reformat, or "fix" numbers).
+- Represent empty/blank cells as null.
+- Use the exact column header text as keys (for multi-level headers, join levels with " - ").
+- If the target table is NOT present, set "found" to false and "rows" to [].
+
+Return ONLY valid JSON, no markdown, no backticks, no commentary, in this schema:
+{{
+  "found": true,
+  "table_no": "{table_no}",
+  "table_name": "{table_name}",
+  "primary_keys": ["<primary key column name>", ...],
+  "field_keys": ["<field column name>", ...],
+  "rows": [
+    {{
+      "<primary key column name>": "<primary key value>",
+      "values": {{
+        "<field column name>": "<field cell value>",
+        ...
+      }}
+    }}
+  ],
+  "notes": null
+}}
+
+For a row, place each primary key column as a top-level key mapping to its value, and place every field column inside the nested "values" dict. When there are multiple primary keys, include each as its own top-level key.

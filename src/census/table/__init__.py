@@ -4,6 +4,7 @@
 from census.table.Table import Table
 from census.table.TableBase import TableBase
 from census.table.TableBuilderMixin import TableBuilderMixin
+from census.table.TableDataAIMixin import TableDataAIMixin
 from census.table.TableDataMixin import TableDataMixin
 from census.table.TableLoaderMixin import TableLoaderMixin
 from census.table.TableMetadataMixin import TableMetadataMixin

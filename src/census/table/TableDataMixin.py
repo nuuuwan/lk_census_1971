@@ -1,20 +1,19 @@
 import os
 from functools import cached_property
 
+from census.table.TableDataAIMixin import TableDataAIMixin
 from utils_future import JSONFile, Log
 
 log = Log("TableDataMixin")
 
 
-class TableDataMixin:
+class TableDataMixin(TableDataAIMixin):
+
     @cached_property
     def data_file(self):
         return JSONFile(os.path.join(self.dir_data, "data.json"))
 
-    def extract_data_with_ai(self):
-        return {}
-
-    def build_data(self, force=True):
+    def build_data(self, force=False):
         if self.data_file.exists and not force:
             return
         data = self.extract_data_with_ai()
