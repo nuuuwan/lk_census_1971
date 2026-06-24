@@ -1,2 +1,3 @@
 class TableDataMixin:
-    pass
+    def build_data(self):
+        pass
