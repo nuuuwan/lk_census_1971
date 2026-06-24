@@ -6,6 +6,8 @@ This repo contains structured data from the **Census of Population 1971, Sri Lan
 
  The data was extracted from the *[General Report](original_data/Census1971_Report.pdf)*, published by the [Department of Census and Statistics, Sri Lanka](https://www.statistics.gov.lk/), and covers **102** tables, extracted using [claude-opus-4-6](https://www.anthropic.com/claude/opus) (8192 tokens, [prompt](src/census/table/prompt.txt)).
 
+Structured data is availble in multiple JSON and TSV formats. PDF and Images of the original tables are also included.
+
 <img src="data/lk_census1971.title_page.images/image-01.png" style="max-height:640px;">
 
 ## Tables
