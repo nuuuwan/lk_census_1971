@@ -4,10 +4,69 @@
 
 - 📜 Original Table PDF - [data/tables/table-7/table-7-10/original.pdf (92.8 kB)](../../../../data/tables/table-7/table-7-10/original.pdf)
 - 📜 Original Table Image - [data/tables/table-7/table-7-10/original.image-01.png (201.2 kB)](../../../../data/tables/table-7/table-7-10/original.image-01.png)
+- 📄 Extracted JSON Data - [data/tables/table-7/table-7-10/data.json (1.1 kB)](../../../../data/tables/table-7/table-7-10/data.json)
 
 ## Extracted [JSON Data](../../../../data/tables/table-7/table-7-10/data.json)
 
-*⚠️ No data extracted yet.*
+```json
+{
+    "found": true,
+    "table_no": "7.10",
+    "table_name": "Live births borne by ever married women by age at the 1971 Census",
+    "primary_keys": [
+        "Age Group"
+    ],
+    "field_keys": [
+        "Live births born per ever married woman"
+    ],
+    "rows": [
+        {
+            "Age Group": "15 - 19",
+            "values": {
+                "Live births born per ever married woman": 0.584
+            }
+        },
+        {
+            "Age Group": "20 - 24",
+            "values": {
+                "Live births born per ever married woman": 1.492
+            }
+        },
+        {
+            "Age Group": "25 - 29",
+            "values": {
+                "Live births born per ever married woman": 2.72
+            }
+        },
+        {
+            "Age Group": "30 - 34",
+            "values": {
+                "Live births born per ever married woman": 3.945
+            }
+        },
+        {
+            "Age Group": "35 - 39",
+            "values": {
+                "Live births born per ever married woman": 5.14
+            }
+        },
+        {
+            "Age Group": "40 - 44",
+            "values": {
+                "Live births born per ever married woman": 5.222
+            }
+        },
+        {
+            "Age Group": "45 - 49",
+            "values": {
+                "Live births born per ever married woman": 5.605
+            }
+        }
+    ],
+    "notes": []
+}
+```
+
 ## Original Table [Image](../../../../data/tables/table-7/table-7-10/original.image-01.png)
 
 ![](../../../../data/tables/table-7/table-7-10/original.image-01.png)
