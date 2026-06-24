@@ -8,17 +8,6 @@ log = Log("TablePDFMixin")
 
 class TablePDFMixin:
     PAGE_NO_OFFSET = 13
-    ORIGINAL_PDF_FILE = PDFFile(
-        os.path.join("original_data", "Census1971_Report.pdf")
-    )
-    CLEANED_ORIGINAL_PDF_FILE = PDFFile(
-        os.path.join("data", "lk_census1971.original_report.cleaned.pdf")
-    )
-    LIST_OF_TABLES_PDF_FILE = PDFFile(
-        os.path.join("data", "list_of_tables.pdf")
-    )
-    LIST_OF_TABLES_FROM_PAGE = 8
-    LIST_OF_TABLES_TO_PAGE = 11
 
     @cached_property
     def dir_data(self) -> str:

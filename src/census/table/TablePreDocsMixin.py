@@ -1,9 +1,22 @@
-from utils_future import Log
+import os
+
+from utils_future import Log, PDFFile
 
 log = Log("TablePreDocsMixin")
 
 
 class TablePreDocsMixin:
+    ORIGINAL_PDF_FILE = PDFFile(
+        os.path.join("original_data", "Census1971_Report.pdf")
+    )
+    CLEANED_ORIGINAL_PDF_FILE = PDFFile(
+        os.path.join("data", "lk_census1971.original_report.cleaned.pdf")
+    )
+    LIST_OF_TABLES_PDF_FILE = PDFFile(
+        os.path.join("data", "list_of_tables.pdf")
+    )
+    LIST_OF_TABLES_FROM_PAGE = 8
+    LIST_OF_TABLES_TO_PAGE = 11
 
     @classmethod
     def clean_original_report(cls):
