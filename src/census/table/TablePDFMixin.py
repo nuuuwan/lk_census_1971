@@ -67,7 +67,6 @@ class TablePDFMixin:
 
     def build_pdf(self, force=False):
         if self.pdf_file.exists and not force:
-            log.debug(f"{self.pdf_file} exists.")
             return
 
         self.CLEANED_ORIGINAL_PDF_FILE.extract_pages(
