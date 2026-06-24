@@ -19,3 +19,8 @@ class TableDataMixin(TableDataAIMixin):
         data = self.extract_data_with_ai()
         self.data_file.write(data)
         log.info(f"Wrote {self.data_file}.")
+
+    def get_data(self):
+        if not self.data_file.exists:
+            return None
+        return self.data_file.read()

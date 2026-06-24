@@ -4,4 +4,4 @@
 from census.readme import ReadMe
 from census.table import (Table, TableBase, TableBuilderMixin,
                           TableDataAIMixin, TableDataMixin, TableLoaderMixin,
-                          TableMetadataMixin, TablePDFMixin)
+                          TableMetadataMixin, TablePDFMixin, TableReadMeMixin)
