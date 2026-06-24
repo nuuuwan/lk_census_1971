@@ -70,19 +70,14 @@ class TableDataAIMixin:
         raw = "".join(b.text for b in msg.content if b.type == "text").strip()
         if raw.startswith("```"):
             raw = raw.split("```")[1].lstrip("json").strip()
-
         data = json.loads(raw)
 
         if not data.get("found"):
-            text = (
+            raise ValueError(
                 f"Error. Table '{self.table_no}'"
                 + f" not found on page {self.doc_page_no}."
             )
-            os.system(f"say '{text}'")
-            raise ValueError(text)
 
         dt = time.time() - t_start
-        text = f"Table {self.table_no} completed in {dt:.1f}s."
-        os.system(f"say '{text}'")
-        log.debug(text)
+        log.debug(f"Table {self.table_no} completed in {dt:.1f}s.")
         return data
