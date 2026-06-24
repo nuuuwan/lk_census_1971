@@ -49,6 +49,9 @@ class TablePreDocsMixin:
         )
         log.info(f"Wrote {cls.TITLE_PAGE_PDF_FILE}.")
 
+        cls.TITLE_PAGE_PDF_FILE.extract_images()
+        log.info(f"Wrote images from {cls.TITLE_PAGE_PDF_FILE}.")
+
     @classmethod
     def extract_list_of_tables(cls):
         if cls.LIST_OF_TABLES_PDF_FILE.exists:
@@ -76,6 +79,9 @@ class TablePreDocsMixin:
             [0], cls.INDEX_PAGE_PDF_FILE
         )
         log.info(f"Wrote {cls.INDEX_PAGE_PDF_FILE}.")
+
+        cls.INDEX_PAGE_PDF_FILE.extract_images()
+        log.info(f"Wrote images from {cls.INDEX_PAGE_PDF_FILE}.")
 
     @classmethod
     def build_pre_docs(cls):
