@@ -3,7 +3,6 @@
 ![CPH](https://img.shields.io/badge/CPH-1971-blue)
 
 - 📜 Original Table PDF - [data/tables/table-1/table-1-02/original.pdf (54.4 kB)](../../../../data/tables/table-1/table-1-02/original.pdf)
-- 📜 Original Table Image - [data/tables/table-1/table-1-02/original.image-01.png (137.0 kB)](../../../../data/tables/table-1/table-1-02/original.image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-1/table-1-02/data.json (4.6 kB)](../../../../data/tables/table-1/table-1-02/data.json)
 
 ## Extracted [JSON Data](../../../../data/tables/table-1/table-1-02/data.json)
@@ -231,9 +230,9 @@
 }
 ```
 
-## Original Table [Image](../../../../data/tables/table-1/table-1-02/original.image-01.png)
+## Original Table [Image](../../../../data/tables/table-1/table-1-02/image-01.png)
 
-![](../../../../data/tables/table-1/table-1-02/original.image-01.png)
+![](../../../../data/tables/table-1/table-1-02/image-01.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
