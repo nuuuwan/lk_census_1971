@@ -31,10 +31,27 @@ class ReadMe:
         ]
 
     @classmethod
+    def lines_for_tables(cls):
+        lines = [
+            "## Tables",
+            "",
+        ]
+        tables_by_group = Table.list_by_group()
+        for group_id, group_tables in tables_by_group.items():
+            lines.extend([f"### Group {group_id[6:]}", ""])
+            for table in group_tables:
+                lines.append(f"- {
+                        table.table_no}: [{
+                        table.table_name}]({
+                        table.dir_data})")
+            lines.append("")
+        return lines
+
+    @classmethod
     def build(cls):
         tables = Table.list()
         n_tables = len(tables)
-        tables_by_group = Table.list_by_group()
+
         lines = (
             [
                 "# Sri Lanka 🇱🇰  - Census of Population 1971",
@@ -48,20 +65,9 @@ class ReadMe:
                 + "(original_data/Census1971_Report.pdf)*",
                 "",
             ]
+            + cls.lines_for_tables()
+            + cls.lines_for_footer()
         )
-
-        for group_id, group_tables in tables_by_group.items():
-            lines.extend([f"## {group_id[6:]}", ""])
-            for table in group_tables:
-                lines.append(
-                    f"- {
-                        table.table_no}: [{
-                        table.table_name}]({
-                        table.dir_data})"
-                )
-            lines.append("")
-
-        lines.extend(cls.lines_for_footer())
 
         cls.README_FILE.write("\n".join(lines))
         log.debug(f"Wrote {cls.README_FILE}")
