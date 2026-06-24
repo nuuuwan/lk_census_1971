@@ -14,15 +14,6 @@ class TableDataMixin(TableDataAIMixin):
         return JSONFile(os.path.join(self.dir_data, "data.json"))
 
     def build_data(self, force=False):
-
-        if self.data_file.exists:
-            data = self.data_file.read()
-            if not data.get("found"):
-                os.remove(self.data_file.path)
-                log.error(f"Removed {self.data_file} due to previous error.")
-
-        return
-
         if self.data_file.exists and not force:
             return
         data = self.extract_data_with_ai()
@@ -34,4 +25,8 @@ class TableDataMixin(TableDataAIMixin):
     def get_data(self):
         if not self.data_file.exists:
             return None
-        return self.data_file.read()
+        data = self.data_file.read()
+        assert data.get(
+            "found"
+        ), f"Data file {self.data_file} does not contain valid data."
+        return data
