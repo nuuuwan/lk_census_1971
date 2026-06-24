@@ -2,12 +2,9 @@
 
 ![CPH](https://img.shields.io/badge/CPH-1971-blue)
 
----
-
-- 📜 Original PDF - [data/tables/table-1/table-1-01/original.pdf (58.3 kB)](../../../../data/tables/table-1/table-1-01/original.pdf)
-- 📜 Original Image - [data/tables/table-1/table-1-01/original.image-01.png (133.3 kB)](../../../../data/tables/table-1/table-1-01/original.image-01.png)
+- 📜 Original Table PDF - [data/tables/table-1/table-1-01/original.pdf (58.3 kB)](../../../../data/tables/table-1/table-1-01/original.pdf)
+- 📜 Original Table Image - [data/tables/table-1/table-1-01/original.image-01.png (133.3 kB)](../../../../data/tables/table-1/table-1-01/original.image-01.png)
 - 📄 Extracted JSON Data - [data/tables/table-1/table-1-01/data.json (17.5 kB)](../../../../data/tables/table-1/table-1-01/data.json)
-- 📄 README - [data/tables/table-1/table-1-01/README.md (23.9 kB)](../../../../data/tables/table-1/table-1-01/README.md)
 
 ## Extracted [JSON Data](../../../../data/tables/table-1/table-1-01/data.json)
 
@@ -765,8 +762,6 @@
 ## Original Table [Image](../../../../data/tables/table-1/table-1-01/original.image-01.png)
 
 ![](../../../../data/tables/table-1/table-1-01/original.image-01.png)
-
----
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

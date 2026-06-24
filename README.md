@@ -2,21 +2,19 @@
 
 ![CPH](https://img.shields.io/badge/CPH-1971-blue)
 
----
+This repo contains structured data from the **Census of Population 1971, Sri Lanka.**
 
-Structured data extracted from **102** Tables.
-
-*Source: [Census of Population 1971, Sri Lanka - Report](original_data/Census1971_Report.pdf)*
+ The data was extracted from the *[General Report](original_data/Census1971_Report.pdf)*, published by the [Department of Census and Statistics, Sri Lanka](https://www.statistics.gov.lk/), and covers **102** tables, extracted using [claude-opus-4-6](https://www.anthropic.com/claude/opus) (8192 tokens, [prompt](src/census/table/prompt.txt)).
 
 ## Tables
 
-### Group 1
+### 1.x
 
 - 1.1: [The topics included in the population schedule at the censuses in Sri Lanka: 1871-1971](data/tables/table-1/table-1-01)
 - 1.2: [Information on housing obtained at the censuses in Sri Lanka: 1946-1971](data/tables/table-1/table-1-02)
 - 1.3: [Number of census blocks in each district by sector - 1971 Census of Population](data/tables/table-1/table-1-03)
 
-### Group 2
+### 2.x
 
 - 2.1: [Population, numerical increase and percentage increase, Sri Lanka 1871-1971](data/tables/table-2/table-2-01)
 - 2.2: [Intercensal increase in population, births, deaths, natural increase and migration increase](data/tables/table-2/table-2-02)
@@ -29,7 +27,7 @@ Structured data extracted from **102** Tables.
 - 2.9: [Population by districts and intercensal rates of growth 1946-1971](data/tables/table-2/table-2-09)
 - 2.10: [Rate of population growth of selected countries 1963-72](data/tables/table-2/table-2-10)
 
-### Group 3
+### 3.x
 
 - 3.1: [Districts arranged according to descending order of population size showing land area and density and their rank in 1971](data/tables/table-3/table-3-01)
 - 3.2: [Population in the wet zone and the dry zone](data/tables/table-3/table-3-02)
@@ -41,7 +39,7 @@ Structured data extracted from **102** Tables.
 - 3.8: [Population distribution by type of urban area and size of population - 1971](data/tables/table-3/table-3-08)
 - 3.9: [Total population by type of urban area - 1963 and 1971](data/tables/table-3/table-3-09)
 
-### Group 4
+### 4.x
 
 - 4.1: [Net migration into and from districts during each intercensal period since 1946](data/tables/table-4/table-4-01)
 - 4.2: [Sri Lanka born population by district of residence cross-classified by district of birth, 1971 census of population](data/tables/table-4/table-4-02)
@@ -56,7 +54,7 @@ Structured data extracted from **102** Tables.
 - 4.11: [Percentage of migrants in the resident population by duration of residence](data/tables/table-4/table-4-11)
 - 4.12: [Sex ratios of migrants (males per 1000 females)](data/tables/table-4/table-4-12)
 
-### Group 5
+### 5.x
 
 - 5.1: [Myer's index of digital preference for digits 0-9: Sri Lanka census of 1946-1971](data/tables/table-5/table-5-01)
 - 5.2: [Age accuracy index by the U.N. Secretariat method Sri Lanka censuses of 1921, 1946, 1953, 1963 and 1971](data/tables/table-5/table-5-02)
@@ -68,7 +66,7 @@ Structured data extracted from **102** Tables.
 - 5.8: [Sex ratios by districts 1971](data/tables/table-5/table-5-08)
 - 5.9: [Number of males per 1000 females in selected countries 1971](data/tables/table-5/table-5-09)
 
-### Group 6
+### 6.x
 
 - 6.1: [Population of Sri Lanka by ethnic groups in census years](data/tables/table-6/table-6-01)
 - 6.2: [Percentage distribution of ethnic groups in the census years](data/tables/table-6/table-6-02)
@@ -84,7 +82,7 @@ Structured data extracted from **102** Tables.
 - 6.12: [Percentage distribution of district population by religion](data/tables/table-6/table-6-12)
 - 6.13: [Population by citizenship - 1963 and 1971](data/tables/table-6/table-6-13)
 
-### Group 7
+### 7.x
 
 - 7.1: [Mean age at marriage 1946, 1953, 1963 and 1971](data/tables/table-7/table-7-01)
 - 7.2: [Proportion of women currently married and never married by age groups 1946, 1953, 1963 and 1971 censuses](data/tables/table-7/table-7-02)
@@ -103,7 +101,7 @@ Structured data extracted from **102** Tables.
 - 7.15: [Crude birth rates by ethnic groups - Sri Lanka 1946-1971](data/tables/table-7/table-7-15)
 - 7.16: [Child-woman ratios by religion - 1971](data/tables/table-7/table-7-16)
 
-### Group 8
+### 8.x
 
 - 8.1: [Literacy rates of the cohort aged 20-49 in 1946 traced through the censuses of 1953, 1963 and 1971](data/tables/table-8/table-8-01)
 - 8.2: [Literacy rates of the population aged 10 years and over (number of literates per 1000 persons)](data/tables/table-8/table-8-02)
@@ -117,7 +115,7 @@ Structured data extracted from **102** Tables.
 - 8.10: [Percentage distribution of persons who have completed primary and higher levels, by age group](data/tables/table-8/table-8-10)
 - 8.11: [Number reported as literate compared with the number estimated as literate from the reported educational attainment 1971 Census](data/tables/table-8/table-8-11)
 
-### Group 9
+### 9.x
 
 - 9.1: [Population and labour force](data/tables/table-9/table-9-01)
 - 9.2: [Population and labour force by age group and sectors, 1971](data/tables/table-9/table-9-02)
@@ -138,8 +136,6 @@ Structured data extracted from **102** Tables.
 - 9.17: [Distribution of those employed in the service sector by status, 1953-1971](data/tables/table-9/table-9-17)
 - 9.18: [Distribution of employed persons by occupation and educational attainment, Sri Lanka: 1971 census of population](data/tables/table-9/table-9-18)
 - 9.19: [Distribution of employed population by status, 1953-1971](data/tables/table-9/table-9-19)
-
----
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)

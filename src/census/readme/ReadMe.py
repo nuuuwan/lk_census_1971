@@ -12,15 +12,11 @@ class ReadMe:
         return [
             "![CPH](https://img.shields.io/badge/CPH-1971-blue)",
             "",
-            "---",
-            "",
         ]
 
     @staticmethod
     def lines_for_footer() -> list[str]:
         return [
-            "---",
-            "",
             "![Maintainer]"
             + "(https://img.shields.io/badge/maintainer-nuuuwan-red)",
             "![MadeWith](https://img.shields.io/badge/made_with-python-blue)",
@@ -38,7 +34,7 @@ class ReadMe:
         ]
         tables_by_group = Table.list_by_group()
         for group_id, group_tables in tables_by_group.items():
-            lines.extend([f"### Group {group_id[6:]}", ""])
+            lines.extend([f"### {group_id[6:]}.x", ""])
             for table in group_tables:
                 lines.append(
                     f"- {
@@ -47,19 +43,6 @@ class ReadMe:
                         table.dir_data})"
                 )
             lines.append("")
-        return lines
-
-    @classmethod
-    def lines_for_methodology(cls):
-        lines = [
-            "## Data Extraction Methodology",
-            "",
-            "Data was extracted from the original PDF using"
-            + f" [{Table.AI_MODEL}]({Table.AI_MODEL_URL})"
-            + f"({Table.AI_MAX_TOKENS} tokens,"
-            + f" [Prompt]({Table.PROMPT_FILE.path})).",
-            "",
-        ]
         return lines
 
     @classmethod
@@ -74,13 +57,19 @@ class ReadMe:
             ]
             + cls.lines_for_header()
             + [
-                f"Structured data extracted from **{n_tables}** Tables.",
+                "This repo contains structured data from the"
+                + " **Census of Population 1971, Sri Lanka.**",
                 "",
-                "*Source: [Census of Population 1971, Sri Lanka - Report]"
-                + "(original_data/Census1971_Report.pdf)*",
+                " The data was extracted from the"
+                + " *[General Report](original_data/Census1971_Report.pdf)*,"
+                + " published by the [Department of Census and Statistics, Sri Lanka]"
+                + "(https://www.statistics.gov.lk/), "
+                + f"and covers **{n_tables}** tables, extracted using"
+                + f" [{Table.AI_MODEL}]({Table.AI_MODEL_URL})"
+                + f" ({Table.AI_MAX_TOKENS} tokens,"
+                + f" [prompt]({Table.PROMPT_FILE.path})).",
                 "",
             ]
-            + cls.lines_for_methodology()
             + cls.lines_for_tables()
             + cls.lines_for_footer()
         )

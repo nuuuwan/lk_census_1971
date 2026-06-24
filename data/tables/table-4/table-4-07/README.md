@@ -2,20 +2,371 @@
 
 ![CPH](https://img.shields.io/badge/CPH-1971-blue)
 
----
-
-- 📜 Original PDF - [data/tables/table-4/table-4-07/original.pdf (67.0 kB)](../../../../data/tables/table-4/table-4-07/original.pdf)
-- 📜 Original Image - [data/tables/table-4/table-4-07/original.image-01.png (147.3 kB)](../../../../data/tables/table-4/table-4-07/original.image-01.png)
-- 📄 README - [data/tables/table-4/table-4-07/README.md (1.0 kB)](../../../../data/tables/table-4/table-4-07/README.md)
+- 📜 Original Table PDF - [data/tables/table-4/table-4-07/original.pdf (67.0 kB)](../../../../data/tables/table-4/table-4-07/original.pdf)
+- 📜 Original Table Image - [data/tables/table-4/table-4-07/original.image-01.png (147.3 kB)](../../../../data/tables/table-4/table-4-07/original.image-01.png)
+- 📄 Extracted JSON Data - [data/tables/table-4/table-4-07/data.json (13.3 kB)](../../../../data/tables/table-4/table-4-07/data.json)
 
 ## Extracted [JSON Data](../../../../data/tables/table-4/table-4-07/data.json)
 
-*⚠️ No data extracted yet.*
+```json
+{
+    "found": true,
+    "table_no": "4.7",
+    "table_name": "Number and percentage of in-migrants from other districts during specified time intervals prior to the census date derived from duration of residence data - 1971 census of population",
+    "primary_keys": [
+        "District"
+    ],
+    "field_keys": [
+        "Total",
+        "Under 1 year 1970-1971 - Number ('000)",
+        "1-4 years 1966-1970 - Number ('000)",
+        "5-9 years 1961-1966 - Number ('000)",
+        "10 years and more before 1961 - Number ('000)",
+        "Total - Percentages",
+        "Under 1 year 1970 - 1971 - Percentages",
+        "1-4 year 1966-1970 - Percentages",
+        "5-9 years 1961-1966 - Percentages",
+        "10 years and more before 1961 - Percentages"
+    ],
+    "rows": [
+        {
+            "District": "Colombo",
+            "values": {
+                "Total": 325.1,
+                "Under 1 year 1970-1971 - Number ('000)": 76.4,
+                "1-4 years 1966-1970 - Number ('000)": 77.5,
+                "5-9 years 1961-1966 - Number ('000)": 52.2,
+                "10 years and more before 1961 - Number ('000)": 119.0,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 23.5,
+                "1-4 year 1966-1970 - Percentages": 23.8,
+                "5-9 years 1961-1966 - Percentages": 16.1,
+                "10 years and more before 1961 - Percentages": 36.6
+            }
+        },
+        {
+            "District": "Kalutara",
+            "values": {
+                "Total": 76.9,
+                "Under 1 year 1970-1971 - Number ('000)": 16.3,
+                "1-4 years 1966-1970 - Number ('000)": 18.2,
+                "5-9 years 1961-1966 - Number ('000)": 12.5,
+                "10 years and more before 1961 - Number ('000)": 29.8,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 21.2,
+                "1-4 year 1966-1970 - Percentages": 23.7,
+                "5-9 years 1961-1966 - Percentages": 16.3,
+                "10 years and more before 1961 - Percentages": 38.8
+            }
+        },
+        {
+            "District": "Kandy",
+            "values": {
+                "Total": 135.4,
+                "Under 1 year 1970-1971 - Number ('000)": 27.3,
+                "1-4 years 1966-1970 - Number ('000)": 26.5,
+                "5-9 years 1961-1966 - Number ('000)": 18.4,
+                "10 years and more before 1961 - Number ('000)": 63.2,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 20.2,
+                "1-4 year 1966-1970 - Percentages": 19.5,
+                "5-9 years 1961-1966 - Percentages": 13.6,
+                "10 years and more before 1961 - Percentages": 46.7
+            }
+        },
+        {
+            "District": "Matale",
+            "values": {
+                "Total": 59.3,
+                "Under 1 year 1970-1971 - Number ('000)": 9.6,
+                "1-4 years 1966-1970 - Number ('000)": 13.6,
+                "5-9 years 1961-1966 - Number ('000)": 11.1,
+                "10 years and more before 1961 - Number ('000)": 25.0,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 16.3,
+                "1-4 year 1966-1970 - Percentages": 22.9,
+                "5-9 years 1961-1966 - Percentages": 18.7,
+                "10 years and more before 1961 - Percentages": 42.1
+            }
+        },
+        {
+            "District": "N'Eliya",
+            "values": {
+                "Total": 63.2,
+                "Under 1 year 1970-1971 - Number ('000)": 10.5,
+                "1-4 years 1966-1970 - Number ('000)": 11.4,
+                "5-9 years 1961-1966 - Number ('000)": 8.7,
+                "10 years and more before 1961 - Number ('000)": 32.6,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 16.6,
+                "1-4 year 1966-1970 - Percentages": 18.1,
+                "5-9 years 1961-1966 - Percentages": 13.8,
+                "10 years and more before 1961 - Percentages": 51.6
+            }
+        },
+        {
+            "District": "Galle",
+            "values": {
+                "Total": 51.5,
+                "Under 1 year 1970-1971 - Number ('000)": 11.0,
+                "1-4 years 1966-1970 - Number ('000)": 10.4,
+                "5-9 years 1961-1966 - Number ('000)": 8.1,
+                "10 years and more before 1961 - Number ('000)": 22.0,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 21.4,
+                "1-4 year 1966-1970 - Percentages": 20.2,
+                "5-9 years 1961-1966 - Percentages": 15.8,
+                "10 years and more before 1961 - Percentages": 42.6
+            }
+        },
+        {
+            "District": "Matara",
+            "values": {
+                "Total": 40.3,
+                "Under 1 year 1970-1971 - Number ('000)": 9.2,
+                "1-4 years 1966-1970 - Number ('000)": 8.1,
+                "5-9 years 1961-1966 - Number ('000)": 6.4,
+                "10 years and more before 1961 - Number ('000)": 16.7,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 22.7,
+                "1-4 year 1966-1970 - Percentages": 20.0,
+                "5-9 years 1961-1966 - Percentages": 15.9,
+                "10 years and more before 1961 - Percentages": 41.4
+            }
+        },
+        {
+            "District": "Hambantota",
+            "values": {
+                "Total": 43.2,
+                "Under 1 year 1970-1971 - Number ('000)": 7.2,
+                "1-4 years 1966-1970 - Number ('000)": 9.7,
+                "5-9 years 1961-1966 - Number ('000)": 6.7,
+                "10 years and more before 1961 - Number ('000)": 19.6,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 16.7,
+                "1-4 year 1966-1970 - Percentages": 22.5,
+                "5-9 years 1961-1966 - Percentages": 15.5,
+                "10 years and more before 1961 - Percentages": 45.3
+            }
+        },
+        {
+            "District": "Jaffna",
+            "values": {
+                "Total": 19.5,
+                "Under 1 year 1970-1971 - Number ('000)": 4.8,
+                "1-4 years 1966-1970 - Number ('000)": 5.5,
+                "5-9 years 1961-1966 - Number ('000)": 3.4,
+                "10 years and more before 1961 - Number ('000)": 5.7,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 24.6,
+                "1-4 year 1966-1970 - Percentages": 28.3,
+                "5-9 years 1961-1966 - Percentages": 17.6,
+                "10 years and more before 1961 - Percentages": 29.4
+            }
+        },
+        {
+            "District": "Mannar",
+            "values": {
+                "Total": 14.1,
+                "Under 1 year 1970-1971 - Number ('000)": 4.0,
+                "1-4 years 1966-1970 - Number ('000)": 3.4,
+                "5-9 years 1961-1966 - Number ('000)": 1.7,
+                "10 years and more before 1961 - Number ('000)": 5.0,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 28.3,
+                "1-4 year 1966-1970 - Percentages": 24.4,
+                "5-9 years 1961-1966 - Percentages": 11.8,
+                "10 years and more before 1961 - Percentages": 35.5
+            }
+        },
+        {
+            "District": "Vavuniya",
+            "values": {
+                "Total": 27.4,
+                "Under 1 year 1970-1971 - Number ('000)": 6.0,
+                "1-4 years 1966-1970 - Number ('000)": 7.0,
+                "5-9 years 1961-1966 - Number ('000)": 3.5,
+                "10 years and more before 1961 - Number ('000)": 10.9,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 22.0,
+                "1-4 year 1966-1970 - Percentages": 25.7,
+                "5-9 years 1961-1966 - Percentages": 12.7,
+                "10 years and more before 1961 - Percentages": 39.6
+            }
+        },
+        {
+            "District": "Batticaloa",
+            "values": {
+                "Total": 13.9,
+                "Under 1 year 1970-1971 - Number ('000)": 2.7,
+                "1-4 years 1966-1970 - Number ('000)": 3.3,
+                "5-9 years 1961-1966 - Number ('000)": 2.2,
+                "10 years and more before 1961 - Number ('000)": 5.7,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 19.7,
+                "1-4 year 1966-1970 - Percentages": 23.5,
+                "5-9 years 1961-1966 - Percentages": 15.9,
+                "10 years and more before 1961 - Percentages": 40.9
+            }
+        },
+        {
+            "District": "Amparai",
+            "values": {
+                "Total": 49.7,
+                "Under 1 year 1970-1971 - Number ('000)": 7.2,
+                "1-4 years 1966-1970 - Number ('000)": 8.7,
+                "5-9 years 1961-1966 - Number ('000)": 7.9,
+                "10 years and more before 1961 - Number ('000)": 25.9,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 14.4,
+                "1-4 year 1966-1970 - Percentages": 17.5,
+                "5-9 years 1961-1966 - Percentages": 15.9,
+                "10 years and more before 1961 - Percentages": 52.2
+            }
+        },
+        {
+            "District": "Trincomalee",
+            "values": {
+                "Total": 47.3,
+                "Under 1 year 1970-1971 - Number ('000)": 7.6,
+                "1-4 years 1966-1970 - Number ('000)": 9.1,
+                "5-9 years 1961-1966 - Number ('000)": 7.9,
+                "10 years and more before 1961 - Number ('000)": 22.7,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 16.1,
+                "1-4 year 1966-1970 - Percentages": 19.3,
+                "5-9 years 1961-1966 - Percentages": 16.6,
+                "10 years and more before 1961 - Percentages": 48.0
+            }
+        },
+        {
+            "District": "Kurunegala",
+            "values": {
+                "Total": 108.9,
+                "Under 1 year 1970-1971 - Number ('000)": 20.7,
+                "1-4 years 1966-1970 - Number ('000)": 20.8,
+                "5-9 years 1961-1966 - Number ('000)": 15.5,
+                "10 years and more before 1961 - Number ('000)": 52.0,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 19.0,
+                "1-4 year 1966-1970 - Percentages": 19.1,
+                "5-9 years 1961-1966 - Percentages": 14.2,
+                "10 years and more before 1961 - Percentages": 47.8
+            }
+        },
+        {
+            "District": "Puttalam",
+            "values": {
+                "Total": 53.9,
+                "Under 1 year 1970-1971 - Number ('000)": 11.7,
+                "1-4 years 1966-1970 - Number ('000)": 11.8,
+                "5-9 years 1961-1966 - Number ('000)": 9.4,
+                "10 years and more before 1961 - Number ('000)": 21.0,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 21.8,
+                "1-4 year 1966-1970 - Percentages": 21.8,
+                "5-9 years 1961-1966 - Percentages": 17.5,
+                "10 years and more before 1961 - Percentages": 39.0
+            }
+        },
+        {
+            "District": "Anuradhapura",
+            "values": {
+                "Total": 83.9,
+                "Under 1 year 1970-1971 - Number ('000)": 13.7,
+                "1-4 years 1966-1970 - Number ('000)": 16.5,
+                "5-9 years 1961-1966 - Number ('000)": 17.3,
+                "10 years and more before 1961 - Number ('000)": 36.3,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 16.4,
+                "1-4 year 1966-1970 - Percentages": 19.7,
+                "5-9 years 1961-1966 - Percentages": 20.7,
+                "10 years and more before 1961 - Percentages": 43.0
+            }
+        },
+        {
+            "District": "Polonnaruwa",
+            "values": {
+                "Total": 65.2,
+                "Under 1 year 1970-1971 - Number ('000)": 7.9,
+                "1-4 years 1966-1970 - Number ('000)": 10.7,
+                "5-9 years 1961-1966 - Number ('000)": 10.2,
+                "10 years and more before 1961 - Number ('000)": 36.3,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 12.2,
+                "1-4 year 1966-1970 - Percentages": 16.4,
+                "5-9 years 1961-1966 - Percentages": 15.7,
+                "10 years and more before 1961 - Percentages": 55.7
+            }
+        },
+        {
+            "District": "Badulla",
+            "values": {
+                "Total": 49.9,
+                "Under 1 year 1970-1971 - Number ('000)": 8.4,
+                "1-4 years 1966-1970 - Number ('000)": 11.4,
+                "5-9 years 1961-1966 - Number ('000)": 8.1,
+                "10 years and more before 1961 - Number ('000)": 22.0,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 16.9,
+                "1-4 year 1966-1970 - Percentages": 22.8,
+                "5-9 years 1961-1966 - Percentages": 16.2,
+                "10 years and more before 1961 - Percentages": 44.1
+            }
+        },
+        {
+            "District": "Moneragala",
+            "values": {
+                "Total": 42.3,
+                "Under 1 year 1970-1971 - Number ('000)": 5.9,
+                "1-4 years 1966-1970 - Number ('000)": 9.5,
+                "5-9 years 1961-1966 - Number ('000)": 9.2,
+                "10 years and more before 1961 - Number ('000)": 17.7,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 14.0,
+                "1-4 year 1966-1970 - Percentages": 22.3,
+                "5-9 years 1961-1966 - Percentages": 21.8,
+                "10 years and more before 1961 - Percentages": 41.8
+            }
+        },
+        {
+            "District": "Ratnapura",
+            "values": {
+                "Total": 77.8,
+                "Under 1 year 1970-1971 - Number ('000)": 12.0,
+                "1-4 years 1966-1970 - Number ('000)": 15.4,
+                "5-9 years 1961-1966 - Number ('000)": 13.9,
+                "10 years and more before 1961 - Number ('000)": 36.6,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 15.4,
+                "1-4 year 1966-1970 - Percentages": 19.8,
+                "5-9 years 1961-1966 - Percentages": 17.8,
+                "10 years and more before 1961 - Percentages": 47.0
+            }
+        },
+        {
+            "District": "Kegalle",
+            "values": {
+                "Total": 65.7,
+                "Under 1 year 1970-1971 - Number ('000)": 12.5,
+                "1-4 years 1966-1970 - Number ('000)": 11.0,
+                "5-9 years 1961-1966 - Number ('000)": 9.6,
+                "10 years and more before 1961 - Number ('000)": 32.6,
+                "Total - Percentages": 100.0,
+                "Under 1 year 1970 - 1971 - Percentages": 19.0,
+                "1-4 year 1966-1970 - Percentages": 16.7,
+                "5-9 years 1961-1966 - Percentages": 14.7,
+                "10 years and more before 1961 - Percentages": 49.6
+            }
+        }
+    ],
+    "notes": []
+}
+```
+
 ## Original Table [Image](../../../../data/tables/table-4/table-4-07/original.image-01.png)
 
 ![](../../../../data/tables/table-4/table-4-07/original.image-01.png)
-
----
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
