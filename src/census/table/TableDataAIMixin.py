@@ -25,9 +25,11 @@ class TableDataAIMixin:
 
     def _build_image_blocks(self):
         blocks = []
-        for image_path in self.get_image_paths():
-            media_type = mimetypes.guess_type(image_path)[0] or "image/png"
-            with open(image_path, "rb") as f:
+        for image_file in self.get_image_files():
+            media_type = (
+                mimetypes.guess_type(image_file.path)[0] or "image/png"
+            )
+            with open(image_file.path, "rb") as f:
                 b64 = base64.standard_b64encode(f.read()).decode("utf-8")
             blocks.append(
                 {

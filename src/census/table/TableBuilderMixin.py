@@ -6,6 +6,7 @@ log = Log("TableBuilderMixin")
 class TableBuilderMixin:
     def build(self):
         self.build_pdf()
+        self.build_images()
         self.build_data()
         self.build_readme()
 

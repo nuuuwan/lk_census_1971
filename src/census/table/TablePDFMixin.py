@@ -73,12 +73,3 @@ class TablePDFMixin:
             [self.actual_page_no - 1], self.pdf_file
         )
         log.info(f"Wrote {self.pdf_file}.")
-
-        self.pdf_file.extract_images()
-
-    def get_image_paths(self):
-        image_path = []
-        for file_name in os.listdir(self.dir_data):
-            if file_name.endswith(".png"):
-                image_path.append(os.path.join(self.dir_data, file_name))
-        return image_path

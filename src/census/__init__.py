@@ -3,5 +3,6 @@
 
 from census.readme import ReadMe
 from census.table import (Table, TableBase, TableBuilderMixin,
-                          TableDataAIMixin, TableDataMixin, TableLoaderMixin,
-                          TableMetadataMixin, TablePDFMixin, TableReadMeMixin)
+                          TableDataAIMixin, TableDataMixin, TableImageMixin,
+                          TableLoaderMixin, TableMetadataMixin, TablePDFMixin,
+                          TableReadMeMixin)

@@ -13,11 +13,11 @@ class TableReadMeMixin:
         return File(os.path.join(self.dir_data, "README.md"))
 
     def lines_for_image(self) -> list[str]:
-        image_paths = self.get_image_paths()
+        first_image_file = self.first_image_file
         lines = [
-            f"## Original Table [Image](../../../../{image_paths[0]})",
+            f"## Original Table [Image](../../../../{first_image_file.path})",
             "",
-            f"![](../../../../{image_paths[0]})",
+            f"![](../../../../{first_image_file.path})",
             "",
         ]
         return lines
@@ -41,7 +41,7 @@ class TableReadMeMixin:
         lines = []
         for label, file in [
             ("📜 Original Table PDF", self.pdf_file),
-            ("📜 Original Table Image", File(self.get_image_paths()[0])),
+            ("📜 Original Table Image", self.first_image_file),
             ("📄 Extracted JSON Data", self.data_file),
         ]:
             if file.exists:

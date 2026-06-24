@@ -1,3 +1,5 @@
+import os
+
 import fitz
 
 from utils_future.console.Log import Log
@@ -30,6 +32,7 @@ class PDFFile(File):
     def extract_images(self):
         assert self.path.endswith(".pdf"), "File must be a PDF"
         i_image = 0
+        image_dir = self.path[:-4] + ".images"
         with fitz.open(self.path) as pdf:
             for page in pdf:
                 image_list = page.get_images(full=True)
@@ -38,7 +41,10 @@ class PDFFile(File):
                     base_image = pdf.extract_image(xref)
                     image_bytes = base_image["image"]
                     i_image += 1
-                    image_path = self.path[:-4] + f".image-{i_image:02d}.png"
+                    os.makedirs(image_dir, exist_ok=True)
+                    image_path = os.path.join(
+                        image_dir, f"image-{i_image:02d}.png"
+                    )
                     with open(image_path, "wb") as image_file:
                         image_file.write(image_bytes)
                     log.info(f"Wrote {File(image_path)}")
