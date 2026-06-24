@@ -1,5 +1,3 @@
-import os
-
 from utils_future import Log
 
 log = Log("TableBuilderMixin")
@@ -22,5 +20,3 @@ class TableBuilderMixin:
             table.build()
             log.debug(f"Building {table} complete.")
             log.debug("-" * 40)
-            text = f"{table.table_no} Complete."
-            os.system(f"say '{text}'")
