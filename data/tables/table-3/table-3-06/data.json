@@ -1,0 +1,47 @@
+{
+  "found": true,
+  "table_no": "3.6",
+  "table_name": "Urban population as at the censuses of 1963 and 1971",
+  "primary_keys": [
+    "Category"
+  ],
+  "field_keys": [
+    "1963 - Population",
+    "1963 - Percentage of total",
+    "1971 - Population",
+    "1971 - Percentage of total"
+  ],
+  "rows": [
+    {
+      "Category": "(a) Total (urban and rural)",
+      "values": {
+        "1963 - Population": 10582064,
+        "1963 - Percentage of total": 100.0,
+        "1971 - Population": 12689897,
+        "1971 - Percentage of total": 100.0
+      }
+    },
+    {
+      "Category": "(b) All urban areas",
+      "values": {
+        "1963 - Population": 2016285,
+        "1963 - Percentage of total": 19.0,
+        "1971 - Population": 2848116,
+        "1971 - Percentage of total": 22.4
+      }
+    },
+    {
+      "Category": "(c) All areas which were classified as urban in both 1963 and 1971",
+      "values": {
+        "1963 - Population": 2016285,
+        "1963 - Percentage of total": 19.0,
+        "1971 - Population": 2444919,
+        "1971 - Percentage of total": 19.3
+      }
+    }
+  ],
+  "notes": [
+    "The classification into urban and rural sectors at the census has been based on the administrative sub-division for local government purposes. At the 1971 Census those areas administered by Municipal Councils, Urban Councils and Town Councils were considered as Urban.",
+    "At the 1963 and earlier censuses, only Municipal and Urban Council areas were classified as Urban because Town Councils were not in existence at these censuses."
+  ]
+}

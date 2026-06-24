@@ -6,11 +6,89 @@
 
 - 📜 Original PDF - [data/tables/table-2/table-2-06/original.pdf (71.1 kB)](../../../../data/tables/table-2/table-2-06/original.pdf)
 - 📜 Original Image - [data/tables/table-2/table-2-06/original.image-01.png (167.0 kB)](../../../../data/tables/table-2/table-2-06/original.image-01.png)
-- 📄 README - [data/tables/table-2/table-2-06/README.md (934 B)](../../../../data/tables/table-2/table-2-06/README.md)
+- 📄 Extracted JSON Data - [data/tables/table-2/table-2-06/data.json (2.1 kB)](../../../../data/tables/table-2/table-2-06/data.json)
+- 📄 README - [data/tables/table-2/table-2-06/README.md (1.1 kB)](../../../../data/tables/table-2/table-2-06/README.md)
 
 ## Extracted [JSON Data](../../../../data/tables/table-2/table-2-06/data.json)
 
-*⚠️ No data extracted yet.*
+```json
+{
+    "found": true,
+    "table_no": "2.6",
+    "table_name": "Changes in age specific marital fertility rates in Sri Lanka 1963-1971",
+    "primary_keys": [
+        "Age Group"
+    ],
+    "field_keys": [
+        "Age specific marital fertility rates - 1963",
+        "Age specific marital fertility rates - 1971",
+        "Percentage change"
+    ],
+    "rows": [
+        {
+            "Age Group": "15 - 19",
+            "values": {
+                "Age specific marital fertility rates - 1963": 354,
+                "Age specific marital fertility rates - 1971": 418,
+                "Percentage change": 18.1
+            }
+        },
+        {
+            "Age Group": "20 - 24",
+            "values": {
+                "Age specific marital fertility rates - 1963": 396,
+                "Age specific marital fertility rates - 1971": 388,
+                "Percentage change": -2.0
+            }
+        },
+        {
+            "Age Group": "25 - 29",
+            "values": {
+                "Age specific marital fertility rates - 1963": 344,
+                "Age specific marital fertility rates - 1971": 313,
+                "Percentage change": -9.0
+            }
+        },
+        {
+            "Age Group": "30 - 34",
+            "values": {
+                "Age specific marital fertility rates - 1963": 270,
+                "Age specific marital fertility rates - 1971": 237,
+                "Percentage change": -12.2
+            }
+        },
+        {
+            "Age Group": "35 - 39",
+            "values": {
+                "Age specific marital fertility rates - 1963": 175,
+                "Age specific marital fertility rates - 1971": 157,
+                "Percentage change": -10.3
+            }
+        },
+        {
+            "Age Group": "40 - 44",
+            "values": {
+                "Age specific marital fertility rates - 1963": 53,
+                "Age specific marital fertility rates - 1971": 49,
+                "Percentage change": -7.5
+            }
+        },
+        {
+            "Age Group": "45 - 49",
+            "values": {
+                "Age specific marital fertility rates - 1963": 8,
+                "Age specific marital fertility rates - 1971": 8,
+                "Percentage change": null
+            }
+        }
+    ],
+    "notes": [
+        "For a detailed discussion see G.H.S. Jayawardhana and S. Selvaratnam \"Fertility Levels and Trends in Ceylon 1967\" and Dulles F.S. Fernando. \"Recent Fertility Declines in Ceylon\"",
+        "Population Studies Vol. XXVI, No.3\"."
+    ]
+}
+```
+
 ## Original Table [Image](../../../../data/tables/table-2/table-2-06/original.image-01.png)
 
 ![](../../../../data/tables/table-2/table-2-06/original.image-01.png)

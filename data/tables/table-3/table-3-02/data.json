@@ -1,0 +1,140 @@
+{
+  "found": true,
+  "table_no": "3.2",
+  "table_name": "Population in the wet zone and the dry zone",
+  "primary_keys": [
+    "Census Year"
+  ],
+  "field_keys": [
+    "Population in 1000 - Wet Zone",
+    "Population in 1000 - Dry Zone",
+    "Percentage - Wet Zone",
+    "Percentage - Dry Zone",
+    "Density - Wet Zone",
+    "Density - Dry Zone"
+  ],
+  "rows": [
+    {
+      "Census Year": 1871,
+      "values": {
+        "Population in 1000 - Wet Zone": 1813.4,
+        "Population in 1000 - Dry Zone": 586.9,
+        "Percentage - Wet Zone": 75.6,
+        "Percentage - Dry Zone": 24.4,
+        "Density - Wet Zone": 190,
+        "Density - Dry Zone": 38
+      }
+    },
+    {
+      "Census Year": 1881,
+      "values": {
+        "Population in 1000 - Wet Zone": 2023.4,
+        "Population in 1000 - Dry Zone": 646.2,
+        "Percentage - Wet Zone": 75.8,
+        "Percentage - Dry Zone": 24.2,
+        "Density - Wet Zone": 212,
+        "Density - Dry Zone": 42
+      }
+    },
+    {
+      "Census Year": 1891,
+      "values": {
+        "Population in 1000 - Wet Zone": 2285.5,
+        "Population in 1000 - Dry Zone": 722.2,
+        "Percentage - Wet Zone": 75.9,
+        "Percentage - Dry Zone": 24.1,
+        "Density - Wet Zone": 240,
+        "Density - Dry Zone": 47
+      }
+    },
+    {
+      "Census Year": 1901,
+      "values": {
+        "Population in 1000 - Wet Zone": 2763.2,
+        "Population in 1000 - Dry Zone": 802.7,
+        "Percentage - Wet Zone": 77.5,
+        "Percentage - Dry Zone": 22.5,
+        "Density - Wet Zone": 290,
+        "Density - Dry Zone": 52
+      }
+    },
+    {
+      "Census Year": 1911,
+      "values": {
+        "Population in 1000 - Wet Zone": 3228.9,
+        "Population in 1000 - Dry Zone": 877.4,
+        "Percentage - Wet Zone": 78.6,
+        "Percentage - Dry Zone": 21.4,
+        "Density - Wet Zone": 339,
+        "Density - Dry Zone": 57
+      }
+    },
+    {
+      "Census Year": 1921,
+      "values": {
+        "Population in 1000 - Wet Zone": 3576.1,
+        "Population in 1000 - Dry Zone": 921.7,
+        "Percentage - Wet Zone": 79.5,
+        "Percentage - Dry Zone": 20.5,
+        "Density - Wet Zone": 375,
+        "Density - Dry Zone": 60
+      }
+    },
+    {
+      "Census Year": 1931,
+      "values": {
+        "Population in 1000 - Wet Zone": 4324.1,
+        "Population in 1000 - Dry Zone": 982.7,
+        "Percentage - Wet Zone": 80.0,
+        "Percentage - Dry Zone": 20.0,
+        "Density - Wet Zone": 454,
+        "Density - Dry Zone": 64
+      }
+    },
+    {
+      "Census Year": 1946,
+      "values": {
+        "Population in 1000 - Wet Zone": 5426.6,
+        "Population in 1000 - Dry Zone": 1230.7,
+        "Percentage - Wet Zone": 81.5,
+        "Percentage - Dry Zone": 18.5,
+        "Density - Wet Zone": 570,
+        "Density - Dry Zone": 80
+      }
+    },
+    {
+      "Census Year": 1953,
+      "values": {
+        "Population in 1000 - Wet Zone": 6523.1,
+        "Population in 1000 - Dry Zone": 1574.7,
+        "Percentage - Wet Zone": 79.6,
+        "Percentage - Dry Zone": 20.4,
+        "Density - Wet Zone": 685,
+        "Density - Dry Zone": 102
+      }
+    },
+    {
+      "Census Year": 1963,
+      "values": {
+        "Population in 1000 - Wet Zone": 8191.4,
+        "Population in 1000 - Dry Zone": 2390.6,
+        "Percentage - Wet Zone": 77.4,
+        "Percentage - Dry Zone": 22.6,
+        "Density - Wet Zone": 860,
+        "Density - Dry Zone": 155
+      }
+    },
+    {
+      "Census Year": 1971,
+      "values": {
+        "Population in 1000 - Wet Zone": 9633.6,
+        "Population in 1000 - Dry Zone": 3056.3,
+        "Percentage - Wet Zone": 75.9,
+        "Percentage - Dry Zone": 24.1,
+        "Density - Wet Zone": 1009,
+        "Density - Dry Zone": 198
+      }
+    }
+  ],
+  "notes": []
+}

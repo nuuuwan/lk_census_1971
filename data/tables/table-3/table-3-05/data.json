@@ -1,0 +1,107 @@
+{
+  "found": true,
+  "table_no": "3.5",
+  "table_name": "Distribution of urban and rural population in Sri Lanka for census years 1901 to 1971",
+  "primary_keys": [
+    "Census Year"
+  ],
+  "field_keys": [
+    "Urban and Rural areas - Population ('000)",
+    "Urban and Rural areas - Percentage",
+    "Urban Areas - Population ('000)",
+    "Urban Areas - Percentage",
+    "Rural Areas - Population ('000)",
+    "Rural Areas - Percentage"
+  ],
+  "rows": [
+    {
+      "Census Year": 1901,
+      "values": {
+        "Urban and Rural areas - Population ('000)": 3565.9,
+        "Urban and Rural areas - Percentage": 100.0,
+        "Urban Areas - Population ('000)": 414.0,
+        "Urban Areas - Percentage": 11.6,
+        "Rural Areas - Population ('000)": 3151.9,
+        "Rural Areas - Percentage": 88.4
+      }
+    },
+    {
+      "Census Year": 1911,
+      "values": {
+        "Urban and Rural areas - Population ('000)": 4106.4,
+        "Urban and Rural areas - Percentage": 100.0,
+        "Urban Areas - Population ('000)": 543.0,
+        "Urban Areas - Percentage": 13.2,
+        "Rural Areas - Population ('000)": 3563.4,
+        "Rural Areas - Percentage": 86.8
+      }
+    },
+    {
+      "Census Year": 1921,
+      "values": {
+        "Urban and Rural areas - Population ('000)": 4498.6,
+        "Urban and Rural areas - Percentage": 100.0,
+        "Urban Areas - Population ('000)": 637.9,
+        "Urban Areas - Percentage": 14.2,
+        "Rural Areas - Population ('000)": 3860.7,
+        "Rural Areas - Percentage": 85.8
+      }
+    },
+    {
+      "Census Year": 1931,
+      "values": {
+        "Urban and Rural areas - Population ('000)": 5306.9,
+        "Urban and Rural areas - Percentage": 100.0,
+        "Urban Areas - Population ('000)": 737.3,
+        "Urban Areas - Percentage": 13.9,
+        "Rural Areas - Population ('000)": 4569.6,
+        "Rural Areas - Percentage": 86.1
+      }
+    },
+    {
+      "Census Year": 1946,
+      "values": {
+        "Urban and Rural areas - Population ('000)": 6657.3,
+        "Urban and Rural areas - Percentage": 100.0,
+        "Urban Areas - Population ('000)": 1023.0,
+        "Urban Areas - Percentage": 15.4,
+        "Rural Areas - Population ('000)": 5634.3,
+        "Rural Areas - Percentage": 84.6
+      }
+    },
+    {
+      "Census Year": 1953,
+      "values": {
+        "Urban and Rural areas - Population ('000)": 8097.9,
+        "Urban and Rural areas - Percentage": 100.0,
+        "Urban Areas - Population ('000)": 1239.1,
+        "Urban Areas - Percentage": 15.3,
+        "Rural Areas - Population ('000)": 6858.8,
+        "Rural Areas - Percentage": 84.7
+      }
+    },
+    {
+      "Census Year": 1963,
+      "values": {
+        "Urban and Rural areas - Population ('000)": 10582.0,
+        "Urban and Rural areas - Percentage": 100.0,
+        "Urban Areas - Population ('000)": 2016.3,
+        "Urban Areas - Percentage": 19.1,
+        "Rural Areas - Population ('000)": 8565.7,
+        "Rural Areas - Percentage": 80.9
+      }
+    },
+    {
+      "Census Year": 1971,
+      "values": {
+        "Urban and Rural areas - Population ('000)": 12689.9,
+        "Urban and Rural areas - Percentage": 100.0,
+        "Urban Areas - Population ('000)": 2848.1,
+        "Urban Areas - Percentage": 22.4,
+        "Rural Areas - Population ('000)": 9841.8,
+        "Rural Areas - Percentage": 77.6
+      }
+    }
+  ],
+  "notes": []
+}

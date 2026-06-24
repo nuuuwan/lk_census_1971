@@ -1,0 +1,35 @@
+{
+  "found": true,
+  "table_no": "2.4",
+  "table_name": "Average age at marriage derived from census data, Sri Lanka 1946-1971",
+  "primary_keys": [
+    ""
+  ],
+  "field_keys": [
+    "1946",
+    "1953",
+    "1963",
+    "1971"
+  ],
+  "rows": [
+    {
+      "": "Males",
+      "values": {
+        "1946": 27.0,
+        "1953": 27.2,
+        "1963": 27.9,
+        "1971": 28.0
+      }
+    },
+    {
+      "": "Females",
+      "values": {
+        "1946": 20.7,
+        "1953": 20.9,
+        "1963": 22.1,
+        "1971": 23.5
+      }
+    }
+  ],
+  "notes": []
+}
