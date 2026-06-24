@@ -4,6 +4,7 @@ class TableBuilderMixin:
 
     @classmethod
     def build_all(cls):
+        cls.clean_original_report()
         cls.extract_list_of_tables()
 
         tables = cls.list()

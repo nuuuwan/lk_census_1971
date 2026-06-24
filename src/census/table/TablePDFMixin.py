@@ -11,6 +11,9 @@ class TablePDFMixin:
     ORIGINAL_PDF_FILE = PDFFile(
         os.path.join("original_data", "Census1971_Report.pdf")
     )
+    CLEANED_ORIGINAL_PDF_FILE = PDFFile(
+        os.path.join("data", "lk_census1971.original_report.cleaned.pdf")
+    )
     LIST_OF_TABLES_PDF_FILE = PDFFile(
         os.path.join("data", "list_of_tables.pdf")
     )
@@ -38,18 +41,28 @@ class TablePDFMixin:
             log.debug(f"{self.pdf_file} exists.")
             return
 
-        self.ORIGINAL_PDF_FILE.extract_page(
-            self.actual_page_no - 1,
-            self.actual_page_no - 1,
-            self.pdf_file.path,
+        self.CLEANED_ORIGINAL_PDF_FILE.extract_pages(
+            [self.actual_page_no - 1], self.pdf_file
         )
         log.info(f"Wrote {self.pdf_file}.")
 
     @classmethod
+    def clean_original_report(cls):
+        page_numbers = list(range(0, 56)) + list(range(58, 231))
+        cls.ORIGINAL_PDF_FILE.extract_pages(
+            page_numbers, cls.CLEANED_ORIGINAL_PDF_FILE
+        )
+        log.info(f"Wrote {cls.CLEANED_ORIGINAL_PDF_FILE}.")
+
+    @classmethod
     def extract_list_of_tables(cls):
-        cls.ORIGINAL_PDF_FILE.extract_page(
-            cls.LIST_OF_TABLES_FROM_PAGE - 1,
-            cls.LIST_OF_TABLES_TO_PAGE - 1,
-            cls.LIST_OF_TABLES_PDF_FILE.path,
+        cls.CLEANED_ORIGINAL_PDF_FILE.extract_pages(
+            list(
+                range(
+                    cls.LIST_OF_TABLES_FROM_PAGE - 1,
+                    cls.LIST_OF_TABLES_TO_PAGE,
+                )
+            ),
+            cls.LIST_OF_TABLES_PDF_FILE,
         )
         log.info(f"Wrote {cls.LIST_OF_TABLES_PDF_FILE}.")
