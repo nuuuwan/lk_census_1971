@@ -1,0 +1,52 @@
+{
+  "found": true,
+  "table_no": "7.1",
+  "table_name": "Mean age at marriage 1946, 1953, 1963 and 1971",
+  "primary_keys": [
+    "Census Year"
+  ],
+  "field_keys": [
+    "Average age at marriage (in years) - Males",
+    "Average age at marriage (in years) - Femals",
+    "Difference"
+  ],
+  "rows": [
+    {
+      "Census Year": 1946,
+      "values": {
+        "Average age at marriage (in years) - Males": 27.0,
+        "Average age at marriage (in years) - Femals": 20.7,
+        "Difference": 6.3
+      }
+    },
+    {
+      "Census Year": 1953,
+      "values": {
+        "Average age at marriage (in years) - Males": 27.2,
+        "Average age at marriage (in years) - Femals": 20.9,
+        "Difference": 6.3
+      }
+    },
+    {
+      "Census Year": 1963,
+      "values": {
+        "Average age at marriage (in years) - Males": 27.9,
+        "Average age at marriage (in years) - Femals": 22.1,
+        "Difference": 5.8
+      }
+    },
+    {
+      "Census Year": 1971,
+      "values": {
+        "Average age at marriage (in years) - Males": 28.0,
+        "Average age at marriage (in years) - Femals": 23.5,
+        "Difference": 4.5
+      }
+    }
+  ],
+  "notes": [
+    "1 I.W. Kannangara, Monograph I: Department of Census and Statistics 1953.",
+    "2 W.M.L.S. Aponso, Study of the Extent of under-registration of births and deaths in Ceylon, Department of Census and Statistics Sri Lanka 1970.",
+    "3 Changing Nuptiality Patterns in Sri Lanka 1901-1971, Dallas F.S. Fernando, Population Studies 29, 2 July, 1975."
+  ]
+}

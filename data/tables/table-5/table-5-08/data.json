@@ -1,0 +1,50 @@
+{
+  "found": true,
+  "table_no": "5.8",
+  "table_name": "Sex ratios by districts 1971",
+  "primary_keys": [
+    "District"
+  ],
+  "field_keys": [
+    "Sex Ratio"
+  ],
+  "rows": [
+    {
+      "District": "Sri Lanka",
+      "values": {
+        "Sex Ratio": 1061
+      }
+    },
+    {
+      "District": "Colombo",
+      "values": {
+        "Sex Ratio": 1101
+      }
+    },
+    {
+      "District": "Kalutara",
+      "values": {
+        "Sex Ratio": 1015
+      }
+    },
+    {
+      "District": "Kandy",
+      "values": {
+        "Sex Ratio": 1039
+      }
+    },
+    {
+      "District": "Matale",
+      "values": {
+        "Sex Ratio": 1063
+      }
+    },
+    {
+      "District": "Nuwara Eliya",
+      "values": {
+        "Sex Ratio": 1041
+      }
+    }
+  ],
+  "notes": []
+}

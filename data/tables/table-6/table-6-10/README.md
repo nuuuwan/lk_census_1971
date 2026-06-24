@@ -4,10 +4,88 @@
 
 - 📜 Original Table PDF - [data/tables/table-6/table-6-10/original.pdf (96.1 kB)](../../../../data/tables/table-6/table-6-10/original.pdf)
 - 📜 Original Table Image - [data/tables/table-6/table-6-10/original.image-01.png (225.0 kB)](../../../../data/tables/table-6/table-6-10/original.image-01.png)
+- 📄 Extracted JSON Data - [data/tables/table-6/table-6-10/data.json (1.6 kB)](../../../../data/tables/table-6/table-6-10/data.json)
 
 ## Extracted [JSON Data](../../../../data/tables/table-6/table-6-10/data.json)
 
-*⚠️ No data extracted yet.*
+```json
+{
+    "found": true,
+    "table_no": "6.10",
+    "table_name": "Percentage changes in religion and race",
+    "primary_keys": [
+        "Religion & Race"
+    ],
+    "field_keys": [
+        "1881-1911",
+        "1911-1946",
+        "1946-1971"
+    ],
+    "rows": [
+        {
+            "Religion & Race": "Buddhists",
+            "values": {
+                "1881-1911": 45.7,
+                "1911-1946": 73.56,
+                "1946-1971": 98.77
+            }
+        },
+        {
+            "Religion & Race": "Sinhalese",
+            "values": {
+                "1881-1911": 47.0,
+                "1911-1946": 70.1,
+                "1946-1971": 97.6
+            }
+        },
+        {
+            "Religion & Race": "Hindus",
+            "values": {
+                "1881-1911": 58.07,
+                "1911-1946": 40.71,
+                "1946-1971": 69.56
+            }
+        },
+        {
+            "Religion & Race": "Tamils",
+            "values": {
+                "1881-1911": 54.1,
+                "1911-1946": 59.1,
+                "1946-1971": 71.1
+            }
+        },
+        {
+            "Religion & Race": "Muslims",
+            "values": {
+                "1881-1911": 49.48,
+                "1911-1946": 53.91,
+                "1946-1971": 106.6
+            }
+        },
+        {
+            "Religion & Race": "Moors",
+            "values": {
+                "1881-1911": 44.5,
+                "1911-1946": 53.5,
+                "1946-1971": 109.0
+            }
+        },
+        {
+            "Religion & Race": "Christians",
+            "values": {
+                "1881-1911": 52.08,
+                "1911-1946": 47.41,
+                "1946-1971": 66.5
+            }
+        }
+    ],
+    "notes": [
+        "Table 6.10 indicates the percentage growth of the religions and corresponding ethnic groups during the three periods of 1881-1911, 1911-1946 & 1946-1971.",
+        "It is evident from the table that the growth of each religious group is parallel to that of the corresponding ethnic group."
+    ]
+}
+```
+
 ## Original Table [Image](../../../../data/tables/table-6/table-6-10/original.image-01.png)
 
 ![](../../../../data/tables/table-6/table-6-10/original.image-01.png)
